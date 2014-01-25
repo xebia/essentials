@@ -1,0 +1,8 @@
+name: "Xebia Essentials"
+description: "The Xebia Essentials is a deck of flash cards about software craftmanship."
+
+url: "http://localhost:4000"
+mailto: "essentials@xebia.com"
+
+markdown: rdiscount
+permalink: pretty
