@@ -6,7 +6,7 @@ category: other
 
 > Good software does not come about just like that; by mere coincidence...
 
-<h3>Software Development Done Right</h3>
+### Software Development Done Right
 
 Good software does not come about just like that; by mere coincidence. Inside a streamlined and well-executed software development process, there are many patterns for success. Some of them extend well beyond what is traditionally considered to be the realm of the software developer.
 
