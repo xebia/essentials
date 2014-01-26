@@ -1,7 +1,7 @@
 ---
 layout: card
 title: APIs, like diamonds, are forever
-category: ???
+category: technical
 ---
 
 ### Motivation
