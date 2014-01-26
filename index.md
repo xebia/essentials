@@ -14,7 +14,7 @@ Inside our organization, many of these patterns were applied either consciously 
 
 After months of gathering, slicing, dicing and eventual distilling, we arrived at what we consider to be the 'Essentials', distributed as a pack of flash cards.
 
-<image src="XebiaEssentialsDeck.jpg" alt="Photo of a deck of Xebia Essentials cards." width="520" height="439"/>
+<image src="img/XebiaEssentialsDeck.jpg" alt="Photo of a deck of Xebia Essentials cards." width="520" height="439"/>
 
 In many cases it involves ideas, or the expression of those ideas, for which we cannot take credit ourselves. In those cases, we have strived to grant credit to the originators, being fully aware that greatness can only be achieved by standing on the shoulders of giants.
 
