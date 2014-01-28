@@ -15,7 +15,7 @@ module Jekyll
       self.data['cards'] = []
       site.pages.each do |page|
         if page.data['category'] == category
-          self.data['cards'] << page.name
+          self.data['cards'] << page.basename
         end
       end
     end
