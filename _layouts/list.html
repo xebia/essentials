@@ -1,0 +1,13 @@
+---
+layout: card
+title: "Categories"
+category: other
+---
+
+<div id="category-index" class="container">
+  <ul id="categories">
+    {% for card in page.cards %}
+    <li><a href="{{card}}">{{card}}</a></li>
+    {% endfor %}
+  </ul>
+</div>

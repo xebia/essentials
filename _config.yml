@@ -1,0 +1,18 @@
+name: "Xebia Essentials"
+description: "The Xebia Essentials is a deck of flash cards about software craftmanship."
+
+card_types:
+  - collaboration
+  - craftmanship
+  - testing
+  - technical
+
+url: "http://localhost:4000"
+img: "http://localhost:4000/img"
+mailto: "essentials@xebia.com"
+
+markdown: rdiscount
+permalink: pretty
+
+exclude: ['README.md']
+
