@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xebia.essentials.screens.card.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_full_view_id"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/cardview_header_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/black"
+                android:orientation="vertical"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/cardview_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Example Title"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/cardview_category"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Craftmanship"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/cardview_frontline"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:lines="4"
+                android:text="Good software does not come about just like that; by mere coincidence."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold"
+                android:layout_weight="2" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/cardview_backlines"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:lines="6"
+                android:text="Good software does not come about just like that; by mere coincidence. Inside a streamlined and well-executed software development process, there are many patterns for success. Some of them extend well beyond what is traditionally considered to be the realm of the software developer.. Inside our organization, many of these patterns were applied either consciously or subconsciously. We felt the need to bring these patterns forward from under lock and key into the clear light of day for everyone&apos;s awareness. After months of gathering, slicing, dicing and eventual distilling, we arrived at what we consider to be the &apos;Essentials&apos;, distributed as a pack of flash cards."
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_weight="3" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/cardview_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="View details" />
+    </RelativeLayout>
+
+</com.xebia.essentials.screens.card.CardView>

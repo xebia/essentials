@@ -1,0 +1,595 @@
+{ 
+	"cards": [
+            
+            {
+                "title":"alone-time",
+                "category":"collaboration",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"apis-are-forever",
+                "category":"craftmanship",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"assertions",
+                "category":"testing",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"boy-scout-rule",
+                "category":"collaboration",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"brutal-transparency",
+                "category":"craftmanship",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"clean-build",
+                "category":"testing",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"clean-logs",
+                "category":"technical",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"code-review",
+                "category":"craftmanship",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"comment-with-care",
+                "category":"collaboration",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"composition-over-inheritance",
+                "category":"testing",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"context-over-habit",
+                "category":"collaboration",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"curiosity",
+                "category":"craftmanship",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"dare-to-say-no",
+                "category":"technical",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"diagnose-before-cure",
+                "category":"collaboration",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"do-the-right-thing",
+                "category":"collaboration",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"done",
+                "category":"collaboration",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"dry-principle",
+                "category":"collaboration",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"eliminate-waste",
+                "category":"collaboration",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"fail-fast",
+                "category":"collaboration",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"fallacies-distributed-computing",
+                "category":"collaboration",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"focus-on-flow",
+                "category":"collaboration",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"focused-interfaces",
+                "category":"collaboration",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"genchi-genbutsu",
+                "category":"collaboration",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"have-fun",
+                "category":"collaboration",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"heisenbergs-principle",
+                "category":"collaboration",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"honor-the-timebox",
+                "category":"collaboration",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"improve-continuously",
+                "category":"collaboration",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"kiss",
+                "category":"collaboration",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"make-it-visible",
+                "category":"collaboration",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"make-it-work-right-fast",
+                "category":"collaboration",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"master-your-tools",
+                "category":"technical",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"maximize-cohesion-minimize-coupling",
+                "category":"collaboration",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"no-anemic-domain-model",
+                "category":"collaboration",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"no-blame-no-mercy",
+                "category":"collaboration",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"no-broken-builds",
+                "category":"collaboration",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"no-broken-windows",
+                "category":"collaboration",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"no-museum",
+                "category":"collaboration",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"no-test-no-bugfix",
+                "category":"testing",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"non-functionals",
+                "category":"craftmanship",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"one-change-at-a-time",
+                "category":"collaboration",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"one-feature-at-a-time",
+                "category":"collaboration",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"pair-programming",
+                "category":"collaboration",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"poutsma-principle",
+                "category":"collaboration",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"readable-code",
+                "category":"craftmanship",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"rich-communication",
+                "category":"collaboration",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"separation-of-concerns",
+                "category":"craftmanship",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"shared-design-understanding",
+                "category":"craftmanship",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            },
+            {
+                "title":"small-increments",
+                "category":"craftmanship",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"team-member-equality",
+                "category":"collaboration",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"team-rhythm",
+                "category":"collaboration",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"test-code-one",
+                "category":"testing",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"test-everything",
+                "category":"testing",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"the-zone",
+                "category":"collaboration",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"thirty-minute-methods",
+                "category":"collaboration",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"thread-safe",
+                "category":"technical",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"three-strikes",
+                "category":"collaboration",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"time-for-tech-debt",
+                "category":"technical",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"timebox",
+                "category":"collaboration",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }, 
+            {
+                "title":"two-minute-rule",
+                "category":"collaboration",
+                "frontLine":"Just do it",
+                "backlines": [
+                        "line1 dfgdfg",
+                        "line 2 sgggaa"
+                ],
+                "url":"https://www.xebia.com/dsfjhkjhvdhj"
+            }
+	]
+}

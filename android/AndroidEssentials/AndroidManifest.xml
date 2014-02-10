@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xebia.essentials"
+    android:versionCode="3"
+    android:versionName="1.2" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.xebia.essentials.general.CardApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".screens.main.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Sherlock.Light.DarkActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".screens.card.CardPagerActivity"
+            android:theme="@style/Theme.Sherlock.Light.DarkActionBar" >
+            <intent-filter>
+                <data
+                    android:host="essentials.xebia.com"
+                    android:scheme="http" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".screens.card.CardDetailsActivity"
+            android:theme="@style/Theme.Sherlock.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".screens.main.WebActivity"
+            android:theme="@style/Theme.Sherlock.Light.DarkActionBar" >
+        </activity>
+
+        <service
+            android:name="nl.ideal.app.rabobank.AppCapabilitiesService"
+            android:exported="true"
+            android:process=":dedicatedServiceProcess" >
+            <intent-filter>
+                <action android:name="nl.ideal.app.rabobank.AppCapabilitiesService" />
+            </intent-filter>
+        </service>
+        <service android:name=".service.AppInUseIntentService" />
+
+        <receiver
+            android:name=".external.AppInUseBroadcastReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.xebia.essentials.AppInUse" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

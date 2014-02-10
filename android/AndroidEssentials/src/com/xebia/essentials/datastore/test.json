@@ -1,0 +1,24 @@
+{ 
+        "cards": [
+            {
+                "title":"Title1",
+                "category":"craftmanship",
+                "frontLine":"FrontLine1",
+                "backlines": [
+                        "BackLine1",
+                        "BackLine2"
+                ],
+                "url":"https://www.xebia.com/essentials/1"
+            },
+            {
+                "title":"Title2",
+                "category":"collaboration",
+                "frontLine":"FrontLine2",
+                "backlines": [
+                        "BackLine3",
+                        "BackLine4"
+                ],
+                "url":"https://www.xebia.com/essentials/2"
+            }
+        ]
+}
