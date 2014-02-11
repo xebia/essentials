@@ -1,11 +1,10 @@
 package com.xebia.essentials.screens.card;
 
-import java.util.ArrayList;
 import java.util.List;
 
+import com.google.common.base.Preconditions;
 import com.xebia.essentials.R;
 import com.xebia.essentials.model.Card;
-import com.xebia.essentials.model.Category;
 import com.xebia.essentials.screens.ScreenUtil;
 
 import android.content.Context;
@@ -17,6 +16,9 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+/*
+ * Dumb view, get its data and passes events back to its presenter
+ */
 public class CardView extends LinearLayout {
 	private static final String LOG_TAG = CardView.class.getName();
 	
@@ -24,13 +26,11 @@ public class CardView extends LinearLayout {
         public void onWebPageSelected(Card card);
     }
 	
-	public static final Card EMPTY = new Card("dummy title", Category.any, "Dummy rontline",
-					new ArrayList<String>(), "http://www.xebia.com" );
-    private ViewGroup categoryHeader;;
-    private TextView titleView;;
-    private TextView categoryView;
-    private TextView frontlineView;
-    private TextView backlineView;
+    private ViewGroup categoryHeader = null;
+    private TextView titleView  = null;
+    private TextView categoryView  = null;
+    private TextView frontlineView  = null;
+    private TextView backlineView  = null;
     
     private CardViewListener presenter;
     
@@ -72,7 +72,13 @@ public class CardView extends LinearLayout {
     	return sb.toString();
     }
     
+	/*
+	 * Populate screen from data
+	 */
     public void setCard( CardViewListener presenter, Card card ) {
+    	
+    	Preconditions.checkArgument(presenter != null);
+    	Preconditions.checkArgument(card != null);
     	
     	this.presenter = presenter;
     	this.card = card;
@@ -89,6 +95,9 @@ public class CardView extends LinearLayout {
     private void detailsButtonClicked() {
     	
     	if( presenter != null && card != null ) {
+    		/*
+    		 * Delegate to its "presenter"
+    		 */
     		presenter.onWebPageSelected(this.card);
     	}
     }

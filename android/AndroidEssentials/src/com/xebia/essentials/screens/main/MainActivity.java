@@ -1,7 +1,5 @@
 package com.xebia.essentials.screens.main;
 
-import nl.ideal.app.rabobank.AppCapabilitiesStore;
-import nl.ideal.app.rabobank.AppCapabilitiesStoreI;
 import android.os.Bundle;
 import android.util.Log;
 
@@ -26,17 +24,24 @@ public class MainActivity extends SherlockFragmentActivity implements CardFragme
 
 		setContentView(R.layout.main_activity);
 
+		// no upper left back-button
         getSupportActionBar().setDisplayHomeAsUpEnabled(false);
-        
-		AppCapabilitiesStoreI store = new AppCapabilitiesStore( this.getApplicationContext() );
-		store.setAppReadyToPay( true );
-	}
 
+   	}
+
+	@Override
+	public void onResume() {
+		super.onResume();
+		
+	}
+	
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 
+		// add prominent button to action-bar shat shows random card
 		menu.add("Random").setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM);
 
+		// add information button: less prominent
 		menu.add("About").setShowAsAction(
 				MenuItem.SHOW_AS_ACTION_COLLAPSE_ACTION_VIEW);
 
@@ -48,10 +53,17 @@ public class MainActivity extends SherlockFragmentActivity implements CardFragme
 		boolean status = true;
 
 		if (item.getTitle().equals("Random")) {
+			/*
+			 * Start card-screen with a random card
+			 */
 			CardStoreI store = ((CardApplication)getApplication()).getCardStore();
 			Card card = store.getRandomCard();
 			CardPagerActivity.start(this, card);
+			
 		} else if (item.getTitle().equals("About")) {
+			/*
+			 * Show on-board html in webview
+			 */
 			WebActivity.start(this, "file:///android_asset/about.html");
 		} else {
 			return super.onOptionsItemSelected(item);
@@ -60,21 +72,35 @@ public class MainActivity extends SherlockFragmentActivity implements CardFragme
 		return status;
 	}
 	
+	private CardFragment getCardFragment() {
+	
+		 CardFragment cardFrag = (CardFragment)getSupportFragmentManager().findFragmentById(R.id.card_fragment);
+		 if (cardFrag == null  || cardFrag.isInLayout() == false ) {
+			 cardFrag = null;
+		 }
+		 
+		 return cardFrag;
+	}
+	
+	
 	@Override
 	public void onCardSelected(Card card) {
     	if( card != null ) {
     		Log.i(LOG_TAG, "Visit web-page:" + card.getTitle() );
     		
-    		 CardFragment cardFrag = (CardFragment)getSupportFragmentManager().findFragmentById(R.id.card_fragment);
-    		 if (cardFrag == null  || cardFrag.isInLayout() == false ) {
+			 CardFragment cardFrag = getCardFragment();
+    		 if( cardFrag == null ) {
     			 
     			 /*
-    			  * Start dedicated activity
+    			  * Start card-screen as dedicated activity on top of previous
     			  */
     	    	 CardPagerActivity.start(this, card);
-
+    	    	 
     		 } else {
     			
+    			 /*
+    			  * Update fragment in right part of the screen
+    			  */
     			 cardFrag.updateCard( card );
     		 }
     	}
@@ -82,8 +108,12 @@ public class MainActivity extends SherlockFragmentActivity implements CardFragme
 
 	@Override
     public void onWebPageSelected( Card card ) {
+		
     	if( card != null ) {
     		Log.i(LOG_TAG, "Visit web-page:" + card.getTitle() );
+			 /*
+			  * Start card-details as dedicated activity on top of previous
+			  */
     		CardDetailsActivity.start(this, card);
     	}
     }

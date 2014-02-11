@@ -65,7 +65,7 @@ public class CardPagerActivity extends SherlockFragmentActivity implements CardF
 				
 				/* 
 				 * Started up from url 
-				 * with first segment card-name?
+				 * where first segment is card-name
 				 */
 				Uri data = intent.getData();
 				if( data != null ) {
@@ -94,14 +94,23 @@ public class CardPagerActivity extends SherlockFragmentActivity implements CardF
 		 */
         getSupportActionBar().setHomeButtonEnabled(true);
         if( isStartedFromWeb(getIntent()) ) {
+        	/*
+        	 * First screen of app so no back-button
+        	 */
         	getSupportActionBar().setDisplayHomeAsUpEnabled(false);
         } else {
         	getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
 	
+        /*
+         * Fetch all cards
+         */
 		CardStoreI cardStore = ((CardApplication)getApplication()).getCardStore();
 		List<Card> cards = cardStore.getCardsOnCategory(Category.any);
 		
+		/*
+		 * Show complete deck in viewpager
+		 */
 		CardAdapter adapter = new CardAdapter(getSupportFragmentManager(), cards);
 
 		ViewPager pager = (ViewPager) findViewById(R.id.cardpager);
@@ -117,7 +126,7 @@ public class CardPagerActivity extends SherlockFragmentActivity implements CardF
 			
 		} else {
 			/*
-			 * Start with specific card
+			 * Start with specific card as requested by caller
 			 */
 			pager.setCurrentItem( card.getIndex() );
 		}		
@@ -144,6 +153,9 @@ public class CardPagerActivity extends SherlockFragmentActivity implements CardF
 	
 	@Override
     public void onWebPageSelected( Card card ) {
+		/*
+		 * Called by its fragment
+		 */
     	if( card != null ) {
     		Log.i(LOG_TAG, "Visit web-page:" + card.getTitle() );
     		CardDetailsActivity.start(this, card);
@@ -155,6 +167,9 @@ public class CardPagerActivity extends SherlockFragmentActivity implements CardF
 		boolean status = true;
 
 	   if( item.getItemId() == android.R.id.home ) {
+		   /*
+		    * Support upper left back button
+		    */
 	       this.finish();
 	   } else {
 		   return super.onOptionsItemSelected(item);

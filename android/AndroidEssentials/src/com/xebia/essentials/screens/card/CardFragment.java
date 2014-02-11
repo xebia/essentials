@@ -29,6 +29,7 @@ public class CardFragment extends SherlockFragment implements
 	private CardFragmentListener activity = null;
 
 	public static Fragment start(Card card) {
+		
 		Preconditions.checkArgument(card != null);
 
 		Log.i(LOG_TAG, "Starting fragment for card:" + card.toString());
@@ -100,16 +101,18 @@ public class CardFragment extends SherlockFragment implements
 	public void onActivityCreated(Bundle savedInstanceState) {
 		super.onActivityCreated(savedInstanceState);
 
+		CardStoreI cardStore = ((CardApplication) getActivity()
+				.getApplication()).getCardStore();
+
 		if (getArguments() != null) {
 			Log.i(LOG_TAG, "onActivityCreated for card:"
 					+ getArguments().getString("title"));
 
 			String title = getArguments().getString("title");
-			CardStoreI cardStore = ((CardApplication) getActivity()
-					.getApplication()).getCardStore();
 			card = cardStore.getCardOnTitle(title);
 		} else {
 			Log.i(LOG_TAG, "onActivityCreated unknown card");
+			card = cardStore.getFirstCard();
 		}
 	}
 
@@ -123,11 +126,8 @@ public class CardFragment extends SherlockFragment implements
 							+ " with status:" + isVisibleToUser);
 
 			/*
-			 * Since the pager prepares next and previous pages and also call
-			 * onResume on them, The regular moment of painting is not good
-			 * enough. A previous of next screen might be displayed. Instead we
-			 * should also take the user-visible-state into account. This state
-			 * is set via the setUserVisibleHint-callback
+			 * The pager prepares next and previous pages to bre able to make a smooth transition.
+			 * So this one is caller earlier that you expect
 			 */
 			cardView.setCard(this, card);
 

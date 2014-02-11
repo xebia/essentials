@@ -11,6 +11,7 @@ import android.view.ViewGroup;
 import android.widget.ListView;
 
 import com.actionbarsherlock.app.SherlockListFragment;
+import com.google.common.base.Preconditions;
 import com.xebia.essentials.R;
 import com.xebia.essentials.model.Card;
 import com.xebia.essentials.datastore.CardStoreI;
@@ -24,11 +25,13 @@ public class CardListFragment extends SherlockListFragment {
 		public void onCardSelected(Card card);
 	}
 
-	private CardStoreI cardStore = null;
 	private List<Card> cards = null;
 	private CardListFragmentListener activity = null;
 
 	public static CardListFragment start(Category category) {
+		
+		Preconditions.checkArgument(category != null);
+		
 		CardListFragment fragment = new CardListFragment();
 		Bundle args = new Bundle();
 		args.putString("category", category.toString());
@@ -40,8 +43,10 @@ public class CardListFragment extends SherlockListFragment {
 	public void onAttach(Activity activity) {
 		super.onAttach(activity);
 
-		// This makes sure that the container activity has implemented
-		// the callback interface. If not, it throws an exception
+		/* 
+		 * This makes sure that the container activity has implemented
+		 * the callback interface. If not, throw an exception
+		 */
 		try {
 			this.activity = (CardListFragmentListener) activity;
 		} catch (ClassCastException e) {
@@ -77,7 +82,7 @@ public class CardListFragment extends SherlockListFragment {
 		Log.i(LOG_TAG,
 				"onActivityCreated for category:" + getArguments().getString("category"));
 
-		cardStore = ((CardApplication) getActivity().getApplication())
+		CardStoreI cardStore = ((CardApplication) getActivity().getApplication())
 				.getCardStore();
 
 		String category = getArguments().getString("category");
@@ -89,6 +94,10 @@ public class CardListFragment extends SherlockListFragment {
 	public void onListItemClick(ListView l, View v, int position, long id) {
 		Card card = cards.get(position);
 
+		/*
+		 * call hosting activity (do not care which 
+		 * 	one as long as it implements CardListFragmentListener
+		 */
 		activity.onCardSelected(card);
 	}
 

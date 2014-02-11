@@ -4,6 +4,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.Reader;
 import java.io.UnsupportedEncodingException;
+import java.io.ObjectInputStream.GetField;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -121,6 +122,19 @@ public class FileBasedCardStore implements CardStoreI {
 		return found;
 	}
 
+	@Override
+	public Card getFirstCard() {
+		Card card = null;
+		
+		Preconditions.checkNotNull(cards != null);
+		
+		if( cards.size() >= 1 ) {
+			card = this.cards.get(0);
+		}
+		
+		return card;
+	}
+	
 	private int getIndexOfCard( Card card ) {
 		boolean found = false;
 		int idx = 0;

@@ -15,6 +15,7 @@ public class WebActivity extends SherlockActivity {
 	private static final String LOG_TAG = WebActivity.class.getName();
 
 	public static void start( Context context, String url ) {
+		
 		Preconditions.checkArgument(context != null);
 		Preconditions.checkArgument(url != null);
 		
@@ -31,9 +32,10 @@ public class WebActivity extends SherlockActivity {
 		
 		setContentView(R.layout.web_activity);
 		
+		// animation: move up from bottom
 		overridePendingTransition(R.anim.slide_up, R.anim.hold);		
 		
-		
+		// upper left as back button
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeButtonEnabled(true);
 
@@ -42,11 +44,11 @@ public class WebActivity extends SherlockActivity {
 		Intent intent = getIntent();
 		if( intent != null ) {
 			String url = intent.getStringExtra("url");
-			if( url != null ) {
-				webView.loadUrl( url );
+			if( url == null ) {
+				url = "http://essential.xebia.com";
 			}
+			webView.loadUrl( url );
 		}
-
 	}
 	
 	@Override
@@ -60,7 +62,11 @@ public class WebActivity extends SherlockActivity {
 		boolean status = true;
 
 	   if( item.getItemId() == android.R.id.home ) {
+		   /*
+		    * Be able to return to previous screen using upper left button
+		    */
 	       this.finish();
+	       
 	   } else {
 		   return super.onOptionsItemSelected(item);
 	   }

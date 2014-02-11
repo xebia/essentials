@@ -35,8 +35,11 @@ public class CategoryFragment extends SherlockFragment {
 
 		List<Category> categories = Arrays.asList(Category.values());
 		
+		/*
+		 * Swipable tab for each category 
+		 */
 		CategoryAdapter adapter = new CategoryAdapter(
-				getActivity().getSupportFragmentManager(),  categories);
+				getActivity().getSupportFragmentManager(), categories);
 
 		ViewPager pager = (ViewPager) getActivity().findViewById(R.id.categorypager);
 		pager.setAdapter(adapter);
@@ -50,7 +53,5 @@ public class CategoryFragment extends SherlockFragment {
 	@Override 
 	public void onResume() {
 		super.onResume();
-
-
 	}
 }

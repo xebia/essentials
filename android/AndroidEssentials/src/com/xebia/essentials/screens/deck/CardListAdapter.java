@@ -13,7 +13,7 @@ import android.widget.BaseAdapter;
 
 public class CardListAdapter extends BaseAdapter {
 
-	private List<Card> cards;
+	private List<Card> cards = null;
 	private final LayoutInflater inflater;
 
 	public CardListAdapter(Context context, List<Card> cards) {

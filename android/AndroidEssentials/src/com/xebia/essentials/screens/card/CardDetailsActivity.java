@@ -36,13 +36,19 @@ public class CardDetailsActivity extends Activity {
 
 		Intent intent = getIntent();
 		if( intent != null ) {
+			String url = null;
+
 			String title = intent.getStringExtra("title");
 			if( title != null ) {
 				CardStoreI cardStore = ((CardApplication)getApplication()).getCardStore();
 				Card card = cardStore.getCardOnTitle(title);
-				//webView.loadUrl("http://www.google.com/search?q="+ card.getTitle() );
-				webView.loadUrl("http://essentials.xebia.com/" + card.getTitle() );
+				// for now we have dummy data so compose url manually
+				//url = card.getUrl();
+				url = "http://essentials.xebia.com/" + card.getTitle();
+			} else {
+				url = "http://essentials.xebia.com/";
 			}
+			webView.loadUrl( url );
 		}
 
 	}
