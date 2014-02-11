@@ -1,6 +1,6 @@
 package nl.ideal.app.rabobank;
 
-import nl.ideal.app.AppCapabilitiesServiceI;
+//import nl.ideal.app.AppCapabilitiesServiceI;
 
 
 import android.app.Service;
@@ -26,7 +26,7 @@ public class AppCapabilitiesService extends Service {
 	@Override
 	public IBinder onBind(Intent intent) {
 		Log.i(LOG_TAG, "onBind:"+ intent.toString() );
-		return mBinder;
+		return null; //mBinder;
 	}
 
 	@Override
@@ -34,14 +34,14 @@ public class AppCapabilitiesService extends Service {
 		super.onRebind(intent);
 		Log.i(LOG_TAG, "onRebind:"+ intent.toString() );
 	}
-
+/*
 	private final AppCapabilitiesServiceI.Stub mBinder = new AppCapabilitiesServiceI.Stub() {
 		@Override
 		public boolean isReadyToPay() {
 			
-			/*
-			 * Fetch app-status from local persistent store
-			 */
+			//
+			// Fetch app-status from local persistent store
+			//
 			AppCapabilitiesStoreI store = new AppCapabilitiesStore(appContext);
 			boolean readyToPay =  store.isAppReadyToPay();
 
@@ -51,7 +51,7 @@ public class AppCapabilitiesService extends Service {
 		}
 
 	};
-
+*/
 	@Override
 	public boolean onUnbind(Intent intent) {
 		Log.i(LOG_TAG, "onUnbind:"+ intent.toString() );
