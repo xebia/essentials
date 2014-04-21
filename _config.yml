@@ -7,8 +7,8 @@ card_types:
   - realisation
   - testing
 
-url: "http://localhost:4000"
-img: "http://localhost:4000/img"
+url: "http://essentials.xebia.com"
+img: "http://essentials.xebia.com/img"
 mailto: "essentials@xebia.com"
 
 markdown: rdiscount
