@@ -6,11 +6,14 @@ category: other
 
 This is an alphabetical index of the cards in the Xebia Essentials deck.
 
+- <a href="/acceptance-criteria">acceptance-criteria</a>
 - <a href="/alone-time">alone-time</a>
 - <a href="/apis-are-forever">apis-are-forever</a>
 - <a href="/assertions">assertions</a>
+- <a href="/automate-everything">automate-everything</a>
 - <a href="/boy-scout-rule">boy-scout-rule</a>
 - <a href="/brutal-transparency">brutal-transparency</a>
+- <a href="/build-it-run-it">build-it-run-it</a>
 - <a href="/clean-build">clean-build</a>
 - <a href="/clean-logs">clean-logs</a>
 - <a href="/code-review">code-review</a>
@@ -19,21 +22,26 @@ This is an alphabetical index of the cards in the Xebia Essentials deck.
 - <a href="/context-over-habit">context-over-habit</a>
 - <a href="/curiosity">curiosity</a>
 - <a href="/dare-to-say-no">dare-to-say-no</a>
+- <a href="/definition-of-ready">definition-of-ready</a>
 - <a href="/diagnose-before-cure">diagnose-before-cure</a>
-- <a href="/do-the-right-thing">do-the-right-thing</a>
+- <a href="/done-is-live">done-is-live</a>
 - <a href="/done">done</a>
 - <a href="/dry-principle">dry-principle</a>
 - <a href="/eliminate-waste">eliminate-waste</a>
+- <a href="/exploratory-testing">exploratory-testing</a>
 - <a href="/fail-fast">fail-fast</a>
 - <a href="/fallacies-distributed-computing">fallacies-distributed-computing</a>
 - <a href="/focus-on-flow">focus-on-flow</a>
 - <a href="/focused-interfaces">focused-interfaces</a>
 - <a href="/genchi-genbutsu">genchi-genbutsu</a>
+- <a href="/hands-off-machine">hands-off-machine</a>
 - <a href="/have-fun">have-fun</a>
-- <a href="/heisenbergs-principle">heisenbergs-principle</a>
-- <a href="/honor-the-timebox">honor-the-timebox</a>
+- <a href="/hurt-often">hurt-often</a>
 - <a href="/improve-continuously">improve-continuously</a>
+- <a href="/independent-tests">independent-tests</a>
+- <a href="/integrate-early">integrate-early</a>
 - <a href="/kiss">kiss</a>
+- <a href="/learn-a-new-language">learn-a-new-language</a>
 - <a href="/make-it-visible">make-it-visible</a>
 - <a href="/make-it-work-right-fast">make-it-work-right-fast</a>
 - <a href="/master-your-tools">master-your-tools</a>
@@ -42,6 +50,7 @@ This is an alphabetical index of the cards in the Xebia Essentials deck.
 - <a href="/no-blame-no-mercy">no-blame-no-mercy</a>
 - <a href="/no-broken-builds">no-broken-builds</a>
 - <a href="/no-broken-windows">no-broken-windows</a>
+- <a href="/no-multitasking">no-multitasking</a>
 - <a href="/no-museum">no-museum</a>
 - <a href="/no-test-no-bugfix">no-test-no-bugfix</a>
 - <a href="/non-functionals">non-functionals</a>
@@ -51,13 +60,18 @@ This is an alphabetical index of the cards in the Xebia Essentials deck.
 - <a href="/poutsma-principle">poutsma-principle</a>
 - <a href="/readable-code">readable-code</a>
 - <a href="/rich-communication">rich-communication</a>
+- <a href="/run-tests-automatically">run-tests-automatically</a>
+- <a href="/secure-development">secure-development</a>
 - <a href="/separation-of-concerns">separation-of-concerns</a>
 - <a href="/shared-design-understanding">shared-design-understanding</a>
 - <a href="/small-increments">small-increments</a>
+- <a href="/tdd-shapes-design">tdd-shapes-design</a>
 - <a href="/team-member-equality">team-member-equality</a>
 - <a href="/team-rhythm">team-rhythm</a>
 - <a href="/test-code-one">test-code-one</a>
 - <a href="/test-everything">test-everything</a>
+- <a href="/testing-is-shared-responsibility">testing-is-shared-responsibility</a>
+- <a href="/tests-are-specs">tests-are-specs</a>
 - <a href="/the-zone">the-zone</a>
 - <a href="/thirty-minute-methods">thirty-minute-methods</a>
 - <a href="/thread-safe">thread-safe</a>
@@ -65,3 +79,4 @@ This is an alphabetical index of the cards in the Xebia Essentials deck.
 - <a href="/time-for-tech-debt">time-for-tech-debt</a>
 - <a href="/timebox">timebox</a>
 - <a href="/two-minute-rule">two-minute-rule</a>
+- <a href="/what-you-measure">what-you-measure</a>
