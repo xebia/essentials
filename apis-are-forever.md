@@ -1,7 +1,7 @@
 ---
 layout: card
 title: APIs, like diamonds, are forever
-category: technical
+category: realisation
 ---
 
 ### Motivation
@@ -49,8 +49,6 @@ Joshua Bloch presented his ideas on API design in a talk named 'How to Design a 
 * Throw unchecked exceptions unless clients can realistically recover from the failure
 * API design is an art, not a science
 
-
-
 ### Applicability
 
 Always.
@@ -61,8 +59,6 @@ Always.
 * Use it while coding
 * Use it while reviewing code
 * Use it while pair programming
-
-
 
 It might be good idea to read the list before you go off to design something significant, or always have a printed version of the list close to where you are.
 
