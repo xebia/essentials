@@ -23,3 +23,9 @@ To locally serve the statically generated site, and automatically rebuild when a
 Be sure that in `\_config.yml` to property `url` is set to localhost port 4000. This ensures that the dynimically generated urls will point to the correct domain.
 
     url: "http://localhost:4000"
+
+### Deploying to essentials.xebia.com
+
+Simply run:
+
+    _scripts/publish
