@@ -1,0 +1,39 @@
+#!/bin/bash -x
+#
+# Perform some checks, create a build and ssh it over to put put it into
+# production.
+#
+# Yes, it would be nicer if this worked as:
+#
+#   a) a push to production, with a post hook that would build it and place the
+#   artifacts into production requiring only a $ git push production to release
+#   the latest version.
+#
+#   b) a web hook triggering a pull and build from the web server, which would
+#   place the artifacts into production.
+#
+# Both would require the ability to build on the web server, however, which I
+# did not succeed at as of yet. Solution a would also require a running git
+# server, while b would need a web hook poller.
+
+# exit if anything fails
+set -e
+set -o pipefail
+
+USER=essentials
+SERVER=applications.xebia.com
+BUILD_DIR="_site"
+PRODUCTION_DIR='static'
+
+# Ensure we're in complete synch with origin/master, as production should
+# always mirror the upstream repository
+git fetch origin master
+[[ $(git rev-parse HEAD) == $(git rev-parse origin/master) ]] || exit 1
+
+# Not sure if Jekyll cleans up old builds. Rm and rebuild
+rm -r "${BUILD_DIR}"
+jekyll build
+
+# ssh it into production, gzipping the stream and unpacking on arrival
+# be sure to have set up pubkey authentication
+tar zcf - "${BUILD_DIR}" | ssh ${USER}@${SERVER} "tar zxf - -C /tmp/ && mv /tmp/${BUILD_DIR} ${PRODUCTION_DIR}"
