@@ -26,6 +26,8 @@ Be sure that in `\_config.yml` to property `url` is set to localhost port 4000. 
 
 ### Deploying to essentials.xebia.com
 
-Simply run:
+Ensure your public key has been added to user `essentials` on `applications.xebia.com` under `/home/essentials/.ssh/authorized_keys`
+
+Then simply run:
 
     _scripts/publish
