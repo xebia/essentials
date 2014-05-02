@@ -33,6 +33,6 @@ Having design meetings of course is expensive. Having some preparation might hel
 
 The advice is not to have design discussions during the stand-up, but perhaps right after it. Somebody should take the responsibility to make sure the results are captured on the wall.
 
-References
+### References
 
 

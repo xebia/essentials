@@ -74,7 +74,7 @@ If you have different devices that use the same software and only differ in the 
      }
     }
 
-References
+### References
 
 [Composite Reuse Principle](http://www.cs.sjsu.edu/~pearce/cs251b/principles/crp.htm)
 

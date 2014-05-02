@@ -17,7 +17,7 @@ When designing systems or finding solutions for problems in software development
 
 ### Applicability
 
-This applies to all the engineering that we do.  This does not mean that there should have no design, on the contrary design is often a very important activity. We state that design has to be based on real and current requirements.
+This applies to all the engineering that we do. This does not mean that there should have no design, on the contrary design is often a very important activity. We state that design has to be based on real and current requirements.
 
 ### Application
 
@@ -35,7 +35,7 @@ When we do this right we achieve three things:
 
 Every project has examples of overcomplicating matters. It often starts with the technology and infrastructure choices we make. Does this client indeed require webframework X and database Y and workflowengine Z? It goes down to code we write.
 
-References
+### References
 
 * [http://en.wikipedia.org/wiki/KISS_principle](http://en.wikipedia.org/wiki/KISS_principle)
 * [http://people.apache.org/~fhanik/kiss.html](http://people.apache.org/~fhanik/kiss.html)
