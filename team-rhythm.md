@@ -18,7 +18,7 @@ Useful meetings are those that come at a good time and are about the next thing 
 
 Apart from forcing a rhythm with meeting schedules, it is very important for the physical and mental health of developers to take regular breaks. It can help a lot to informally synchronize these breaks by taking colleagues to the coffee machine or lunch room.
 
-Even if rhythm is very important, pragmatism should not become secondary. Ad hoc design meetings, quick warroom meetings, toilet breaks they are all ok to have; being too dogmatic about these things is dangerous.
+Even if rhythm is very important, pragmatism should not become secondary. Ad hoc design meetings, quick war room meetings, toilet breaks they are all ok to have; being too dogmatic about these things is dangerous.
 
 ### Consequences
 

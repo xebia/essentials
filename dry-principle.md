@@ -15,7 +15,7 @@ Duplication leads to maintenance hell and logic contradictions, reducing seems a
 
 ### Applicability
 
-The original authors of the quotes stated that it could be applied to "database schemas, test plans, the build system, even documentation.". So pratically it could be applied almost in any aspect of work. It applies very well to code duplication.
+The original authors of the quotes stated that it could be applied to "database schemas, test plans, the build system, even documentation.". So practically it could be applied almost in any aspect of work. It applies very well to code duplication.
 
 ### Application
 

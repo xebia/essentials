@@ -10,7 +10,7 @@ The internet hasn't been the safe, naive place it once was for a couple of decad
 
 ### Applicability
 
-Security is often an implied requirement; few words are spent on the topic, but customers expect their systems to be built secure. Practical security is a tradeoff: it's not feasible to be 100% secure. Different systems emphasize different aspects of security and attract different kinds of attackers. Therefore, what's adequate for one system is overkill (or completely missing the point) for another.
+Security is often an implied requirement; few words are spent on the topic, but customers expect their systems to be built secure. Practical security is a trade-off: it's not feasible to be 100% secure. Different systems emphasize different aspects of security and attract different kinds of attackers. Therefore, what's adequate for one system is overkill (or completely missing the point) for another.
 
 ### Application
 

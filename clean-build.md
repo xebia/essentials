@@ -20,7 +20,7 @@ Whenever you build the code.
 
 ### Application
 
-Don't wait for a pile of warnings before you start cleaning up. The moment the warnings are seen, deal with them to esnure that they don't turn up into noise very soon.
+Don't wait for a pile of warnings before you start cleaning up. The moment the warnings are seen, deal with them to ensure that they don't turn up into noise very soon.
 
 ### Consequences
 

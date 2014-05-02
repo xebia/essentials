@@ -18,7 +18,7 @@ All software built should be made for a reason. It's valuable to capture that re
 ### Applicability
 
 
-It's best to think about acceptance criteria for a feature/story, before the implementation starts. Prefereably before the sprint starts, so the team has as much information about the feature as possible.
+It's best to think about acceptance criteria for a feature/story, before the implementation starts. Preferably before the sprint starts, so the team has as much information about the feature as possible.
 
 ### Application
 

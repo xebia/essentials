@@ -24,7 +24,7 @@ Use this principle to attack parts of the code base that are no go areas or cons
 
 ### Application
 
-Write a testcase. In an organization rather than a code base your only weapon is reason, so you have to create a solid argument that proves the complexity is in fact wrong.
+Write a test case. In an organization rather than a code base your only weapon is reason, so you have to create a solid argument that proves the complexity is in fact wrong.
 
 ### Consequences
 

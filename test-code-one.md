@@ -22,7 +22,7 @@ My personal suggestion would be to go back and forth between your code and your 
 
 ### Consequences
 
-Circling around between test and code might make it harder to define a stop criterion. And 80% test coverage rule might help. Geting up to 100% test coverage will be hard or (in many cases) impossible. Using assertions inside your code will definitely help to make up for the remaining 20%. Testing your code forces you to take some design decision consciously; adding assertions will have the same effect.
+Circling around between test and code might make it harder to define a stop criterion. And 80% test coverage rule might help. Getting up to 100% test coverage will be hard or (in many cases) impossible. Using assertions inside your code will definitely help to make up for the remaining 20%. Testing your code forces you to take some design decision consciously; adding assertions will have the same effect.
 
 ### References
 
