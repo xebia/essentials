@@ -35,7 +35,7 @@ Symptoms that can be seen on the outside are:
 
 ### Samples
 
-References
+### References
 
 * [Pair Programming](pair-programming)
 * [Google Scholar: Csíkszentmihályi flow](http://scholar.google.com/scholar?hl=en&q=Cs%C3%ADkszentmih%C3%A1lyi+flow&btnG=Search&as_sdt=2000&as_ylo=&as_vis=0)
