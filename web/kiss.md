@@ -17,7 +17,7 @@ When designing systems or finding solutions for problems in software development
 
 ### Applicability
 
-This applies to all the engineering that we do.  This does not mean that there should have no design, on the contrary design is often a very important activity. We state that design has to be based on real and current requirements.
+This applies to all the engineering that we do. This does not mean that there should have no design, on the contrary design is often a very important activity. We state that design has to be based on real and current requirements.
 
 ### Application
 

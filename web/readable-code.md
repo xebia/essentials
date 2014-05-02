@@ -41,7 +41,7 @@ The overall speed of the development of the project gradually increases if every
 ### References
 
 Any fool can write code that a computer can understand. Good programmers write code that humans can understand.
-- [Martin Fowler](http://www.softwarequotes.com/showquotes.aspx?id=573&name=Fowler,Martin), Refactoring: Improving the Design of Existing Code by Martin Fowler, Kent Beck (Contributor), John Brant (Contributor), William Opdyke, don Roberts , ISBN: 0201485672
+- [Martin Fowler](http://www.softwarequotes.com/showquotes.aspx?id=573&name=Fowler,Martin), Refactoring: Improving the Design of Existing Code by Martin Fowler, Kent Beck (Contributor), John Brant (Contributor), William Opdyke, don Roberts, ISBN: 0201485672
 
 Beauty of style and harmony and grace and good rhythm depends on simplicity. — Plato
 
