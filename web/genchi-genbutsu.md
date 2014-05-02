@@ -20,7 +20,7 @@ This may sound contradictory, but if you are reporting to someone, it doesn't ne
 
 ### Application
 
-First of all, you tell your manager that you are not going to write any reports. Next, make sure that whenever he's passing by, he is able to quickly grasp the situation. Big visible charts come to mind [1] . In any case, getting him to understand the situation should take as little effort as possible.
+First of all, you tell your manager that you are not going to write any reports. Next, make sure that whenever he's passing by, he is able to quickly grasp the situation. Big visible charts come to mind [1]. In any case, getting him to understand the situation should take as little effort as possible.
 
 ### References
 

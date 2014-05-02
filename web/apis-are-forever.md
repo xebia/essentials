@@ -76,10 +76,9 @@ Less than great API design samples, often serving in examples in Joshua Bloch's 
 
 ### References
 
-*  [InfoQ Article](http://www.infoq.com/articles/API-Design-Joshua-Bloch)
-*  [Video recorded at JavaPolis](http://www.infoq.com/presentations/effective-api-design)
-*  [code-review](code-review)
-*  [comment-with-care](comment-with-care)
-
+* [InfoQ Article](http://www.infoq.com/articles/API-Design-Joshua-Bloch)
+* [Video recorded at JavaPolis](http://www.infoq.com/presentations/effective-api-design)
+* [code-review](code-review)
+* [comment-with-care](comment-with-care)
 
 
