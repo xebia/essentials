@@ -35,7 +35,7 @@ Teams trying to apply this idea sometimes fall into the following pit. The more 
 
 ### References
 
-Related Cards: "Eliminate Waste"; "Everybody in a project team is equal"; "Pair programming".
+Related Cards: [Eliminate Waste](eliminate-waste), [Everybody in a project team is equal](team-member-equality), [Pair programming](pair-programming).
 
 Relevant literature: Mary and Tom Poppendieck: "Lean Software Development: An Agile Toolkit."
 
