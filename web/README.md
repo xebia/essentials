@@ -1,8 +1,8 @@
 # Statically generated site for the Xebia Essentials cards
 
-The site is generated using [Jekyll](http://jekyllrb.com/) and the content is writting in [Markdown](http://daringfireball.net/projects/markdown).
+The site is generated using [Jekyll](http://jekyllrb.com/) and the content is written in [Markdown](http://daringfireball.net/projects/markdown).
 
-Every markdown file not prefixed with an underscore will be converted to html, injected into the specified layout and published under `{{site.url}}/filename` and linked to from both it's category and `{{site.url}}/all`. This behaviour is specified under `_plugins/categories.rb`.
+Every markdown file not prefixed with an underscore will be converted to html, injected into the specified layout and published under `{{site.url}}/filename` and linked to from both its category and `{{site.url}}/all`. This behaviour is specified under `_plugins/categories.rb`.
 
 Pull requests are more than welcome!
 
@@ -20,7 +20,7 @@ To locally serve the statically generated site, and automatically rebuild when a
 
     jekyll serve -w
 
-Be sure that in `\_config.yml` to property `url` is set to localhost port 4000. This ensures that the dynimically generated urls will point to the correct domain.
+Be sure that in `_config.yml`, the property `url` is set to localhost port 4000. This ensures that the dynamically generated urls will point to the correct domain.
 
     url: "http://localhost:4000"
 
