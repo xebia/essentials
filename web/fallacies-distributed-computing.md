@@ -37,7 +37,7 @@ Jini is an example of a technology that definitely took the 8 fallacies of distr
 
 Now, question is if your solutions always need to have the same properties as Jini-based solutions, especially if there is a price you will have to pay for it. Probably not. In the end, it's just a balancing act, balancing factors such as the price business is willing to pay for ultimate availability, the characteristics of the data center(s) and the experience of the team you are working with.
 
-References
+### References
 
 * [Wikipedia](http://en.wikipedia.org/wiki/Fallacies_of_Distributed_Computing)
 

@@ -32,7 +32,7 @@ With: Resources
 To Discover: Information
 
 By target we mean: What are you exploring? e.g. UI input fields, Login pages or XML responses?
-By resources we mean: What resources will you be using? e.g. JavaScript / SQL injection or Spoofed URL’s & POSTS
+By resources we mean: What resources will you be using? e.g. JavaScript / SQL injection or Spoofed URLs & POSTS
 Information: What kind of information are you hoping to find? e.g. Can an user access content which they are not allowed to access or any other security vulnerabilities
 
 ### References

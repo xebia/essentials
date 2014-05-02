@@ -18,14 +18,13 @@ This is a very simple addition to your day to day work as a software developer. 
 
 ### Consequences
 
-
 As a side effect of running your tests this often, you might become aware of the actual time your tests take to run. Are all tests as still as valuable as when you wrote them?
 
 ### Samples
 
 Infinitest for Eclipse and IntelliJ.
 
-References
+### References
 
 * [Independent Tests](independent-tests)
 * [TDD Shapes Design](tdd-shapes-design)

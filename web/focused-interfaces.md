@@ -28,13 +28,13 @@ This principle is important because it encourages two very important ingredients
 
 High cohesion - Keep all related methods together
 
-Low coupling  - Keep dependence of one another to the bare minimum
+Low coupling - Keep dependence of one another to the bare minimum
 
 Changes to fat interfaces tend to cause a ripple affect to classes who shouldn't have been affected in the first place.
 
 ### Samples
 
-Java Collection API is a good example on interface segregation. Classes can depend on Collection, List , Set, SortedSet etc. depending on what type of collection they want to use. If everything was bundled in a single interface then any change to that interface would mean a ripple effect in all collection classes. All types of Lists maintain a high cohesion. Client code is dependent on minimal interface required.
+Java Collection API is a good example on interface segregation. Classes can depend on Collection, List, Set, SortedSet etc. depending on what type of collection they want to use. If everything was bundled in a single interface then any change to that interface would mean a ripple effect in all collection classes. All types of Lists maintain a high cohesion. Client code is dependent on minimal interface required.
 
 ### References
 
