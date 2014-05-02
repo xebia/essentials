@@ -26,7 +26,7 @@ One of the best sources of working this way is probably Gilb's 'Competitive Engi
 
 Spending time on working out the quality requirements with your product owner is going to take time. Plan for it. Start early, and refine the requirements iteratively.
 
-References
+### References
 
 * [Competitive Engineering](http://books.google.nl/books?id=ejxQF60xVV0C&dq=competitive+engineering&printsec=frontcover&source=bn&hl=nl&ei=UMSATPmeF4L_Ocq-rNIJ&sa=X&oi=book_result&ct=result&resnum=4&ved=0CDAQ6AEwAw#v=onepage&q&f=false), Tom Gilb, 2005
 

@@ -32,7 +32,7 @@ Whenever the principle is correctly applied it any change to any element in the 
 TBD
 Stories from the trenches? Horror stories? Source code? Customer references? Samples of technology that can be used to put it into practice?
 
-References
+### References
 
 * [Orthogonality and the DRY principle](http://www.artima.com/intv/dryP.html)
 * [DRY Principle not applied to Unit Test](http://codebetter.com/blogs/karlseguin/archive/2009/09/12/unit-testing-do-repeat-yourself.aspx)
