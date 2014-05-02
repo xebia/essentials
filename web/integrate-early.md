@@ -1,4 +1,4 @@
---
+---
 layout: card
 title: Integrate early
 category: realisation
