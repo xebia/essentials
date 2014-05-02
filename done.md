@@ -35,9 +35,8 @@ The story is deployed on the testing environment using CI.
 The story is [deployed in production](done-is-live).
 Functional tests are written for the story.
 Story is signed off by the product owner.
-Related cards
 
-## Code Review
+##Related cards
 
 * [Code Review](code-review)
 * [Test Everything](test-everything)
