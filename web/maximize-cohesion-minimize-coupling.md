@@ -34,7 +34,7 @@ One of the tools that might help you organizing your dependencies is the Depende
 
 Applying this principle makes it more likely that pieces of your software will survive over time.
 
-References
+### References
 
 1. Structured Design, W. Stevens, G. Myers, L. Constantine, IBM Systems Journal, 13 (2), 115-139, 1974.
 2. Simple Architectures for Complex Enterprises, R. Sessions, Microsoft Press, 2008

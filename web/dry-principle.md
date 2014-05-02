@@ -6,8 +6,8 @@ category: craftmanship
 
 ### Also known as
 
-* The DIE Principle : Duplication is Evil
-* SPOT : Single Point Of Truth
+* The DIE Principle: Duplication Is Evil
+* SPOT: Single Point Of Truth
 
 ### Motivation
 
@@ -21,7 +21,7 @@ The original authors of the quotes stated that it could be applied to "database 
 
 The DRY principle applied to code can reduces the amount of code you have to deal with. It improved readability and thus makes maintenance easier. When coding you can use a wide variety of options to limit duplication, OO paradigms, refactoring options etc...
 
-The DRY principle should also be used beyond plain coding in the design phase : Two concepts which are not bound in the system should not be bound by code. This is a little bit more difficult to apply.
+The DRY principle should also be used beyond plain coding in the design phase: Two concepts which are not bound in the system should not be bound by code. This is a little bit more difficult to apply.
 
 ### Consequences
 
@@ -32,7 +32,7 @@ Whenever the principle is correctly applied it any change to any element in the 
 TBD
 Stories from the trenches? Horror stories? Source code? Customer references? Samples of technology that can be used to put it into practice?
 
-References
+### References
 
 * [Orthogonality and the DRY principle](http://www.artima.com/intv/dryP.html)
 * [DRY Principle not applied to Unit Test](http://codebetter.com/blogs/karlseguin/archive/2009/09/12/unit-testing-do-repeat-yourself.aspx)

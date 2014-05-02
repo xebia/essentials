@@ -26,7 +26,7 @@ However, Scrum is not the only context in which this is applicable. It's equally
 
 Continuous improvement requires dedication, and dedication required dedicated time. It's important that you and your stakeholders agree on the time you are going to claim to improve continuously. Resist the temptation to consider continuous improvement to be something you get for free. Granted, you may be able to weave some improvement into your daily activities without too much cost, but there is a risk you maneuver yourself into a position in which your drive to improve continuously in your work will start hurting you in your private life. Again, continuous improvement is benefiting your stakeholders as well. Make sure that is well understood.
 
-References
+### References
 
 1. The Programmer's Bill of Rights, Jeff Atwood, [http://www.codinghorror.com/blog/2006/08/the-programmers-bill-of-rights.html](http://www.codinghorror.com/blog/2006/08/the-programmers-bill-of-rights.html)
 2. The Productive Programmer, Neal Ford

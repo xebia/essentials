@@ -1,6 +1,6 @@
 ---
 layout: card
-title: Work on stories when they’re ready.
+title: Work on stories when they're ready.
 category: collaboration
 ---
 
