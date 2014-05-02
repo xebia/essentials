@@ -39,7 +39,7 @@ Related cards
 
 ## Code Review
 
-* [Code R:view](code-review)
+* [Code Review](code-review)
 * [Test Everything](test-everything)
 * [Done is Live](done-is-live)
 * [Brutal Transparency](brutal-transparency)
