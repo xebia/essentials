@@ -18,7 +18,7 @@ If you're using a continuous build system (you are, aren't you?), you should hav
 
 ### Application
 
-Ensure you receive automatic alerts when your build breaks and also when it is fixed. If a build is broken it is the responsibility of the entire team to ensure the build is fixed. Of course, the person responsible for the checkin that broke the build is the most natural person to delegate this task to, but if s/he is only holiday that's not an excuse to ignore the problem!
+Ensure you receive automatic alerts when your build breaks and also when it is fixed. If a build is broken it is the responsibility of the entire team to ensure the build is fixed. Of course, the person responsible for the check-in that broke the build is the most natural person to delegate this task to, but if s/he is only holiday that's not an excuse to ignore the problem!
 
 ### Consequences
 

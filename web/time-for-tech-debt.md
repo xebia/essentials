@@ -26,7 +26,7 @@ Otherwise, a Product Owner will never see the strangling influence of tech debt 
 
 ### Consequences
 
-With luck, you should arrive at a situation where tech debt is monitored and kept within levels that are deemed managable within the context of your project - levels that have been agreed by the team and the PO.
+With luck, you should arrive at a situation where tech debt is monitored and kept within levels that are deemed manageable within the context of your project - levels that have been agreed by the team and the PO.
 
 ### Samples
 

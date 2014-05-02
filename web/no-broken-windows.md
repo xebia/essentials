@@ -26,7 +26,7 @@ All our engineering work.
 
 ### Application
 
-In practice this means that we do not leave 'todos' undone in our code. We want the codebase to be fully in order, and use our own sense of professionalism and esthetics to determine when something is good enough. We also implement a full test harness and take our time to do things the right way. That means that we do not skip on documentation or refactoring. There is only one way to do things, and that is with all these included.
+In practice this means that we do not leave 'todos' undone in our code. We want the codebase to be fully in order, and use our own sense of professionalism and aesthetics to determine when something is good enough. We also implement a full test harness and take our time to do things the right way. That means that we do not skip on documentation or refactoring. There is only one way to do things, and that is with all these included.
 
 ### Consequences
 
