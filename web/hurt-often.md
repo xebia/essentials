@@ -18,7 +18,7 @@ The most effective antidote is radical exposure therapy. Force your organization
 
 ### Consequences
 
-Shortening your time to production increases your ability to respond to change and, ultimately, your competitiveness. There's no upper bound, internet giants like Facebook and Github successfully deploy to production hundreds of times per day.
+Shortening your time to production increases your ability to respond to change and, ultimately, your competitiveness. There's no upper bound, internet giants like Facebook and GitHub successfully deploy to production hundreds of times per day.
 
 ### References
 

@@ -12,7 +12,7 @@ category: craftmanship
 
 In order to truly understand a situation one needs to go to 'gemba' or, the 'real place' - where work is done. From Wikipedia:
 
-> "Taichi Ohno, creator of the Toyota Production System is credited, perhaps apocryphally, with taking new graduates to the shopfloor and drawing a chalk circle on the floor. The graduate would be told to stand in the circle and to observe and note down what he saw. When Ohno returned he would check and if the Graduate had not seen enough he would be asked to keep observing. Ohno was trying to imprint upon his future engineers that the only way to truly understand what happens on the shopfloor was to go there. It was here that value was added and here that waste could be observed."
+> "Taichi Ohno, creator of the Toyota Production System is credited, perhaps apocryphally, with taking new graduates to the shop floor and drawing a chalk circle on the floor. The graduate would be told to stand in the circle and to observe and note down what he saw. When Ohno returned he would check and if the Graduate had not seen enough he would be asked to keep observing. Ohno was trying to imprint upon his future engineers that the only way to truly understand what happens on the shop floor was to go there. It was here that value was added and here that waste could be observed."
 
 ### Applicability
 

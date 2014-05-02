@@ -33,7 +33,7 @@ In addition to that: Many attempts have been made to hide the complexity of copi
 
 It is one thing to be aware of the consequences of your decisions when designing for a distributed solution. By carefully choosing from your options, you can most definitely increase the resilience of your system against network failures. However, increasing the robustness of your system might also increase the complexity of the programming model.
 
-Jini is an example of a technology that definitely took the 8 fallacies of distributed computing seriously, and I think it's fair to say it was much more resilient to networking issues than Java EE solutions coming about around that same timeframe. However, it did put a burden to the developer. You had to write more code in order to be able to deal with whatever could go wrong.
+Jini is an example of a technology that definitely took the 8 fallacies of distributed computing seriously, and I think it's fair to say it was much more resilient to networking issues than Java EE solutions coming about around that same time frame. However, it did put a burden to the developer. You had to write more code in order to be able to deal with whatever could go wrong.
 
 Now, question is if your solutions always need to have the same properties as Jini-based solutions, especially if there is a price you will have to pay for it. Probably not. In the end, it's just a balancing act, balancing factors such as the price business is willing to pay for ultimate availability, the characteristics of the data center(s) and the experience of the team you are working with.
 

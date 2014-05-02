@@ -17,8 +17,8 @@ Every modern programming language I'm aware of supports source code comments.
 ### Application
 
 * In an object-oriented language such as Java 1, it's fair to demand a type-level JavaDoc header that describes the intent and responsibility of the class or interface on every public or protected type.
-* On API's intended for use by others, every public method should be appropriately documented.
-* Use the standard documentation system for the platform. In Python, that's doc strings. In Java, that's JavaDoc. The standard documentation system is not only familiar to humans, most IDE's and some editors know how to read it too. As obvious as this may seem, I once had the displeasure of using a closed-source API documented using a proprietary HTML layout not in any way resembling standard JavaDoc 2. It was painful.
+* On APIs intended for use by others, every public method should be appropriately documented.
+* Use the standard documentation system for the platform. In Python, that's doc strings. In Java, that's JavaDoc. The standard documentation system is not only familiar to humans, most IDEs and some editors know how to read it too. As obvious as this may seem, I once had the displeasure of using a closed-source API documented using a proprietary HTML layout not in any way resembling standard JavaDoc 2. It was painful.
 
 Guidelines aside, whenever you find yourself wondering: "I wonder whether this'll make sense to me later", you know it's time for a comment. Ensure the comment contains information that cannot be obtained by simply reading the code itself.
 
@@ -32,7 +32,7 @@ Effective use of source code comments improves the maintainability of program co
 
 # Don't document bad code - rewrite it.
 
-The [wikipedia article on commenting](http://en.wikipedia.org/wiki/Comment_%28computer_programming%29) ascribes this aphorism to The Elements of Programming Style [3]. It's a good general guideline, but it may not always be feasible, especially in maintenance projects.
+The [Wikipedia article on commenting](http://en.wikipedia.org/wiki/Comment_%28computer_programming%29) ascribes this aphorism to The Elements of Programming Style [3]. It's a good general guideline, but it may not always be feasible, especially in maintenance projects.
 
 # Don't repeat the code - clarify its intent.
 

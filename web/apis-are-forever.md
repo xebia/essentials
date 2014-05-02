@@ -24,7 +24,7 @@ Joshua Bloch presented his ideas on API design in a talk named 'How to Design a 
 * You can't please everyone so aim to displease everyone equally
 * Expect API-design mistakes due to failures of your imagination
 * API design is not a solitary activity
-* Avoid fixed limites on input sizes
+* Avoid fixed limits on input sizes
 * Names matter
 * If it's hard to find good names, go back to the drawing board
 * When in doubt leave it out

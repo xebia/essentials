@@ -14,4 +14,4 @@ This principle is applicable for any organisation where creating software is str
 
 ### Application
 
-Create multi-disciplinairy teams and make sure that the team's work is defined as done, only when the change has been put into production and is in working to satisfactorily.
+Create multi-disciplinary teams and make sure that the team's work is defined as done, only when the change has been put into production and is in working to satisfactorily.
