@@ -3,7 +3,7 @@ module Jekyll
 
   class ApiGenerator < Generator
     safe false
-    priority :high
+    priority :low
 
     def generate(site)
       cards = Array.new
