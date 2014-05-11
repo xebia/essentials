@@ -3,6 +3,12 @@ layout: card
 title: Start with acceptance criteria
 category: testing
 ---
+<p>Start with acceptance criteria</p>
+---
+<p>Acceptance criteria should be part of your definition of ready. Make sure everyone
+      has a common understanding of what they are before building anything. Safeguard your
+      acceptance criteria in automated tests.</p>
+---
 ### Also known as
 
 Don't start without acceptance criteria.

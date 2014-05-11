@@ -3,6 +3,15 @@ layout: card
 title: Prefer rich modes of communication
 category: craftmanship
 ---
+<p>Prefer rich modes of communication</p>
+---
+<ul>
+<li>Personal conversation over telephone call</li>
+<li>Telephone call over chat</li>
+<li>Chat over email</li>
+<li>Email over voice mail</li>
+</ul>
+---
 
 ### Motivation
 

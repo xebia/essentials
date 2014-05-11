@@ -3,6 +3,19 @@ layout: card
 title: Your solution should not be more complicated than the problem
 category: realisation
 ---
+<p>Your solution should not be more complicated than the
+      problem</p>
+---
+<p>
+        Also known as:
+      </p>
+<ul>
+<li>The simplest thing that could possibly work</li>
+<li>Keep It Simple, Stupid (KISS)</li>
+<li>Less is more</li>
+<li>You Ain't Gonna Need It (YAGNI)</li>
+</ul>
+---
 
 ### Also known as
 

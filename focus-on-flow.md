@@ -3,6 +3,11 @@ layout: card
 title: Focus on flow
 category: collaboration
 ---
+<p>Focus on flow</p>
+---
+<p>Focus on banishing costs increases costs.</p>
+<p>Focus on flow decreases costs.</p>
+---
 
 ### Motivation
 

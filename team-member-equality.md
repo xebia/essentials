@@ -3,6 +3,13 @@ layout: card
 title: Judge on content, not on authority
 category: collaboration
 ---
+<p>Judge on content, not on authority</p>
+---
+<p>
+          We distinguish on the validity of the ideas, not on roles,
+      authority or location.
+      </p>
+---
 
 ### Also known as
 

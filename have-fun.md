@@ -3,6 +3,10 @@ layout: card
 title: Have fun
 category: collaboration
 ---
+<p>Have fun</p>
+---
+<p>If it ain't fun, it probably ain't right.</p>
+---
 
 ### Also known as
 

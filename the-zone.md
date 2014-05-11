@@ -3,6 +3,15 @@ layout: card
 title: Respect the zone
 category: collaboration
 ---
+<p>Respect the zone</p>
+---
+<p>&lsquo;The zone&rsquo; is a mode of consciousness that is associated
+      with higher capabilities. When in the zone a developer is more
+      productive.</p>
+<p>
+        When a developer is in the zone, avoid disruptions.
+      </p>
+---
 
 ### Also know as
 

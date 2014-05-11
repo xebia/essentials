@@ -3,6 +3,16 @@ layout: card
 title: Aim for thread safety
 category: realisation
 ---
+<p>Aim for thread safety</p>
+---
+<p>In order of decreasing safety:</p>
+<ul>
+<li>Stateless services</li>
+<li>Immutable shared state</li>
+<li>Encapsulated locks</li>
+<li>Not thread safe</li>
+</ul>
+---
 
 ### Motivation
 

@@ -3,6 +3,22 @@ layout: card
 title: Remember the fallacies of distributed computing
 category: realisation
 ---
+<p>Remember the fallacies of distributed computing</p>
+---
+<div class="blockquote">
+<ul>
+<li>The network is reliable</li>
+<li>Latency is zero</li>
+<li>Bandwidth is infinite</li>
+<li>The network is secure</li>
+<li>Topology doesn't change</li>
+<li>There is one administrator</li>
+<li>Transport cost is zero</li>
+<li>The network is homogeneous</li>
+</ul>
+</div>
+<div class="attribution">Peter Deutsch</div>
+---
 
 ### Motivation
 

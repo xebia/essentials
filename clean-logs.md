@@ -3,6 +3,19 @@ layout: card
 title: Keep your logs clean
 category: testing
 ---
+<p>Keep your logs clean</p>
+---
+<p>
+        Log everything you need, but nothing more:
+      </p>
+<ul>
+<li>Log at the right level</li>
+<li>Log every message once</li>
+<li>Categorize if needed</li>
+<li>Throw meaningful exceptions</li>
+<li>Don't cry wolf</li>
+</ul>
+---
 
 ### Motivation
 

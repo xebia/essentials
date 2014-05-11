@@ -3,6 +3,14 @@ layout: card
 title: Find the root cause
 category: craftmanship
 ---
+<p>Find the root cause</p>
+---
+<p>Genchi genbutsu is a Japanese expression for the practice
+      of finding your answers right down at the source.</p>
+<p>Don't rely on second-hand reports or tables and charts of
+      data to achieve a true understanding. Instead go to the place
+      (gemba) where you can watch, observe, and 'ask why five times'.</p>
+---
 
 ### Also known as
 

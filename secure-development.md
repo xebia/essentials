@@ -3,6 +3,12 @@ layout: card
 title: Develop for security
 category: realisation
 ---
+<p>Develop for security</p>
+---
+<p>You can't successfully add security to an existing
+      insecure system. Consider security requirements during all
+      steps of your development process.</p>
+---
 
 ### Motivation
 

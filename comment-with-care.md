@@ -3,6 +3,15 @@ layout: card
 title: Comment with care
 category: craftmanship
 ---
+<p>Comment with care</p>
+---
+<ul>
+<li>Don't document bad code &ndash; rewrite it</li>
+<li>Don't repeat the code &ndash; clarify its intent</li>
+<li>Document surprises and workarounds</li>
+<li>Make every comment count</li>
+</ul>
+---
 
 ### Motivation
 

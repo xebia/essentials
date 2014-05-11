@@ -3,6 +3,15 @@ layout: card
 title: No change without a failing test
 category: craftmanship
 ---
+<p>No change without a failing test</p>
+---
+<ul>
+<li>Don't fix a bug before you have a broken test</li>
+<li>A feature is only considered done once you have
+        tests for it</li>
+<li>Don't refactor before you have sufficient test coverage</li>
+</ul>
+---
 
 ### Motivation
 

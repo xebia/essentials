@@ -3,6 +3,12 @@ layout: card
 title: Write small and focused interfaces
 category: realisation
 ---
+<p>Write small and focused interfaces</p>
+---
+<p>Also known as the &lsquo;interface segregation principle&rsquo;. Many
+      specific interfaces are better than one combined general
+      interface.</p>
+---
 
 ### Also known as
 

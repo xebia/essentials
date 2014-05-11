@@ -3,6 +3,18 @@ layout: card
 title: Tests should be fast, reliable and independent
 category: testing
 ---
+<p>Tests should be fast, reliable and independent</p>
+---
+<p>Independent unit tests can be run regardless of ordering and are easy
+      to run in parallel. Speed and reliability optimize feedback.</p>
+<ul>
+<li>Don't share objects between tests.</li>
+<li>Minimize external dependencies, use mocks.</li>
+<li>Give each test the smallest possible scope.</li>
+<li>Optimize slow tests to make them not slow.</li>
+<li>Optimize flaky tests to make them reliable.</li>
+</ul>
+---
 
 Tests should be fast, reliable and independent
 

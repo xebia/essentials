@@ -3,6 +3,13 @@ layout: card
 title: Take time to tackle tech debt
 category: craftmanship
 ---
+<p>Take time to tackle tech debt</p>
+---
+<p>
+            Make your Product Owner understand why it is critical to
+            fix technical debt. Explain that sustainable pace is the only way.
+        </p>
+---
 
 Also known as
 

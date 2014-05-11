@@ -3,6 +3,11 @@ layout: card
 title: Learn a new language every year.
 category: craftmanship
 ---
+<p>Learn a new language every year.</p>
+---
+<p>Learning a new language teaches you new concepts that will
+      benefit you when programming in your main language.</p>
+---
 
 ### Motivation
 

@@ -3,6 +3,21 @@ layout: card
 title: Work on stories when they're ready.
 category: collaboration
 ---
+<p>
+        Work on stories when they&rsquo;re ready.
+      </p>
+---
+<p>
+        Have a Definition of READY to judge whether a user story is fit to go into a sprint.
+        <ul>
+<li>Do the team members understand the story?</li>
+<li>Is the story sized correctly?</li>
+<li>Have the acceptance criteria been defined?</li>
+<li>Are the external dependencies in place?</li>
+<li>How will the demo look?</li>
+</ul>
+</p>
+---
 
 ### Motivation
 

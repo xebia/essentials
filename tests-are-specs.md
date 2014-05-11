@@ -3,6 +3,12 @@ layout: card
 title: Tests are Specifications
 category: testing
 ---
+<p>Tests are Specifications</p>
+---
+<p>Don't test an implementation, test its conformance to a required behaviour. Tests
+      written in this way become executable specifications, stories and examples. They document
+      what the code is intended to do, not cast in cement how it does so.</p>
+---
 
 ### Also known as
 

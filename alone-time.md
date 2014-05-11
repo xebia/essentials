@@ -3,6 +3,10 @@ layout: card
 title: Alone time
 category: collaboration
 ---
+<p>Alone time</p>
+---
+<p>For some situations pair programming is not effective. Be prepared to allow yourself and your team members to have some time alone.</p>
+---
 
 For some situations pair programming is not effective. Be prepared to allow yourself and your team members to have some time alone.
 

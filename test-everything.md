@@ -3,6 +3,13 @@ layout: card
 title: When you don't have time to test everything, you're building too much
 category: testing
 ---
+<p>When you don't have time to test everything, you're building too much</p>
+---
+<p>When a story isn't tested, it simply is not ready for
+      production.  This means that focus should be on testing
+      throughout the sprint, by the whole team.  No new work should be
+      picked up if there is still unfinished test work.</p>
+---
 
 ### Motivation
 

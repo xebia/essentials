@@ -3,6 +3,11 @@ layout: card
 title: Integrate early
 category: realisation
 ---
+<p>Integrate early</p>
+---
+<p>The point where two independently developed modules or systems
+      meet tends to be the locus of problems. Tackle these early on.</p>
+---
 
 ### Motivation
 

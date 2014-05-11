@@ -3,6 +3,13 @@ layout: card
 title: Assert against improper behaviour
 category: realisation
 ---
+<p>Assert against improper behaviour</p>
+---
+<div class="blockquote">
+<p>If it can't happen, use assertions to assure it won't.</p>
+</div>
+<div class="attribution">Andrew Hunt, David Thomas</div>
+---
 
 ### Motivation
 

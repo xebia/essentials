@@ -3,6 +3,17 @@ layout: card
 title: Beware of anemic domain models
 category: realisation
 ---
+<p>Beware of anemic domain models</p>
+---
+<p>
+        Anemic domain models are data structures without any behaviour. They
+        are a sign of poor object-oriented modelling.
+      </p>
+<p>
+        Domain-Driven Design (Eric Evans) is an alternative that takes better advantage
+        of the object-oriented model's strengths and improves code maintainability.
+      </p>
+---
 
 In **Object Oriented Programming**, an Anemic Domain Model is a program design consisting of data classes without any behaviour and procedural of "service" classes to manipulate them. These systems tend to spawn utility classes full of static methods in an effort to [fight code duplication](dry-principle). As the number of utility functions increases, developers lose track and the utilities themselves start to get duplicated. The result is a system that's not cohesive and [tightly coupled](maximize-cohesion-minimize-coupling). Overall, the high level design appears to be pretty clear, but the source code design tends to get messy. Most simply put, these systems suffer the extra complexity of using an Object Oriented programming language, without reaping any of the benefits.
 

@@ -3,6 +3,13 @@ layout: card
 title: Don't Repeat Yourself
 category: craftmanship
 ---
+<p>Don't Repeat Yourself</p>
+---
+<div class="blockquote">
+<p>Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.</p>
+</div>
+<div class="attribution">Andy Hunt and Dave Thomas</div>
+---
 
 ### Also known as
 

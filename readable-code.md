@@ -3,6 +3,18 @@ layout: card
 title: Write code that humans can easily understand
 category: craftmanship
 ---
+<p>Write code that humans can easily understand</p>
+---
+<div class="blockquote">
+<p>Any fool can write code that a computer can
+        understand. Good programmers write code that humans can
+        understand.
+        A simple, readable implementation is head and shoulders
+        above a clever-but-confusing, look-at-me implementation.
+        Things to keep in mind are readability, maintainability and speed of development.</p>
+</div>
+<div class="attribution">Martin Fowler</div>
+---
 
 Also known as
 

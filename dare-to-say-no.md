@@ -3,6 +3,14 @@ layout: card
 title: Dare to say no
 category: craftmanship
 ---
+<p>Dare to say no</p>
+---
+<p>In Software Engineering, some things are just not
+      possible. Stand up for your values as a professional and refuse
+      to do them! A good doctor will not promise to heal everything
+      either.
+      </p>
+---
 
 ### Also known as
 

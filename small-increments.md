@@ -3,6 +3,10 @@ layout: card
 title: Work in small increments
 category: craftmanship
 ---
+<p>Work in small increments</p>
+---
+<p>Every commit should be a change from one stable state of the system to another stable state of the system, and should not represent more than two hours of work.</p>
+---
 
 ### Motivation
 

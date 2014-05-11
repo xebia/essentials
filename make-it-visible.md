@@ -3,6 +3,12 @@ layout: card
 title: Make it visible
 category: collaboration
 ---
+<p>Make it visible</p>
+---
+<p>The most effective way to get a message across is by
+      visualizing it. Use simple charts and diagrams in favor of
+      spreadsheets, and pictures instead of prose.</p>
+---
 
 ### Also known as
 

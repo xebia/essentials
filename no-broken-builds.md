@@ -3,6 +3,10 @@ layout: card
 title: Sleep easy on a green build
 category: collaboration
 ---
+<p>Sleep easy on a green build</p>
+---
+<p>It's the team's code; it's also the team's responsibility to have a running build. If the person who broke the build isn't around, that's no excuse.</p>
+---
 
 ### Also known as
 

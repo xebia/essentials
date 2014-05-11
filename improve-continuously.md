@@ -3,6 +3,18 @@ layout: card
 title: Favor continuous improvement over delayed perfection
 category: craftmanship
 ---
+<p>Favor continuous improvement over delayed perfection</p>
+---
+<p>If you don't get better, you get worse.</p>
+<div class="blockquote">
+<p>Continuous improvement is not about the things you do
+        well - that's work. Continuous improvement is about removing
+        the things that get in the way of your work. The headaches,
+        the things that slow you down, that&rsquo;s what continuous
+        improvement is all about.</p>
+</div>
+<div class="attribution">Bruce Hamilton</div>
+---
 
 ### Also known as
 

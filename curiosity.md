@@ -3,6 +3,14 @@ layout: card
 title: Be curious
 category: craftmanship
 ---
+<p>Be curious</p>
+---
+<div class="blockquote">
+<p>Curiouser and curiouser!</p>
+</div>
+<div class="attribution">Alice in Wonderland</div>
+<p>Curiosity is one of the main sources of creativity.</p>
+---
 
 ### Motivation
 

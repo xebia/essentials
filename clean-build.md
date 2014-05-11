@@ -3,6 +3,12 @@ layout: card
 title: Keep the build clean
 category: craftmanship
 ---
+<p>Keep the build clean</p>
+---
+<p>
+          The build logs should tell a clear story about failures, errors, but also warnings.
+      </p>
+---
 
 ### Also known as
 

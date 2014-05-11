@@ -3,6 +3,14 @@ layout: card
 title: Fail fast
 category: testing
 ---
+<p>Fail fast</p>
+---
+<p>
+        Address risks early on in the project. Don't postpone
+        difficult tasks, because they provide you with an opportunity
+        to learn. Tackle them head-on, and get it over with.
+      </p>
+---
 
 ### Motivation
 

@@ -3,6 +3,10 @@ layout: card
 title: Split functionality into small units
 category: realisation
 ---
+<p>Split functionality into small units</p>
+---
+<p>A function should be replaceable by one of your colleagues in less than thirty minutes.</p>
+---
 
 ### Motivation
 

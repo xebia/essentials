@@ -3,6 +3,19 @@ layout: card
 title: Eliminate waste
 category: collaboration
 ---
+<p>Eliminate waste</p>
+---
+<p>Sources of waste in software development include:</p>
+<ul>
+<li>Partially done work</li>
+<li>Extra features</li>
+<li>Relearning</li>
+<li>Task switching</li>
+<li>Hand-offs</li>
+<li>Delays</li>
+<li>Defects</li>
+</ul>
+---
 
 ### Motivation
 

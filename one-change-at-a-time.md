@@ -3,6 +3,11 @@ layout: card
 title: One change at a time
 category: craftmanship
 ---
+<p>One change at a time</p>
+---
+<p>A single commit should be consistent and contain only changes related to a single user story/issue.
+          For instance, don't mix formatting changes with bug fixes.</p>
+---
 
 A single commit should contain only changes related to a single user story or issue. For instance, don't mix formatting changes with bug fixes. In other words: A change should have only one reason to be reverted.
 
