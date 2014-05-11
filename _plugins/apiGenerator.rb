@@ -27,7 +27,7 @@ module Jekyll
         types: site.config['card_types']
       }
 
-      f =File.new(File.join(site.config['destination'], '../api.json'), 'w+')
+      f =File.new(File.join(site.config['source'], 'api.json'), 'w+')
       f.puts api.to_json
     end
 
