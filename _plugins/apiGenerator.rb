@@ -8,7 +8,7 @@ module Jekyll
     def generate(site)
       cards = Array.new
       site.pages.each do |page|
-        if page.data['layout'] == 'card' then
+        if page.data['layout'] == 'card' && page.data['category'] != 'other' then
           cards.push({
             name: page.url.gsub(/\//, ''),
             title: page.data['category'],
