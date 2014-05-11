@@ -5,6 +5,7 @@
       {% include header.html %}
       <div id="body">
         {% include content.html %}
+          {% include related.html %}
         {% unless page.path contains 'index' %}
           {% include banner.html %}
         {% endunless %}

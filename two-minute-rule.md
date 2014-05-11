@@ -2,6 +2,11 @@
 
 layout: card
 category: craftmanship
+related:
+  - eliminate-waste
+  - team-member-equality
+  - pair-programming
+
 ---
 
 If you are stuck developing for more than two minutes, you MUST ask somebody else
@@ -45,8 +50,5 @@ Teams trying to apply this idea sometimes fall into the following pit. The more 
 
 ### References
 
-Related Cards: [Eliminate Waste](eliminate-waste), [Everybody in a project team is equal](team-member-equality), [Pair programming](pair-programming).
-
-Relevant literature: Mary and Tom Poppendieck: "Lean Software Development: An Agile Toolkit."
-
-Akamai uses a [fifteen-minute rule](https://blogs.akamai.com/2013/10/you-must-try-and-then-you-must-ask.html).
+- Mary and Tom Poppendieck: "Lean Software Development: An Agile Toolkit."
+- Akamai uses a [fifteen-minute rule](https://blogs.akamai.com/2013/10/you-must-try-and-then-you-must-ask.html).
