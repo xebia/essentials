@@ -1,19 +1,24 @@
 ---
+
 layout: card
 category: collaboration
+
 ---
+
 Pair programming
+
+---
+
+Pairing improves focus and fosters collective ownership more effectively than
+group discussions, documentation and reviews.
+
+---
+
 ### Motivation
 
 Let's be honest. Over engineered solutions are strangely attractive. We developers are drawn into it like bugs into a bugzapper. We end up spending way too much time on things we don't even need. That's just wrong. We need somebody to get us back on track. And that's exactly what pair programming is going to give you.
 
 > When you pair, one person codes---the driver. The other person is the navigator, whose job is to think. As navigator, sometimes you think about what the driver is typing. (Don't rush to point out missing semicolons, though. That's annoying.) Sometimes you think about what tasks to work on next and sometimes you think about how your work best fits into the overall design.
-<p>Pair programming</p>
----
-<p>Pairing improves focus and fosters collective ownership
-      more effectively than group discussions, documentation and
-      reviews.</p>
----
 > This arrangement leaves the driver free to work on the tactical challenges of creating rigorous, syntactically correct code without worrying about the big picture, and it gives the navigator the opportunity to consider strategic issues without being distracted by the details of coding. Together, the driver and navigator create higher-quality work more quickly than either could produce on their own.[1](http://jamesshore.com/Agile-Book/pair_programming.html)
 
 ### Applicability
