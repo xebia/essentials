@@ -31,7 +31,7 @@ git fetch origin master
 [[ $(git rev-parse HEAD) == $(git rev-parse origin/master) ]] || exit 1
 
 # Not sure if Jekyll cleans up old builds. Rm and rebuild
-rm -r "${BUILD_DIR}"
+rm -rf "${BUILD_DIR}"
 jekyll build
 
 # ssh it into production, gzipping the stream and unpacking on arrival
