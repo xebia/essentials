@@ -1,9 +1,8 @@
 ---
 layout: card
-title: Separation of concerns
 category: realisation
 ---
-<p>Separation of concerns</p>
+Separation of concerns
 ---
 <div class="blockquote">
 <p>Separate a program into non-overlapping concerns.</p>

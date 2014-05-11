@@ -1,9 +1,8 @@
 ---
 layout: card
-title: When you don't have time to test everything, you're building too much
 category: testing
 ---
-<p>When you don't have time to test everything, you're building too much</p>
+When you don't have time to test everything, you're building too much
 ---
 <p>When a story isn't tested, it simply is not ready for
       production.  This means that focus should be on testing

@@ -1,9 +1,8 @@
 ---
 layout: card
-title: Develop for security
 category: realisation
 ---
-<p>Develop for security</p>
+Develop for security
 ---
 <p>You can't successfully add security to an existing
       insecure system. Consider security requirements during all

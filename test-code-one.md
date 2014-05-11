@@ -1,9 +1,8 @@
 ---
 layout: card
-title: Think of code and test as one
 category: testing
 ---
-<p>Think of code and test as one</p>
+Think of code and test as one
 ---
 <div class="blockquote">
 <p>When writing the code, think of the test.</p>

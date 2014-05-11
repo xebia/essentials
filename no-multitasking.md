@@ -1,9 +1,8 @@
 ---
 layout: card
-title: No multitasking
 category: craftmanship
 ---
-<p>No multitasking</p>
+No multitasking
 ---
 <p>Doing multiple things at once will lower your productivity instead of raising it.</p>
 <p>Try, as much as possible, to focus on one thing at a time.</p>

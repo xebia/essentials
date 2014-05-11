@@ -1,9 +1,8 @@
 ---
 layout: card
-title: Start with acceptance criteria
 category: testing
 ---
-<p>Start with acceptance criteria</p>
+Start with acceptance criteria
 ---
 <p>Acceptance criteria should be part of your definition of ready. Make sure everyone
       has a common understanding of what they are before building anything. Safeguard your

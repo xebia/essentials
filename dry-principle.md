@@ -1,9 +1,8 @@
 ---
 layout: card
-title: Don't Repeat Yourself
 category: craftmanship
 ---
-<p>Don't Repeat Yourself</p>
+Don't Repeat Yourself
 ---
 <div class="blockquote">
 <p>Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.</p>

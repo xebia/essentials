@@ -1,9 +1,8 @@
 ---
 layout: card
-title: Fail fast
 category: testing
 ---
-<p>Fail fast</p>
+Fail fast
 ---
 <p>
         Address risks early on in the project. Don't postpone

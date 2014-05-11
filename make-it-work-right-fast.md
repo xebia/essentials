@@ -1,9 +1,8 @@
 ---
 layout: card
-title: Make it work Make it right Make it fast
 category: craftmanship
 ---
-<p>Make it work</p>
+Make it work Make it right Make it fast
 <p>Make it right</p>
 <p>Make it fast</p>
 ---

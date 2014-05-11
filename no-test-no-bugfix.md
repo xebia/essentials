@@ -1,9 +1,8 @@
 ---
 layout: card
-title: No change without a failing test
 category: craftmanship
 ---
-<p>No change without a failing test</p>
+No change without a failing test
 ---
 <ul>
 <li>Don't fix a bug before you have a broken test</li>

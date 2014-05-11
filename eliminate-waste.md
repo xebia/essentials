@@ -1,9 +1,8 @@
 ---
 layout: card
-title: Eliminate waste
 category: collaboration
 ---
-<p>Eliminate waste</p>
+Eliminate waste
 ---
 <p>Sources of waste in software development include:</p>
 <ul>

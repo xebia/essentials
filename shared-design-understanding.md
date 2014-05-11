@@ -1,9 +1,8 @@
 ---
 layout: card
-title: Share the design
 category: realisation
 ---
-<p>Share the design</p>
+Share the design
 ---
 <p>Everyone in the team should be aware of the core design
       ideas that have given shape and structure to the software so

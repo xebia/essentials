@@ -1,9 +1,8 @@
 ---
 layout: card
-title: Test Driven Development shapes design
 category: testing
 ---
-<p>Test Driven Development shapes design</p>
+Test Driven Development shapes design
 ---
 <p>Well-structured code follows naturally from the test-driven development (TDD) process.</p>
 <p>However, locally emergent architecture without an overall vision can become

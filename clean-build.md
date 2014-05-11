@@ -1,9 +1,8 @@
 ---
 layout: card
-title: Keep the build clean
 category: craftmanship
 ---
-<p>Keep the build clean</p>
+Keep the build clean
 ---
 <p>
           The build logs should tell a clear story about failures, errors, but also warnings.

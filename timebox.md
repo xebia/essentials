@@ -1,9 +1,8 @@
 ---
 layout: card
-title: Timebox the unknown
 category: collaboration
 ---
-<p>Timebox the unknown</p>
+Timebox the unknown
 ---
 <ul>
 <li>Timebox a story/task that can't be estimated during

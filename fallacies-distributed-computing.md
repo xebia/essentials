@@ -1,9 +1,8 @@
 ---
 layout: card
-title: Remember the fallacies of distributed computing
 category: realisation
 ---
-<p>Remember the fallacies of distributed computing</p>
+Remember the fallacies of distributed computing
 ---
 <div class="blockquote">
 <ul>

@@ -1,9 +1,8 @@
 ---
 layout: card
-title: Comment with care
 category: craftmanship
 ---
-<p>Comment with care</p>
+Comment with care
 ---
 <ul>
 <li>Don't document bad code &ndash; rewrite it</li>

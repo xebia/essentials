@@ -1,9 +1,8 @@
 ---
 layout: card
-title: Aim for thread safety
 category: realisation
 ---
-<p>Aim for thread safety</p>
+Aim for thread safety
 ---
 <p>In order of decreasing safety:</p>
 <ul>

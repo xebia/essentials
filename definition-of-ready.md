@@ -1,9 +1,8 @@
 ---
 layout: card
-title: Work on stories when they're ready.
 category: collaboration
 ---
-<p>
+Work on stories when they're ready.
         Work on stories when they&rsquo;re ready.
       </p>
 ---

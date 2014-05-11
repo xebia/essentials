@@ -1,9 +1,8 @@
 ---
 layout: card
-title: Beware of anemic domain models
 category: realisation
 ---
-<p>Beware of anemic domain models</p>
+Beware of anemic domain models
 ---
 <p>
         Anemic domain models are data structures without any behaviour. They

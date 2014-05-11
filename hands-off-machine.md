@@ -1,9 +1,8 @@
 ---
 layout: card
-title: Keep your hands off the machine.
 category: realisation
 ---
-<p>Keep your hands off the machine.</p>
+Keep your hands off the machine.
 ---
 <p>Stop manual changes and automate the installation and configuration of the server:
       from operating system to middleware and applications. </p>

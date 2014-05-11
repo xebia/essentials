@@ -1,9 +1,8 @@
 ---
 layout: card
-title: Your solution should not be more complicated than the problem
 category: realisation
 ---
-<p>Your solution should not be more complicated than the
+Your solution should not be more complicated than the problem
       problem</p>
 ---
 <p>

@@ -12,7 +12,7 @@ module Jekyll
           cards.push({
             name: page.url.gsub(/\//, ''),
             category: page.data['category'],
-            front: page.data['front'],
+            title: page.data['title'],
             back: page.data['back'],
           })
         end

@@ -1,9 +1,8 @@
 ---
 layout: card
-title: Master your tools
 category: craftmanship
 ---
-<p>Master your tools</p>
+Master your tools
 ---
 <p>Expect unprecedented productivity gain when investing time
       in mastering your tools. Tools will help you to:</p>

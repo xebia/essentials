@@ -16,7 +16,7 @@ module Jekyll
           blocks = page.content.scan(/(.*?)---/m)
 
           if blocks.length == 2 then
-            page.data['front'] = converter.convert(blocks[0].join(''))
+            page.data['title'] = blocks[0][0]
             page.data['back'] = converter.convert(blocks[1].join(''))
           end
 

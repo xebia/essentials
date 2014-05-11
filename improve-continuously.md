@@ -1,9 +1,8 @@
 ---
 layout: card
-title: Favor continuous improvement over delayed perfection
 category: craftmanship
 ---
-<p>Favor continuous improvement over delayed perfection</p>
+Favor continuous improvement over delayed perfection
 ---
 <p>If you don't get better, you get worse.</p>
 <div class="blockquote">

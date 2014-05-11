@@ -1,9 +1,8 @@
 ---
 layout: card
-title: Review code
 category: collaboration
 ---
-<p>Review code</p>
+Review code
 ---
 <p>The primary goal of code review is to increase its
       quality. Can be used as an additional safety net alongside pair

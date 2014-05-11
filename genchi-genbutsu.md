@@ -1,9 +1,8 @@
 ---
 layout: card
-title: Find the root cause
 category: craftmanship
 ---
-<p>Find the root cause</p>
+Find the root cause
 ---
 <p>Genchi genbutsu is a Japanese expression for the practice
       of finding your answers right down at the source.</p>

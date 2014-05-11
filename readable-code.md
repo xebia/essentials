@@ -1,9 +1,8 @@
 ---
 layout: card
-title: Write code that humans can easily understand
 category: craftmanship
 ---
-<p>Write code that humans can easily understand</p>
+Write code that humans can easily understand
 ---
 <div class="blockquote">
 <p>Any fool can write code that a computer can

@@ -1,9 +1,8 @@
 ---
 layout: card
-title: Have fun
 category: collaboration
 ---
-<p>Have fun</p>
+Have fun
 ---
 <p>If it ain't fun, it probably ain't right.</p>
 ---

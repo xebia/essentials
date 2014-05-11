@@ -1,9 +1,8 @@
 ---
 layout: card
-title: If something is too complex to understand, it must be wrong
 category: realisation
 ---
-<p>If something is too complex to understand, it must be wrong</p>
+If something is too complex to understand, it must be wrong
 ---
 <p>...and it's your job to prove it wrong. Also known as the &lsquo;Poutsma Principle&rsquo;.</p>
 ---

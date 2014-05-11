@@ -1,9 +1,8 @@
 ---
 layout: card
-title: Get the team in a rhythm
 category: collaboration
 ---
-<p>Get the team in a rhythm</p>
+Get the team in a rhythm
 ---
 <p>
         A team that works according to a defined heartbeat is much

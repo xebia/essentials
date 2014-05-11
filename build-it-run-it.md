@@ -1,9 +1,8 @@
 ---
 layout: card
-title: You build it, you run it!
 category: collaboration
 ---
-<p>You build it, you run it!</p>
+You build it, you run it!
 ---
 <p>The development team is responsible for the software in production.</p>
 <div class="blockquote">

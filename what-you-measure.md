@@ -1,9 +1,8 @@
 ---
 layout: card
-title: You get what you measure
 category: collaboration
 ---
-<p>You get what you measure</p>
+You get what you measure
 ---
 <p>Metrics are useful, but beware of tunnel vision. If you focus exclusively
       on any specific quality attributes (like code coverage), other attributes may suffer.</p>

@@ -1,9 +1,8 @@
 ---
 layout: card
-title: Pair programming
 category: collaboration
 ---
-
+Pair programming
 ### Motivation
 
 Let's be honest. Over engineered solutions are strangely attractive. We developers are drawn into it like bugs into a bugzapper. We end up spending way too much time on things we don't even need. That's just wrong. We need somebody to get us back on track. And that's exactly what pair programming is going to give you.

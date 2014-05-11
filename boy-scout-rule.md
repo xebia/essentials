@@ -1,9 +1,8 @@
 ---
 layout: card
-title: Leave the campground cleaner than you found it
 category: realisation
 ---
-<p>Leave the campground cleaner than you found it</p>
+Leave the campground cleaner than you found it
 ---
 <p>Also known as the Boy Scout Rule, after the Boy Scouts of
       America. Applied to programming: Always check in code in a

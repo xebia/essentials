@@ -1,9 +1,8 @@
 ---
 layout: card
-title: Prefer rich modes of communication
 category: craftmanship
 ---
-<p>Prefer rich modes of communication</p>
+Prefer rich modes of communication
 ---
 <ul>
 <li>Personal conversation over telephone call</li>

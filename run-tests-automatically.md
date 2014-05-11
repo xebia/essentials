@@ -1,9 +1,8 @@
 ---
 layout: card
-title: Run tests automatically
 category: testing
 ---
-<p>Run tests automatically</p>
+Run tests automatically
 ---
 <p>Starting tests by hand is needless friction. Don't just use a build server. Use
       an IDE plugin that tracks source/test dependency and runs the affected tests whenever

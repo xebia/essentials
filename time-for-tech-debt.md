@@ -1,9 +1,8 @@
 ---
 layout: card
-title: Take time to tackle tech debt
 category: craftmanship
 ---
-<p>Take time to tackle tech debt</p>
+Take time to tackle tech debt
 ---
 <p>
             Make your Product Owner understand why it is critical to

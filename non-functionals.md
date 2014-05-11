@@ -1,9 +1,8 @@
 ---
 layout: card
-title: Deal with non-functionals
 category: realisation
 ---
-<p>Deal with non-functionals</p>
+Deal with non-functionals
 ---
 <p>Work all your non-functional requirements into goals on a
       clearly defined scale and put them on the backlog, either as

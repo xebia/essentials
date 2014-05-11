@@ -1,9 +1,8 @@
 ---
 layout: card
-title: Be curious
 category: craftmanship
 ---
-<p>Be curious</p>
+Be curious
 ---
 <div class="blockquote">
 <p>Curiouser and curiouser!</p>

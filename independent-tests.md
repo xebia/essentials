@@ -1,9 +1,8 @@
 ---
 layout: card
-title: Tests should be fast, reliable and independent
 category: testing
 ---
-<p>Tests should be fast, reliable and independent</p>
+Tests should be fast, reliable and independent
 ---
 <p>Independent unit tests can be run regardless of ordering and are easy
       to run in parallel. Speed and reliability optimize feedback.</p>

@@ -1,9 +1,8 @@
 ---
 layout: card
-title: Three strikes and you automate
 category: craftmanship
 ---
-<p>Three strikes and you automate</p>
+Three strikes and you automate
 ---
 <ul>
 <li>The first time you do something, you just do it manually</li>

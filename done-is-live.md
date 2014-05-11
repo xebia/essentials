@@ -1,9 +1,8 @@
 ---
 layout: card
-title: Done = Live!
 category: collaboration
 ---
-<p>Done = Live!</p>
+Done = Live!
 ---
 <p>The work of the development team is only done, when the feature is live in production.</p>
 ---

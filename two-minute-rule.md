@@ -1,9 +1,8 @@
 ---
 layout: card
-title: If you are stuck developing for more than two minutes, you MUST ask somebody else
 category: craftmanship
 ---
-<p>If you are stuck developing for more than two minutes, you
+If you are stuck developing for more than two minutes, you MUST ask somebody else
       MUST ask somebody else</p>
 ---
 <p>It's not professional to waste time by trying to solve

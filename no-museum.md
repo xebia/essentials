@@ -1,9 +1,8 @@
 ---
 layout: card
-title: Prevent your code base from turning into a museum
 category: craftmanship
 ---
-<p>Prevent your code base from turning into a museum</p>
+Prevent your code base from turning into a museum
 ---
 <p>There is no point in keeping dead code lying around in
       your code base. Get rid of it. Your version history will always

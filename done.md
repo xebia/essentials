@@ -1,9 +1,8 @@
 ---
 layout: card
-title: It ain't over till it's done
 category: collaboration
 ---
-<p>It ain't over till it's done</p>
+It ain't over till it's done
 ---
 <p>Create a clear definition of done to have a firm agreement on
       whether a task is finished or not.</p>

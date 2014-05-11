@@ -1,9 +1,8 @@
 ---
 layout: card
-title: APIs, like diamonds, are forever
 category: realisation
 ---
-<p>APIs, like diamonds, are forever</p>
+APIs, like diamonds, are forever
 ---
 <p>So craft them carefully:</p>
 <div class="blockquote">

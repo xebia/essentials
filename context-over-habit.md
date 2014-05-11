@@ -1,9 +1,8 @@
 ---
 layout: card
-title: Improve practices, don't just follow the recipe
 category: craftmanship
 ---
-<p>Improve practices, don't just follow the recipe</p>
+Improve practices, don't just follow the recipe
 ---
 <p>With all &lsquo;best practices&rsquo;, principles and experience,
       you should always keep an eye on the context: does what used to work

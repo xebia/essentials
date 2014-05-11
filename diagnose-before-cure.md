@@ -1,9 +1,8 @@
 ---
 layout: card
-title: Diagnose before cure
 category: craftmanship
 ---
-<p>Diagnose before cure</p>
+Diagnose before cure
 ---
 <p>Measure first, make an isolated change, repeat until satisfied.</p>
 <p>Before you tune performance, first measure it. Then fix the worst bottleneck and measure again. Commonly you will find that bottlenecks shift, and you are most effective when continuously measuring your progress.</p>

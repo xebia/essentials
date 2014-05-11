@@ -1,9 +1,8 @@
 ---
 layout: card
-title: Dare to say no
 category: craftmanship
 ---
-<p>Dare to say no</p>
+Dare to say no
 ---
 <p>In Software Engineering, some things are just not
       possible. Stand up for your values as a professional and refuse

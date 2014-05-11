@@ -1,9 +1,8 @@
 ---
 layout: card
-title: One change at a time
 category: craftmanship
 ---
-<p>One change at a time</p>
+One change at a time
 ---
 <p>A single commit should be consistent and contain only changes related to a single user story/issue.
           For instance, don't mix formatting changes with bug fixes.</p>

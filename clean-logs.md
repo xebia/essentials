@@ -1,9 +1,8 @@
 ---
 layout: card
-title: Keep your logs clean
 category: testing
 ---
-<p>Keep your logs clean</p>
+Keep your logs clean
 ---
 <p>
         Log everything you need, but nothing more:

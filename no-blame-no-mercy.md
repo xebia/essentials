@@ -1,9 +1,8 @@
 ---
 layout: card
-title: No blame, but no mercy
 category: collaboration
 ---
-<p>No blame, but no mercy</p>
+No blame, but no mercy
 ---
 <p>
           Make mistakes, feel obliged to learn from them.

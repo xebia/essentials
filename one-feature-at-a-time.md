@@ -1,9 +1,8 @@
 ---
 layout: card
-title: One feature at a time
 category: collaboration
 ---
-<p>One feature at a time</p>
+One feature at a time
 ---
 <p>First complete what you started before starting something
       new. It decreases time to market and allows you to apply

@@ -1,9 +1,8 @@
 ---
 layout: card
-title: Make it visible
 category: collaboration
 ---
-<p>Make it visible</p>
+Make it visible
 ---
 <p>The most effective way to get a message across is by
       visualizing it. Use simple charts and diagrams in favor of
