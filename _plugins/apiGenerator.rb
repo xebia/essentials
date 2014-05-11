@@ -11,7 +11,7 @@ module Jekyll
         if page.data['layout'] == 'card' && page.data['category'] != 'other' then
           cards.push({
             name: page.url.gsub(/\//, ''),
-            title: page.data['category'],
+            category: page.data['category'],
             front: page.data['front'],
             back: page.data['back'],
           })
