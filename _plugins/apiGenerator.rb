@@ -24,7 +24,8 @@ module Jekyll
         url: site.config['url'],
         name: site.config['name'],
         description: site.config['description'],
-        types: site.config['card_types']
+        types: site.config['card_types'],
+        timestamp: Time.now
       }
 
       f =File.new(File.join(site.config['source'], 'api.json'), 'w+')
