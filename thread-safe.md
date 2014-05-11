@@ -1,16 +1,21 @@
 ---
+
 layout: card
 category: realisation
+
 ---
+
 Aim for thread safety
+
 ---
-<p>In order of decreasing safety:</p>
-<ul>
-<li>Stateless services</li>
-<li>Immutable shared state</li>
-<li>Encapsulated locks</li>
-<li>Not thread safe</li>
-</ul>
+
+In order of decreasing safety:
+
+* Stateless services
+* Immutable shared state
+* Encapsulated locks
+* Not thread safe
+
 ---
 
 ### Motivation

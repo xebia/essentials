@@ -1,14 +1,18 @@
 ---
+
 layout: card
 category: testing
+
 ---
+
 Fail fast
+
 ---
-<p>
-        Address risks early on in the project. Don't postpone
-        difficult tasks, because they provide you with an opportunity
-        to learn. Tackle them head-on, and get it over with.
-      </p>
+
+Address risks early on in the project. Don't postpone difficult tasks, because
+they provide you with an opportunity to learn. Tackle them head-on, and get it
+over with.
+
 ---
 
 ### Motivation

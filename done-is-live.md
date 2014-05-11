@@ -1,10 +1,16 @@
 ---
+
 layout: card
 category: collaboration
+
 ---
+
 Done = Live!
+
 ---
-<p>The work of the development team is only done, when the feature is live in production.</p>
+
+The work of the development team is only done, when the feature is live in production.
+
 ---
 
 ### Motivation

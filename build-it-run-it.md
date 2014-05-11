@@ -1,16 +1,21 @@
 ---
+
 layout: card
 category: collaboration
+
 ---
+
 You build it, you run it!
+
 ---
-<p>The development team is responsible for the software in production.</p>
-<div class="blockquote">
-<p>
-          The best way to completely automate operations is to have to developers be responsible for running the software they develop. [...] There is no separate operations department at Amazon: you build it; you run it.
-        </p>
-</div>
-<div class="attribution">Werner Vogels</div>
+
+The development team is responsible for the software in production.
+
+> The best way to completely automate operations is to have to developers be
+> responsible for running the software they develop. [...] There is no separate
+> operations department at Amazon: you build it; you run it.
+> <div class="attribution">Werner Vogels</div>
+
 ---
 
 ### Motivation

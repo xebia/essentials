@@ -1,12 +1,18 @@
 ---
+
 layout: card
 category: realisation
+
 ---
+
 Leave the campground cleaner than you found it
+
 ---
-<p>Also known as the Boy Scout Rule, after the Boy Scouts of
-      America. Applied to programming: Always check in code in a
-      cleaner state than when you checked it out.</p>
+
+Also known as the Boy Scout Rule, after the Boy Scouts of America. Applied to
+programming: Always check in code in a cleaner state than when you checked it
+out.
+
 ---
 
 ### Motivation

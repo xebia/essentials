@@ -1,10 +1,16 @@
 ---
+
 layout: card
 category: realisation
+
 ---
+
 Split functionality into small units
+
 ---
-<p>A function should be replaceable by one of your colleagues in less than thirty minutes.</p>
+
+A function should be replaceable by one of your colleagues in less than thirty minutes.
+
 ---
 
 ### Motivation

@@ -1,15 +1,19 @@
 ---
+
 layout: card
 category: testing
+
 ---
+
 Think of code and test as one
+
 ---
-<div class="blockquote">
-<p>When writing the code, think of the test.</p>
-<p>When writing the test, think of the code.</p>
-<p>When you think of code and test as one, testing is easy and code is beautiful.</p>
-</div>
-<div class="attribution">Testivus</div>
+
+> When writing the code, think of the test.
+> When writing the test, think of the code.
+> When you think of code and test as one, testing is easy and code is beautiful.
+> <div class="attribution">Testivus</div>
+
 ---
 
 ### Motivation

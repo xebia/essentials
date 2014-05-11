@@ -1,12 +1,17 @@
 ---
+
 layout: card
 category: realisation
+
 ---
+
 Develop for security
+
 ---
-<p>You can't successfully add security to an existing
-      insecure system. Consider security requirements during all
-      steps of your development process.</p>
+
+You can't successfully add security to an existing insecure system. Consider
+security requirements during all steps of your development process.
+
 ---
 
 ### Motivation

@@ -1,13 +1,18 @@
 ---
+
 layout: card
 category: realisation
+
 ---
+
 Deal with non-functionals
+
 ---
-<p>Work all your non-functional requirements into goals on a
-      clearly defined scale and put them on the backlog, either as
-      part of the 'definition of done' or as separate user
-      stories.</p>
+
+Work all your non-functional requirements into goals on a clearly defined scale
+and put them on the backlog, either as part of the 'definition of done' or as
+separate user stories.
+
 ---
 
 ### Motivation

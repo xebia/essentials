@@ -1,11 +1,17 @@
 ---
+
 layout: card
 category: realisation
+
 ---
+
 Keep your hands off the machine.
+
 ---
-<p>Stop manual changes and automate the installation and configuration of the server:
-      from operating system to middleware and applications. </p>
+
+Stop manual changes and automate the installation and configuration of the
+server: from operating system to middleware and applications.
+
 ---
 
 ### Motivation

@@ -1,12 +1,18 @@
 ---
+
 layout: card
 category: testing
+
 ---
+
 Make room for exploratory testing
+
 ---
-<p>Following a test script means you're consistent, but predictable.
-      Exploratory testing reveals the things you hadn't thought to script. Be
-      curious, go outside the beaten path.</p>
+
+Following a test script means you're consistent, but predictable.  Exploratory
+testing reveals the things you hadn't thought to script. Be curious, go outside
+the beaten path.
+
 ---
 
 ### Motivation

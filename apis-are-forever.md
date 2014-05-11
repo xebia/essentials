@@ -1,19 +1,22 @@
 ---
+
 layout: card
 category: realisation
+
 ---
+
 APIs, like diamonds, are forever
+
 ---
-<p>So craft them carefully:</p>
-<div class="blockquote">
-<ul>
-<li>APIs should be self-documenting</li>
-<li>Obey the principle of least astonishment</li>
-<li>Use consistent parameter ordering across methods</li>
-<li>APIs should be easy to use, and hard to misuse</li>
-</ul>
-</div>
-<div class="attribution">Joshua Bloch</div>
+
+So craft them carefully:
+
+> * APIs should be self-documenting
+> * Obey the principle of least astonishment
+> * Use consistent parameter ordering across methods
+> * APIs should be easy to use, and hard to misuse
+> <div class="attribution">Joshua Bloch</div>
+
 ---
 
 ### Motivation

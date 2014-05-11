@@ -1,10 +1,16 @@
 ---
+
 layout: card
 category: realisation
+
 ---
+
 Automate the entire release and deployment process.
+
 ---
-<p>The release and deployment process should be fast, reliable and repeatable several times a day.</p>
+
+The release and deployment process should be fast, reliable and repeatable several times a day.
+
 ---
 
 ### Motivation

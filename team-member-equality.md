@@ -1,13 +1,17 @@
 ---
+
 layout: card
 category: collaboration
+
 ---
+
 Judge on content, not on authority
+
 ---
-<p>
-          We distinguish on the validity of the ideas, not on roles,
-      authority or location.
-      </p>
+
+We distinguish on the validity of the ideas, not on roles, authority or
+location.
+
 ---
 
 ### Also known as

@@ -1,12 +1,18 @@
 ---
+
 layout: card
 category: testing
+
 ---
+
 Start with acceptance criteria
+
 ---
-<p>Acceptance criteria should be part of your definition of ready. Make sure everyone
-      has a common understanding of what they are before building anything. Safeguard your
-      acceptance criteria in automated tests.</p>
+
+Acceptance criteria should be part of your definition of ready. Make sure
+everyone has a common understanding of what they are before building anything.
+Safeguard your acceptance criteria in automated tests.
+
 ---
 ### Also known as
 

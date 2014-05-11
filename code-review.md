@@ -1,15 +1,19 @@
 ---
+
 layout: card
 category: collaboration
+
 ---
+
 Review code
+
 ---
-<p>The primary goal of code review is to increase its
-      quality. Can be used as an additional safety net alongside pair
-      programming.
-      </p>
-<p>It is also a good way to share knowledge and pick up some
-      new tricks.</p>
+
+The primary goal of code review is to increase its quality. Can be used as an
+additional safety net alongside pair programming.
+
+It is also a good way to share knowledge and pick up some new tricks.
+
 ---
 
 ### Motivation

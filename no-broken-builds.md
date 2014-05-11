@@ -1,10 +1,17 @@
 ---
+
 layout: card
 category: collaboration
+
 ---
+
 Sleep easy on a green build
+
 ---
-<p>It's the team's code; it's also the team's responsibility to have a running build. If the person who broke the build isn't around, that's no excuse.</p>
+
+It's the team's code; it's also the team's responsibility to have a running
+build. If the person who broke the build isn't around, that's no excuse.
+
 ---
 
 ### Also known as

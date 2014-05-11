@@ -1,11 +1,17 @@
 ---
+
 layout: card
 category: realisation
+
 ---
+
 Integrate early
+
 ---
-<p>The point where two independently developed modules or systems
-      meet tends to be the locus of problems. Tackle these early on.</p>
+
+The point where two independently developed modules or systems meet tends to be
+the locus of problems. Tackle these early on.
+
 ---
 
 ### Motivation

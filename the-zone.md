@@ -1,15 +1,18 @@
 ---
+
 layout: card
 category: collaboration
+
 ---
+
 Respect the zone
+
 ---
-<p>&lsquo;The zone&rsquo; is a mode of consciousness that is associated
-      with higher capabilities. When in the zone a developer is more
-      productive.</p>
-<p>
-        When a developer is in the zone, avoid disruptions.
-      </p>
+
+&lsquo;The zone&rsquo; is a mode of consciousness that is associated with higher capabilities. When in the zone a developer is more productive.
+
+When a developer is in the zone, avoid disruptions.
+
 ---
 
 ### Also know as

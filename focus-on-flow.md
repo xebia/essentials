@@ -1,11 +1,18 @@
 ---
+
 layout: card
 category: collaboration
+
 ---
+
 Focus on flow
+
 ---
-<p>Focus on banishing costs increases costs.</p>
-<p>Focus on flow decreases costs.</p>
+
+Focus on banishing costs increases costs.
+
+Focus on flow decreases costs.
+
 ---
 
 ### Motivation

@@ -1,13 +1,18 @@
 ---
+
 layout: card
 category: collaboration
+
 ---
+
 You get what you measure
+
 ---
-<p>Metrics are useful, but beware of tunnel vision. If you focus exclusively
-      on any specific quality attributes (like code coverage), other attributes may suffer.</p>
-<p>This effect is magnified when the carrot or the stick is involved, such as a target
-      code coverage ordained by management.</p>
+
+Metrics are useful, but beware of tunnel vision. If you focus exclusively on any specific quality attributes (like code coverage), other attributes may suffer.
+
+This effect is magnified when the carrot or the stick is involved, such as a target code coverage ordained by management.
+
 ---
 
 Whenever you introduce some sort of [visible metric](make-it-visible), like Code Coverage Analysis or a [Sonar](http://sonarqube.org/) violations count, you introduce a pressure to improve that metric. You can multiply the effect by setting a goal or KPI or cash bonus on achieving some sort of target value. Worse still, you can set a penalty on not reaching that target value. Goals and target values are pretty arbitrary anyway. Sure, 80% coverage is better than 78%, but why not aim for 82?

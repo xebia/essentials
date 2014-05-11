@@ -1,12 +1,18 @@
 ---
+
 layout: card
 category: realisation
+
 ---
+
 Share the design
+
 ---
-<p>Everyone in the team should be aware of the core design
-      ideas that have given shape and structure to the software so
-      far, and understand the underlying intent.</p>
+
+Everyone in the team should be aware of the core design ideas that have given
+shape and structure to the software so far, and understand the underlying
+intent.
+
 ---
 
 ### Motivation

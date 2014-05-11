@@ -1,14 +1,18 @@
 ---
+
 layout: card
 category: craftmanship
+
 ---
+
 Three strikes and you automate
+
 ---
-<ul>
-<li>The first time you do something, you just do it manually</li>
-<li>The second time you do something similar, you wince at the repetition, but you do it anyway</li>
-<li>The third time you do something similar, you automate</li>
-</ul>
+
+* The first time you do something, you just do it manually
+* The second time you do something similar, you wince at the repetition, but you do it anyway
+* The third time you do something similar, you automate
+
 ---
 
 * The first time you do something, just do it by hand.

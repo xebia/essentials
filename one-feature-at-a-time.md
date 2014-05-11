@@ -1,13 +1,18 @@
 ---
+
 layout: card
 category: collaboration
+
 ---
+
 One feature at a time
+
 ---
-<p>First complete what you started before starting something
-      new. It decreases time to market and allows you to apply
-      experience gained during development of the first feature in the
-      development of the next one.</p>
+
+First complete what you started before starting something new. It decreases
+time to market and allows you to apply experience gained during development of
+the first feature in the development of the next one.
+
 ---
 
 ### Motivation

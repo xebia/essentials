@@ -1,19 +1,21 @@
 ---
+
 layout: card
 category: realisation
+
 ---
+
 Your solution should not be more complicated than the problem
-      problem</p>
+
 ---
-<p>
-        Also known as:
-      </p>
-<ul>
-<li>The simplest thing that could possibly work</li>
-<li>Keep It Simple, Stupid (KISS)</li>
-<li>Less is more</li>
-<li>You Ain't Gonna Need It (YAGNI)</li>
-</ul>
+
+Also known as:
+
+* The simplest thing that could possibly work
+* Keep It Simple, Stupid (KISS)
+* Less is more
+* You Ain't Gonna Need It (YAGNI)
+
 ---
 
 ### Also known as

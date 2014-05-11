@@ -1,12 +1,17 @@
 ---
+
 layout: card
 category: realisation
+
 ---
+
 Write small and focused interfaces
+
 ---
-<p>Also known as the &lsquo;interface segregation principle&rsquo;. Many
-      specific interfaces are better than one combined general
-      interface.</p>
+
+Also known as the &lsquo;interface segregation principle&rsquo;. Many specific
+interfaces are better than one combined general interface.
+
 ---
 
 ### Also known as

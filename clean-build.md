@@ -1,12 +1,16 @@
 ---
+
 layout: card
 category: craftmanship
+
 ---
+
 Keep the build clean
+
 ---
-<p>
-          The build logs should tell a clear story about failures, errors, but also warnings.
-      </p>
+
+The build logs should tell a clear story about failures, errors, but also warnings.
+
 ---
 
 ### Also known as

@@ -1,19 +1,23 @@
 ---
+
 layout: card
 category: craftmanship
+
 ---
+
 Master your tools
+
 ---
-<p>Expect unprecedented productivity gain when investing time
-      in mastering your tools. Tools will help you to:</p>
-<ul>
-<li>Accelerate</li>
-<li>Focus</li>
-<li>Avoid repetitive tasks</li>
-<li>Eliminate duplication</li>
-</ul>
-<p>Tools include your IDE, commandline tools, desktop tools,
-      editors, etc.</p>
+
+Expect unprecedented productivity gain when investing time in mastering your tools. Tools will help you to:
+
+* Accelerate
+* Focus
+* Avoid repetitive tasks
+* Eliminate duplication
+
+Tools include your IDE, commandline tools, desktop tools, editors, etc.
+
 ---
 
 ### Motivation

@@ -1,15 +1,19 @@
 ---
+
 layout: card
 category: craftmanship
+
 ---
+
 Comment with care
+
 ---
-<ul>
-<li>Don't document bad code &ndash; rewrite it</li>
-<li>Don't repeat the code &ndash; clarify its intent</li>
-<li>Document surprises and workarounds</li>
-<li>Make every comment count</li>
-</ul>
+
+* Don't document bad code &ndash; rewrite it
+* Don't repeat the code &ndash; clarify its intent
+* Document surprises and workarounds
+* Make every comment count
+
 ---
 
 ### Motivation

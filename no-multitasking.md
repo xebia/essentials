@@ -1,12 +1,20 @@
 ---
+
 layout: card
 category: craftmanship
+
 ---
+
 No multitasking
+
 ---
-<p>Doing multiple things at once will lower your productivity instead of raising it.</p>
-<p>Try, as much as possible, to focus on one thing at a time.</p>
-<p>To do great work, you need great focus.</p>
+
+Doing multiple things at once will lower your productivity instead of raising it.
+
+Try, as much as possible, to focus on one thing at a time.
+
+To do great work, you need great focus.
+
 ---
 
 ### Motivation

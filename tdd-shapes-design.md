@@ -1,12 +1,19 @@
 ---
+
 layout: card
 category: testing
+
 ---
+
 Test Driven Development shapes design
+
 ---
-<p>Well-structured code follows naturally from the test-driven development (TDD) process.</p>
-<p>However, locally emergent architecture without an overall vision can become
-      incoherent in the large.</p>
+
+Well-structured code follows naturally from the test-driven development (TDD) process.
+
+However, locally emergent architecture without an overall vision can become
+incoherent in the large.
+
 ---
 
 Also known as

@@ -1,15 +1,19 @@
 ---
+
 layout: card
 category: craftmanship
+
 ---
+
 Prefer rich modes of communication
+
 ---
-<ul>
-<li>Personal conversation over telephone call</li>
-<li>Telephone call over chat</li>
-<li>Chat over email</li>
-<li>Email over voice mail</li>
-</ul>
+
+* Personal conversation over telephone call
+* Telephone call over chat
+* Chat over email
+* Email over voice mail
+
 ---
 
 ### Motivation

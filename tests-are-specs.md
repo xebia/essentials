@@ -1,12 +1,19 @@
 ---
+
 layout: card
 category: testing
+
 ---
+
 Tests are Specifications
+
 ---
-<p>Don't test an implementation, test its conformance to a required behaviour. Tests
-      written in this way become executable specifications, stories and examples. They document
-      what the code is intended to do, not cast in cement how it does so.</p>
+
+Don't test an implementation, test its conformance to a required behaviour.
+Tests written in this way become executable specifications, stories and
+examples. They document what the code is intended to do, not cast in cement how
+it does so.
+
 ---
 
 ### Also known as

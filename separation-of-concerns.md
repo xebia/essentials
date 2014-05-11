@@ -1,13 +1,17 @@
 ---
+
 layout: card
 category: realisation
+
 ---
+
 Separation of concerns
+
 ---
-<div class="blockquote">
-<p>Separate a program into non-overlapping concerns.</p>
-</div>
-<div class="attribution">Edsger W. Dijkstra</div>
+
+> Separate a program into non-overlapping concerns.
+> <div class="attribution">Edsger W. Dijkstra</div>
+
 ---
 
 Separate a program into non-overlapping concerns. Edsger W. Dijkstra

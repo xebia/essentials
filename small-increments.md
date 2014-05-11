@@ -1,10 +1,18 @@
 ---
+
 layout: card
 category: craftmanship
+
 ---
+
 Work in small increments
+
 ---
-<p>Every commit should be a change from one stable state of the system to another stable state of the system, and should not represent more than two hours of work.</p>
+
+Every commit should be a change from one stable state of the system to another
+stable state of the system, and should not represent more than two hours of
+work.
+
 ---
 
 ### Motivation

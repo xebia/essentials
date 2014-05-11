@@ -1,19 +1,22 @@
 ---
+
 layout: card
 category: testing
+
 ---
+
 Keep your logs clean
+
 ---
-<p>
-        Log everything you need, but nothing more:
-      </p>
-<ul>
-<li>Log at the right level</li>
-<li>Log every message once</li>
-<li>Categorize if needed</li>
-<li>Throw meaningful exceptions</li>
-<li>Don't cry wolf</li>
-</ul>
+
+Log everything you need, but nothing more:
+
+* Log at the right level
+* Log every message once
+* Categorize if needed
+* Throw meaningful exceptions
+* Don't cry wolf
+
 ---
 
 ### Motivation

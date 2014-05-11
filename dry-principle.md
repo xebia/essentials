@@ -1,13 +1,17 @@
 ---
+
 layout: card
 category: craftmanship
+
 ---
+
 Don't Repeat Yourself
+
 ---
-<div class="blockquote">
-<p>Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.</p>
-</div>
-<div class="attribution">Andy Hunt and Dave Thomas</div>
+
+> Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.
+> <div class="attribution">Andy Hunt and Dave Thomas</div>
+
 ---
 
 ### Also known as

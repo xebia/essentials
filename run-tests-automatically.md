@@ -1,12 +1,18 @@
 ---
+
 layout: card
 category: testing
+
 ---
+
 Run tests automatically
+
 ---
-<p>Starting tests by hand is needless friction. Don't just use a build server. Use
-      an IDE plugin that tracks source/test dependency and runs the affected tests whenever
-      you save a file.</p>
+
+Starting tests by hand is needless friction. Don't just use a build server.
+Use an IDE plugin that tracks source/test dependency and runs the affected
+tests whenever you save a file.
+
 ---
 
 ### Motivation

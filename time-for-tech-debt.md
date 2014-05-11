@@ -1,13 +1,16 @@
 ---
+
 layout: card
 category: craftmanship
+
 ---
+
 Take time to tackle tech debt
+
 ---
-<p>
-            Make your Product Owner understand why it is critical to
-            fix technical debt. Explain that sustainable pace is the only way.
-        </p>
+
+Make your Product Owner understand why it is critical to fix technical debt. Explain that sustainable pace is the only way.
+
 ---
 
 Also known as

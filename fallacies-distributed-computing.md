@@ -1,22 +1,24 @@
 ---
+
 layout: card
 category: realisation
+
 ---
+
 Remember the fallacies of distributed computing
+
 ---
-<div class="blockquote">
-<ul>
-<li>The network is reliable</li>
-<li>Latency is zero</li>
-<li>Bandwidth is infinite</li>
-<li>The network is secure</li>
-<li>Topology doesn't change</li>
-<li>There is one administrator</li>
-<li>Transport cost is zero</li>
-<li>The network is homogeneous</li>
-</ul>
-</div>
-<div class="attribution">Peter Deutsch</div>
+
+> * The network is reliable
+> * Latency is zero
+> * Bandwidth is infinite
+> * The network is secure
+> * Topology doesn't change
+> * There is one administrator
+> * Transport cost is zero
+> * The network is homogeneous
+> <div class="attribution">Peter Deutsch</div>
+
 ---
 
 ### Motivation

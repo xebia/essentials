@@ -1,10 +1,16 @@
 ---
+
 layout: card
 category: collaboration
+
 ---
+
 Have fun
+
 ---
-<p>If it ain't fun, it probably ain't right.</p>
+
+If it ain't fun, it probably ain't right.
+
 ---
 
 ### Also known as

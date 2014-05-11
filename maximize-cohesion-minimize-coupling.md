@@ -1,11 +1,16 @@
 ---
+
 layout: card
 category: realisation
+
 ---
+
 Maximize cohesion Minimize coupling
-<p>Minimize coupling</p>
+
 ---
-<p>Maximizing cohesion and minimizing coupling reduces complexity and increases testability.</p>
+
+Maximizing cohesion and minimizing coupling reduces complexity and increases testability.
+
 ---
 
 ### Motivation

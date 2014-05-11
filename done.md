@@ -1,11 +1,17 @@
 ---
+
 layout: card
 category: collaboration
+
 ---
+
 It ain't over till it's done
+
 ---
-<p>Create a clear definition of done to have a firm agreement on
-      whether a task is finished or not.</p>
+
+Create a clear definition of done to have a firm agreement on whether a task is
+finished or not.
+
 ---
 
 ### Motivation

@@ -1,14 +1,18 @@
 ---
+
 layout: card
 category: collaboration
+
 ---
+
 No blame, but no mercy
+
 ---
-<p>
-          Make mistakes, feel obliged to learn from them.
-      Look back and learn from what you're doing; actively improve. Criticize bad code, don't
-      criticize people. Fix it and share what you've learned.
-      </p>
+
+Make mistakes, feel obliged to learn from them.  Look back and learn from what
+you're doing; actively improve. Criticize bad code, don't criticize people. Fix
+it and share what you've learned.
+
 ---
 
 Bad program code is actively harmful. It's not just that a specific piece of functionality is flawed and/or hard to maintain. Badness tends to spill over into the surrounding code, because maintainers get confused, demotivated and/or frustrated into producing more of it. This is known as “Bit Rot”. Developers should [not feel comfortable|no-broken-windows] around bad code.

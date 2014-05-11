@@ -1,15 +1,21 @@
 ---
+
 layout: card
 category: craftmanship
+
 ---
+
 Prevent your code base from turning into a museum
+
 ---
-<p>There is no point in keeping dead code lying around in
-      your code base. Get rid of it. Your version history will always
-      allow you to get it back if you need to. The same goes for
-      commented-out code: get rid of it.</p>
-<p>Keeping your codebase free of reminiscences of the past
-      will make it easier to navigate and understand.</p>
+
+There is no point in keeping dead code lying around in your code base. Get rid
+of it. Your version history will always allow you to get it back if you need
+to. The same goes for commented-out code: get rid of it.
+
+Keeping your codebase free of reminiscences of the past will make it easier to
+navigate and understand.
+
 ---
 
 ### Also known as

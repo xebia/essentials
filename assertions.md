@@ -1,13 +1,17 @@
 ---
+
 layout: card
 category: realisation
+
 ---
+
 Assert against improper behaviour
+
 ---
-<div class="blockquote">
-<p>If it can't happen, use assertions to assure it won't.</p>
-</div>
-<div class="attribution">Andrew Hunt, David Thomas</div>
+
+> If it can't happen, use assertions to assure it won't.
+> <div class="attribution">Andrew Hunt, David Thomas</div>
+
 ---
 
 ### Motivation

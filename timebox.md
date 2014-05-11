@@ -1,15 +1,19 @@
 ---
+
 layout: card
 category: collaboration
+
 ---
+
 Timebox the unknown
+
 ---
-<ul>
-<li>Timebox a story/task that can't be estimated during
-        planning.</li>
-<li>Communicate the results to the product owner / scrum master in order to have accurate estimates.</li>
-<li>You must stay within the boundaries of a timebox.</li>
-</ul>
+
+
+* Timebox a story/task that can't be estimated during planning.
+* Communicate the results to the product owner / scrum master in order to have accurate estimates.
+* You must stay within the boundaries of a timebox.
+
 ---
 
 ### Also known as

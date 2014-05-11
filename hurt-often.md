@@ -1,11 +1,17 @@
 ---
+
 layout: card
 category: collaboration
+
 ---
+
 If it hurts, do it more often
+
 ---
-<p>If any particular task, such as deployment to production, takes
-      inordinate effort, force yourself to streamline the process.</p>
+
+If any particular task, such as deployment to production, takes inordinate
+effort, force yourself to streamline the process.
+
 ---
 
 ### Motivation

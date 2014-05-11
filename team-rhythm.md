@@ -1,14 +1,19 @@
 ---
+
 layout: card
 category: collaboration
+
 ---
+
 Get the team in a rhythm
+
 ---
-<p>
-        A team that works according to a defined heartbeat is much
-        more effective since it doesn't waste time organizing meetings
-        or spend time thinking about and planning what to do when.
-      </p>
+
+
+A team that works according to a defined heartbeat is much more effective since
+it doesn't waste time organizing meetings or spend time thinking about and
+planning what to do when.
+
 ---
 
 ### Motivation

@@ -1,11 +1,17 @@
 ---
+
 layout: card
 category: craftmanship
+
 ---
+
 Learn a new language every year.
+
 ---
-<p>Learning a new language teaches you new concepts that will
-      benefit you when programming in your main language.</p>
+
+Learning a new language teaches you new concepts that will benefit you when
+programming in your main language.
+
 ---
 
 ### Motivation

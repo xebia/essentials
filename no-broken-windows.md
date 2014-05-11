@@ -1,11 +1,17 @@
 ---
+
 layout: card
 category: collaboration
+
 ---
+
 No broken windows
+
 ---
-<p>If something is broken, then fix it now, otherwise it will
-      come back to haunt you in the future.</p>
+
+If something is broken, then fix it now, otherwise it will come back to haunt
+you in the future.
+
 ---
 
 ### Also known as

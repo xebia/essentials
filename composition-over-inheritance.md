@@ -1,11 +1,17 @@
 ---
+
 layout: card
 category: realisation
+
 ---
+
 Favor composition over inheritance
+
 ---
-<p>Also known as the &lsquo;composite reuse principle&rsquo;. Favor
-      composition over inheritance to achieve polymorphism.</p>
+
+Also known as the &lsquo;composite reuse principle&rsquo;. Favor composition
+over inheritance to achieve polymorphism.
+
 ---
 
 ### Also known as

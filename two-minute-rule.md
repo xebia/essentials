@@ -1,16 +1,17 @@
 ---
+
 layout: card
 category: craftmanship
 ---
+
 If you are stuck developing for more than two minutes, you MUST ask somebody else
-      MUST ask somebody else</p>
+
 ---
-<p>It's not professional to waste time by trying to solve
-          something on your own that is quicker solved with help.
-      </p>
-<p>
-          You know you're stuck when you can't think of new terms to type into Google.
-      </p>
+
+It's not professional to waste time by trying to solve something on your own that is quicker solved with help.
+
+You know you're stuck when you can't think of new terms to type into Google.
+
 ---
 
 ### Also known as
