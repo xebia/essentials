@@ -14,7 +14,7 @@ module Jekyll
       self.data['title'] = "#{category_title_prefix}#{category}"
       self.data['cards'] = []
       site.pages.each do |page|
-        if page.data['category'] == category
+        if page.data && page.data['category'] == category
           self.data['cards'] << page.basename
         end
       end
@@ -33,7 +33,7 @@ module Jekyll
       self.data['title'] = 'all'
       self.data['cards'] = []
       site.pages.each do |page|
-        if page.data['category'] != 'other'
+        if page.data && page.data['category'] != 'other'
           self.data['cards'] << page.basename
         end
       end
