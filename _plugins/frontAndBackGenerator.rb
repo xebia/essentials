@@ -1,3 +1,6 @@
+# compiles the first --- seperated block into page.data.front, and the second
+# into page.data.back, and removes both from the file content
+
 module Jekyll
   require 'json'
 
@@ -11,10 +14,13 @@ module Jekyll
       site.pages.each do |page|
         if page.data['layout'] == 'card' then
           blocks = page.content.scan(/(.*?)---/m)
+
           if blocks.length == 2 then
             page.data['front'] = converter.convert(blocks[0].join(''))
             page.data['back'] = converter.convert(blocks[1].join(''))
           end
+
+          page.content = page.content.gsub(/.*^---$/m,'')
         end
       end
     end
