@@ -1,59 +1,15 @@
 <html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=600">
-    <base href="{{site.url}}" >
-    <title> {{page.title}} - xebia Essentials</title>
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet" type="text/css">
-    <link href="style/style.css" type="text/css" rel="stylesheet">
-    <style type="text/css"></style>
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css">
-    <link href="/index.html" rel="up">
-    <link href="/cards" rel="index">
-    <meta property="og:url" content="{{site.url}}{{page.url}}">
-    <meta property="og:title" content="{{page.title}}">
-    <meta content="{{site.name}}" property="og:site_name">
-    <meta content="website" property="og:type">
-    <meta content="en_US" property="og:locale">
-    <meta content="{{site.img}}/XebiaEssentialsCards.jpg" property="og:image">
-    <meta content="{{site.description}}" property="og:config">
-    <script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript">
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-45163453-1', 'xebia.com');
-      ga('send', 'pageview');
-    </script>
-    <link type="text/css" rel="stylesheet" href="chrome-extension://cpngackimfmofbokmjmljamhdncknpmg/style.css">
-    <script type="text/javascript" charset="utf-8" src="chrome-extension://cpngackimfmofbokmjmljamhdncknpmg/js/page_context.js"></script>
-  </head>
+  {% include head.html %}
   <body>
     <div id="main">
-      <div id="top"></div>
-      <div id="masthead" style="background-color:
-        {% if page.category == 'craftmanship' %} #F80068
-        {% elsif page.category == 'collaboration' %} #FC7A25
-        {% elsif page.category == 'realisation' %} #107FD5
-        {% elsif page.category == 'testing' %} #6DC726
-        {% elsif page.category == 'other' %} #4C2F5C
-        {% else %} #000000
-        {% endif %}" />
-        <para>{{page.title}}</para>
-        <div class="sharing">
-          <a target="_blank" rel="nofollow" href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{site.url}}{{page.url}}"> <i class="fa fa-linkedin"></i></a>
-          <a target="_blank" rel="nofollow" href="http://twitter.com/share?text={{page.title}}&amp;url={{site.url}}{{page.url}}"><i class="fa fa-twitter"></i></a>
-          <a target="_blank" rel="nofollow" href="https://plus.google.com/share?url={{site.url}}{{page.url}}"><i class="fa fa-google-plus-square"></i></a>
-          <a target="_blank" rel="nofollow" href="http://www.facebook.com/sharer.php?t={{page.title}}&amp;u={{site.url}}{{page.url}}"><i class="fa fa-facebook"></i></a>
-        </div>
-      </div>
+      {% include header.html %}
       <div id="body">
-        <div class="wiki-content" id="main-content">
-          {{ content }}
-        </div>
-        <div id="footer">This page is part of the <a rel="collection" href="/index.html">Xebia Essentials</a>. If you have any questions, remarks or suggestions, please feel free to send an email to <a href="mailto:{{site.mailto}}">{{site.mailto}}</a>.</div>
-      </div>
-      <div id="copyright">Copyright © 2011-2014 Xebia <a rel="author" href="http://www.xebia.com"><img alt="Xebia" height="20" width="60" src="{{site.img}}/logo_xebia-120x40.jpg" align="right"></a>
+        {% include content.html %}
+        {% unless page.path contains 'index' %}
+          {% include banner.html %}
+        {% endunless %}
+        {% include footer.html %}
+        {% include copyright.html %}
       </div>
     </div>
   </body>
