@@ -20,11 +20,11 @@ module Jekyll
 
       api = {
         cards: cards,
+        categories: site.config['card_types'],
         mailto: site.config['mailto'],
         url: site.config['url'],
         name: site.config['name'],
         description: site.config['description'],
-        types: site.config['card_types'],
         timestamp: Time.now
       }
 
