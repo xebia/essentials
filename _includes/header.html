@@ -1,0 +1,17 @@
+<div id="top"></div>
+<div id="masthead" style="background-color:
+  {% if page.category == 'craftmanship' %} #F80068
+  {% elsif page.category == 'collaboration' %} #FC7A25
+  {% elsif page.category == 'realisation' %} #107FD5
+  {% elsif page.category == 'testing' %} #6DC726
+  {% elsif page.category == 'other' %} #4C2F5C
+  {% else %} #000000
+  {% endif %}" />
+  <para>{{page.title}}</para>
+  <div class="sharing">
+    <a target="_blank" rel="nofollow" href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{site.url}}{{page.url}}"> <i class="fa fa-linkedin"></i></a>
+    <a target="_blank" rel="nofollow" href="http://twitter.com/share?text={{page.title}}&amp;url={{site.url}}{{page.url}}"><i class="fa fa-twitter"></i></a>
+    <a target="_blank" rel="nofollow" href="https://plus.google.com/share?url={{site.url}}{{page.url}}"><i class="fa fa-google-plus-square"></i></a>
+    <a target="_blank" rel="nofollow" href="http://www.facebook.com/sharer.php?t={{page.title}}&amp;u={{site.url}}{{page.url}}"><i class="fa fa-facebook"></i></a>
+  </div>
+</div>

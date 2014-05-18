@@ -15,4 +15,3 @@ markdown: rdiscount
 permalink: pretty
 
 exclude: ['README.md']
-

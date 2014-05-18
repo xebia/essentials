@@ -1,5 +1,6 @@
 ---
-layout: home
+
+layout: card
 title: Xebia essentials
 category: other
 ---
