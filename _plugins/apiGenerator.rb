@@ -1,9 +1,22 @@
+require 'json'
 module Jekyll
-  require 'json'
+
+  class JSONIndex < Page
+    def initialize(site, base, dir, name, json)
+      @site = site
+      @base = base
+      @dir = dir
+      @name = name
+
+      self.process(@name)
+      self.read_yaml(File.join(base, '_layouts'), 'page.json')
+      self.data['data'] = json
+    end
+  end
 
   class ApiGenerator < Generator
-    safe false
-    priority :low
+    safe true
+    priority :lowest
 
     def generate(site)
       cards = Array.new
@@ -28,10 +41,23 @@ module Jekyll
         timestamp: Time.now
       }
 
-      f =File.new(File.join(site.config['source'], 'api.json'), 'w+')
-      f.puts api.to_json
-    end
+      #f =File.new(File.join(site.config['source'], 'api.json'), 'w+')
+      #f.puts api.to_json
+      site.pages << JSONIndex.new(site, site.source, '', 'api.json', api.to_json)
 
+    end
   end
 
+end
+
+# Filter to output JSON data
+
+module JsonFilter
+  def json(hash)
+    hash.delete('next')
+    hash.delete('previous')
+    hash.to_json
+  end
+
+  Liquid::Template.register_filter self
 end
