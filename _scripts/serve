@@ -1,0 +1,21 @@
+#!/bin/bash
+# serve with _devConfig overrides for _config
+# watch for file changes and automatically regenerate
+# and enable debug tracing of plugins
+
+if ! jekyll -v >/dev/null 2>&1; then
+  cat >&2 <<HELP
+Can not find jekyll
+Ensure ruby is installed through your system's package manager and get jekyll through:
+
+    gem install jekyll
+
+see http://jekyllrb.com/
+HELP
+  exit 1;
+fi;
+
+jekyll serve \
+  --config "_config.yml,_devConfig.yml" \
+  -w \
+  --trace  \
