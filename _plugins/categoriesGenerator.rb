@@ -44,7 +44,7 @@ module Jekyll
     safe true
     def generate(site)
       site.config["card_types"].each do |category|
-        site.pages << CategoryPage.new(site, site.source, File.join("categories", category), category)
+        site.pages << CategoryPage.new(site, site.source, File.join("categories", category['name']), category['name'])
       end
       site.pages << OverviewPage.new(site, 'all')
     end
