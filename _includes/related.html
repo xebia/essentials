@@ -1,0 +1,10 @@
+{% for card in page.related %}
+  {% if forloop.first %}
+  <h3>Related</h3>
+  <ul>
+  {% endif %}
+  <li>{{ card | card_link }}</li>
+  {% if forloop.last %}
+  </ul>
+  {% endif %}
+{% endfor %}
