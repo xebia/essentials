@@ -36,4 +36,4 @@ jekyll build
 
 # ssh it into production, gzipping the stream and unpacking on arrival
 # be sure to have set up pubkey authentication
-tar zcf - "${BUILD_DIR}" | ssh ${USER}@${SERVER} "tar zxf - -C ~/ && rm -r ${PRODUCTION_DIR} && mv ~/${BUILD_DIR} ${PRODUCTION_DIR}"
+tar zcf - "${BUILD_DIR}" | ssh ${USER}@${SERVER} "tar zxf - --touch -C ~/ && rm -r ${PRODUCTION_DIR} && mv ~/${BUILD_DIR} ${PRODUCTION_DIR}"
