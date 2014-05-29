@@ -3,6 +3,8 @@
 layout: card
 title: Xebia essentials
 category: other
+no-banner: true
+
 ---
 
 > Good software does not come about just like that; by mere coincidence...
