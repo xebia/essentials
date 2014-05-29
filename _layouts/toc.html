@@ -3,13 +3,13 @@ layout: card
 ---
 {{ content }}
 <ul>
-  {% for page in site.pages %}
+  {% sorted_for page in site.pages sort_by:title case_sensitive:true %}
     {% if page.layout == 'card' %}
       {% if page.category != 'other' %}
         <li>
           <a href="{{ page.url }}">
-            {{ page.url | remove:'/' }}
+            {{ page.title }}
           </a>
       {% endif %}
     {% endif %}
-  {% endfor %}
+  {% endsorted_for %}
