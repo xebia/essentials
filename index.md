@@ -23,7 +23,7 @@ In many cases it involves ideas, or the expression of those ideas, for which we 
 
 We are not going to explain how you should put this deck to good use. As Einstein said, “imagination is more important than knowledge”, and thus we encourage you to rely on your imagination. At the very least, these cards are a promise for a conversation. And these conversations are a breeding ground for new ideas.
 
-We are convinced, it's many of these ideas that make our people into the craftsmen they are. Take a look at the full list of <a href="/cards" rel="index">cards</a> and see for yourself.
+We are convinced, it's many of these ideas that make our people into the craftsmen they are. Take a look at the full list of <a href="/cards" rel="index">cards</a>, or browse the [categories](/categories/), and see for yourself.
 
 <a href="http://xebia.com/books/xebia-essentials?utm_source=index&utm_medium=web&utm_campaign=essentials" class="buybutton"><i class="fa fa-shopping-cart"></i> Buy Now</a>
 If you'd like the Xebia Essentials for your team, you can get your own deck of Essentials cards in the Xebia store.
