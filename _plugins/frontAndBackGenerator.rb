@@ -13,7 +13,7 @@ module Jekyll
 
       site.pages.each do |page|
         if page.data['layout'] == 'card' then
-          blocks = page.content.scan(/(.*?)---/m)
+          blocks = page.content.scan(/(.*?)^---/m)
 
           if blocks.length == 2 then
             page.data['title'] = blocks[0][0]
