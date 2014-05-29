@@ -1,0 +1,15 @@
+---
+layout: card
+---
+{{ content }}
+<ul>
+  {% for page in site.pages %}
+    {% if page.layout == 'card' %}
+      {% if page.category != 'other' %}
+        <li>
+          <a href="{{ page.url }}">
+            {{ page.url | remove:'/' }}
+          </a>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
