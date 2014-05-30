@@ -1,7 +1,7 @@
 ---
 
 layout: card
-category: craftmanship
+category: craftsmanship
 
 ---
 
@@ -38,5 +38,5 @@ Software engineers pride themselves on solving problems and "doing the impossibl
 ###References
 
 * [Manifesto for Software Craftsmanship](http://manifesto.softwarecraftsmanship.org/)
-* [Craftsmanship and Ethics, Robert C. Martin](http://www.infoq.com/presentations/craftmanship-ethics)
+* [Craftsmanship and Ethics, Robert C. Martin](http://www.infoq.com/presentations/craftsmanship-ethics)
 

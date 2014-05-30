@@ -1,7 +1,7 @@
 ---
 
 layout: card
-category: craftmanship
+category: craftsmanship
 
 ---
 

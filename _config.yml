@@ -1,10 +1,10 @@
 name: "Xebia Essentials"
-description: "The Xebia Essentials is a deck of flash cards about software craftmanship."
+description: "The Xebia Essentials is a deck of flash cards about software craftsmanship."
 
 category_title_prefix: ""
 
 card_types:
-  - name: craftmanship
+  - name: craftsmanship
     colour: "#F80068"
   - name: collaboration
     colour: "#FC7A25"

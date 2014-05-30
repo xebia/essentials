@@ -1,7 +1,7 @@
 ---
 
 layout: card
-category: craftmanship
+category: craftsmanship
 ---
 
 If you are stuck developing for more than two minutes, you MUST ask somebody else
