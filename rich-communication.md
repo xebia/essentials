@@ -30,5 +30,5 @@ Not all methods of communication are created equal. Choose the best available me
 
 ### References
 
-* [Respect the Zone](respect-the-zone)
+* [Respect the Zone](the-zone)
 
