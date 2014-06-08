@@ -42,6 +42,7 @@ GEM
       ffi (>= 0.5.0)
     rb-kqueue (0.2.3)
       ffi (>= 0.5.0)
+    rdiscount (2.1.7.1)
     redcarpet (2.3.0)
     ruby-lint (2.0.0)
       parser (~> 2.1, >= 2.1.1)
@@ -57,5 +58,5 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 1.4.0)
-  redcarpet
+  rdiscount
   ruby-lint
