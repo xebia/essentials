@@ -7,6 +7,7 @@
 [Xebia](http://www.xebia.com) |
 [Blog](http://blog.xebia.com)
 
+[![Build Status](https://travis-ci.org/xebia/essentials.svg?branch=master)](https://travis-ci.org/xebia/essentials)
 [![Stories in Ready](https://badge.waffle.io/xebia/essentials.png?label=ready)](https://waffle.io/xebia/essentials)
 
 # Xebia Essentials static site generator
