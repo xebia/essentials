@@ -4,6 +4,8 @@
 [Xebia](http://www.xebia.com)
 [Blog](http://blog.xebia.com)
 
+[![Stories in Ready](https://badge.waffle.io/xebia/essentials.png?label=ready)](https://waffle.io/xebia/essentials)
+
 # Statically generated site for the Xebia Essentials cards
 
 The site is generated using [Jekyll](http://jekyllrb.com/) and the content is
