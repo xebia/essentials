@@ -43,7 +43,7 @@ the images and text-content of the cards for which the copyright is maintained.
 
 Install all dependencies through
 
-  $ gem install
+  $ bundle install
 
 ### Build & Serve
 
