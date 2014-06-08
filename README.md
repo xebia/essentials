@@ -9,14 +9,11 @@
 
 [![Stories in Ready](https://badge.waffle.io/xebia/essentials.png?label=ready)](https://waffle.io/xebia/essentials)
 
-# Statically generated site for the Xebia Essentials cards
+# Xebia Essentials static site generator
 
-The site is generated using [Jekyll](http://jekyllrb.com/) and the content is
-written in [Markdown](http://daringfireball.net/projects/markdown).
+This repository contains the static site generator for the [Xebia Essentials](http://essentials.xebia.com), along with all the cards' content and metadata. Each page contains [YAML](http://www.yaml.org/) [front matter](http://jekyllrb.com/docs/frontmatter/), two optional [markdown](http://daringfireball.net/projects/markdown) sections for the front and backsites of the [printed cards](http://xebia.com/books/xebia-essentials?utm_source=readme&utm_medium=web&utm_campaign=essentials) followed by a final markdown section that will be converted into the corresponding web page.
 
-The top section of each markdown file contains the metadata, an optional second
-and third section contain the card's front and back, while the last block
-contains the actual web content.
+This results in the following layout:
 
     ---
     metadata
@@ -30,7 +27,14 @@ contains the actual web content.
 Configuration is done through `_config` and all files not prefixed with an
 underscore will be compiled and copied over to `{{site.url}}/filename`
 
-**Pull requests are more than welcome!**
+**Pull requests are more than welcome, see the [open issues](https://github.com/xebia/essentials/issues?state=open)!**
+
+## Licence
+
+![CC-BY-NC](http://i.creativecommons.org/l/by-nc/3.0/88x31.png)
+
+The content is lienced under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/), with the exception of
+the images and text-content of the cards for which the copyright is maintained.
 
 ## Local development
 
