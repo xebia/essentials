@@ -1,0 +1,6 @@
+language: ruby
+
+install:
+  - bundle install
+
+script: ./_scripts/test
