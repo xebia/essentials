@@ -38,10 +38,25 @@ the images and text-content of the cards for which the copyright is maintained.
 
 ## Local development
 
+
+### Dependencies
+
+Install all dependencies through
+
+  $ gem install
+
+### Build & Serve
+
 To locally serve the statically generated site, and automatically rebuild when
 any file is changed, run from the project root directory:
 
     $ ./_scripts/serve
+
+### Test
+
+To test simply run. Ensure you've installed [shellcheck](https://github.com/koalaman/shellcheck) through your package manager.
+
+    $ ./_scripts/test
 
 ### Plugins
 
