@@ -3,4 +3,4 @@ language: ruby
 install:
   - bundle install
 
-script: ./_scripts/test
+script: jekyll doctor && jekyll build
