@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# validate the jekyll project
+jekyll doctor
+
+# validate the shell scripts
+shellcheck _scripts/*
+
