@@ -124,3 +124,10 @@ div.buynow {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
+.appstore-button {
+  text-decoration: none;
+  float: left;
+  padding-right: 25px;
+  padding-bottom: 10px;
+}
