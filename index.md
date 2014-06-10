@@ -28,7 +28,12 @@ We are convinced, it's many of these ideas that make our people into the craftsm
 <a href="http://xebia.com/books/xebia-essentials?utm_source=index&utm_medium=web&utm_campaign=essentials" class="buybutton"><i class="fa fa-shopping-cart"></i> Buy Now</a>
 If you'd like the Xebia Essentials for your team, you can get your own deck of Essentials cards in the Xebia store.
 
+### Download the Xebia Essentials app for iPhone
+<a href="https://itunes.apple.com/nl/app/xebia-essentials/id883300245?l=en&mt=8" class="appstore-screen-button">
+  <image src="img/iPhone_5s_Vert_SpaceGray_sRGB.png" alt="Download Xebia Essentials on the App Store" />
+</a>
+<span class="appstore-block">The Xebia Essentials iPhone app is now available in the App Store for free.
 <a href="https://itunes.apple.com/nl/app/xebia-essentials/id883300245?l=en&mt=8" class="appstore-button">
   <image src="img/Download_on_the_App_Store_Badge_US-UK_135x40.png" alt="Download Xebia Essentials on the App Store" width="135" height="40"/>
 </a>
-The Xebia Essentials iPhone app is now available in the App Store for free.
+</span>
