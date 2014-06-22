@@ -20,21 +20,21 @@ Composite Reuse Principle
 
 ### Motivation
 
-When some behavior of a domain object can change with other features remaining the same.
+When some behaviour of a domain object can change with other features remaining the same.
 
 ### Applicability
 
-Whenever class hierarchies are being created to specialize behavior then behavior could be extracted in an interface. The primary object would delegate the behavior to interface implementations.
+Whenever class hierarchies are being created to specialize behaviour then behaviour could be extracted in an interface. The primary object would delegate the behaviour to interface implementations.
 
-This approach avoids the number of classes to be created. Same set of classes composed differently give different run-time behavior.
+This approach avoids the number of classes to be created. Same set of classes composed differently give different run-time behaviour.
 
 ### Application
 
-Design classes to use interfaces for variable behavior and delegate the behavior to a concrete class.
+Design classes to use interfaces for variable behaviour and delegate the behaviour to a concrete class.
 
 ### Consequences
 
-Lesser number of classes and multiple behavior with composition.
+Lesser number of classes and multiple behaviour with composition.
 
 Extensibility
 
