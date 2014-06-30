@@ -32,5 +32,5 @@ Whenever there are manual processing steps or hand-offs involved in your release
 
 ### Consequences
 
-Once you software delivery process is automated, you will be able to deploy new versions of your application faster. more frequently with less errors and man power.
+Once your software delivery process is automated, you will be able to deploy new versions of your application faster, more frequently with less errors and man power.
 
