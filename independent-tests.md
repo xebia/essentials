@@ -59,7 +59,7 @@ Keep your tests functional (what is the observable behaviour?).
 
 Listen to your tests.
 
-Why is your test slow? It's worth investigating. Li
+Why is your test slow? It's worth investigating.
 
 # Optimize flaky tests to make them reliable.
 
@@ -68,7 +68,7 @@ Why is a test flaky? Are there multiple concerns to the object under test? Are y
 
 ### Application
 
-Start with this when writing your code. Start with a test, TDD style: describe what an entity should do. Implement it and describe the next feature. Keep a piece of paper next to you to write down notes while implementing. In doing do, you drive the code through tests. Tests are the most concrete way to describe a piece of functionality: since they're written in a programming language they can only be interpreted in one way. No ambiguity.
+Start with this when writing your code. Start with a test, TDD style: describe what an entity should do. Implement it and describe the next feature. Keep a piece of paper next to you to write down notes while implementing. In doing so, you drive the code through tests. Tests are the most concrete way to describe a piece of functionality: since they're written in a programming language, they can only be interpreted in one way. No ambiguity.
 
 ### Consequences
 
