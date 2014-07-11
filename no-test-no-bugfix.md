@@ -37,4 +37,6 @@ In a large code base of a longer running project a bug was logged on some parsin
 
 ### References
 
-* [http://theruntime.com/blogs/jacob/archive/2008/01/22/tdd-proven-effective-or-is-it.aspx](http://theruntime.com/blogs/jacob/archive/2008/01/22/tdd-proven-effective-or-is-it.aspx)
+* [On the Effectiveness of Test-first Approach to Programming][oetap] (pdf, 650kB) Hakan Erdogmus, National Research Council Canada.
+
+[oetap]: nparc.cisti-icist.nrc-cnrc.gc.ca/npsi/ctrl?action=rtdoc&an=5763742&article=0&lang=en
