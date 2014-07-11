@@ -9,7 +9,8 @@ helpf() {
 
   OPTIONS:
     -h:  output help
-    -f:  skip the tests and force the publishing. Usefull when intending to
+    -d:  publish even if there are uncommitted changes in the working tree.
+    -f:  skip the tests and force the publishing. Useful when intending to
          publish any branch other than master - which should only be done with
          care.
 
@@ -32,14 +33,17 @@ HELP
 exit $1
 }
 
+ALLOWDIRTY=false
 FORCE=false
 USER=essentials
 SERVER=applications.xebia.com
 BUILD_DIR="_site"
 PRODUCTION_DIR='static'
 
-while getopts "hf" o; do
+while getopts "hdf" o; do
   case "${o}" in
+    d)
+      ALLOWDIRTY=true ;;
     f)
       FORCE=true ;;
     h)
@@ -52,6 +56,15 @@ done
 # exit if anything fails
 set -e
 set -o pipefail
+
+if [ $ALLOWDIRTY = false ]; then
+    if ! (git diff --quiet && git diff --cached --quiet)
+    then
+        echo 'ABORTING: There are uncommitted changes in the working tree or index.'
+        echo '          Commit or stash your changes, or run with -d to ignore.'
+        exit 1;
+    fi
+fi
 
 if [ $FORCE = false ]; then
   # Ensure we're in complete synch with origin/master, as production should
