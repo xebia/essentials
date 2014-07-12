@@ -42,14 +42,10 @@ PRODUCTION_DIR='static'
 
 while getopts "hdf" o; do
   case "${o}" in
-    d)
-      ALLOWDIRTY=true ;;
-    f)
-      FORCE=true ;;
-    h)
-      helpf ;;
-    *)
-      helpf 1 ;;
+    d) ALLOWDIRTY=true ;;
+    f) FORCE=true ;;
+    h) helpf ;;
+    *) helpf 1 ;;
   esac
 done
 
@@ -58,12 +54,11 @@ set -e
 set -o pipefail
 
 if [ $ALLOWDIRTY = false ]; then
-    if ! (git diff --quiet && git diff --cached --quiet)
-    then
-        echo 'ABORTING: There are uncommitted changes in the working tree or index.'
-        echo '          Commit or stash your changes, or run with -d to ignore.'
-        exit 1;
-    fi
+  if ! (git diff --quiet && git diff --cached --quiet) then
+    echo 'ABORTING: There are uncommitted changes in the working tree or index.'
+    echo '          Commit or stash your changes, or run with -d to ignore.'
+    exit 1;
+  fi
 fi
 
 if [ $FORCE = false ]; then
@@ -71,7 +66,8 @@ if [ $FORCE = false ]; then
   # always mirror the upstream repository
   git fetch origin master >/dev/null 2>&1
   if [[ $(git rev-parse HEAD) != $(git rev-parse origin/master) ]]; then
-    echo 'ABORTING: Not currently on origin/master. Run with -f to force publish an alternate branch or -h for help.'
+    echo 'ABORTING: Not currently on origin/master.'
+    echo '          Run with -f to force publish an alternate branch or -h for help.'
     exit 1
   fi
 fi
