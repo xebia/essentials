@@ -37,7 +37,3 @@ The fixed amount of time should not be too large. Try not to have it longer than
 ### Consequences
 
 This kind of approach helps you to get started with tasks whose solutions are not known upfront. It prevents us from shooting in the dark for large periods of time. It is one of the approaches to fail-fast.
-
-### Samples
-
-### References
