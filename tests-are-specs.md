@@ -16,10 +16,6 @@ it does so.
 
 ---
 
-### Also known as
-
-Tests are Specifications
-
 ### Motivation
 
 A good test describes a certain aspect of your system on a functional level. In this sense, a test is not much different from a specification. While traditionally specifications have been written up-front and tests afterwards, this trend has changed.
