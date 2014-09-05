@@ -24,5 +24,3 @@ Having fun in work is a big deal when it comes to the creative process that is s
 ### Applicability
 
 This rule is applicable at work as well as in your private life.
-
-### References
