@@ -20,7 +20,7 @@ In order of decreasing safety:
 
 ### Motivation
 
-When your code should be thread safe but isn't you will find out too late at an inconvenient time. This can lead to embarrassing situations where you need to fix a hard problem under high pressure. Not good. If you apply these simple rules you will avoid this.
+When your code should be thread safe but isn't, you will find out too late at an inconvenient time. This can lead to embarrassing situations where you need to fix a hard problem under high pressure. Not good. If you apply these simple rules you will avoid this.
 
 ### Applicability
 
