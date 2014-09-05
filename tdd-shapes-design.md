@@ -16,7 +16,7 @@ incoherent in the large.
 
 ---
 
-Also known as
+### Also known as
 
 Red-Green-Refactor.
 
@@ -45,11 +45,6 @@ There are a few corner cases where this approach is less applicable: when you're
 
 You'll find out that you have to write less tests and code in general. Since all you're implementing are the features that you describe in your test cases, the code is as good as the test cases. Therefore it's important to have clear, readable tests. Nothing is more confusing than a test whose intention is unclear.
 
-
-### Samples
-
 ### References
 
 [Freeman, Price: Growing Object-Oriented Software, Guided by Tests](http://www.amazon.com/Growing-Object-Oriented-Software-Guided-Tests/dp/0321503627/)
-
-
