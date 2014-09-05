@@ -67,8 +67,6 @@ Here are some of the tools we use:
 * Protovis: if you are into automating things, then Protovis draws awesome pictures, but it might be a little harder to use than - say - Google visualizations.
 * Raphael: if neither Google nor Protovis support the kind of diagrams you want to generate, Raphael is your next best option.
 
-### Samples
-
 ### References
 
 1. The Back of a Napkin, Dan Roam
