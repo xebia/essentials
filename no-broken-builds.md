@@ -36,8 +36,6 @@ If you have a broken build (and certainly if you were responsible for it breakin
 
 If your failing build(s) are still relevant to your project and the team is ignoring them anyway, raise the alarm.
 
-### Samples
-
 ### References
 
 There are also a number of "build league tables" and other plugins for many continuous build tools that can make keeping the build green a bit more fun and exciting.
