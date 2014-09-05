@@ -44,8 +44,6 @@ Symptoms that can be seen on the outside are:
 * more joking and laughter
 * increased use of non digital tooling (whiteboards, paper, gesturing, role play)
 
-### Samples
-
 ### References
 
 * [Pair Programming](pair-programming)
