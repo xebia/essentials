@@ -13,8 +13,6 @@ Make your Product Owner understand why it is critical to fix technical debt. Exp
 
 ---
 
-Also known as
-
 ### Motivation
 
 If you can't make time to tackle tech debt it will just keep on growing, and once the ball of mud is big enough, nobody can move anymore.
@@ -37,10 +35,6 @@ Otherwise, a Product Owner will never see the strangling influence of tech debt 
 
 With luck, you should arrive at a situation where tech debt is monitored and kept within levels that are deemed manageable within the context of your project - levels that have been agreed by the team and the PO.
 
-### Samples
-
 ### References
 
 * [Dare To Say No](dare-to-say-no)
-
-
