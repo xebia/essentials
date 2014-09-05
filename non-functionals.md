@@ -21,7 +21,7 @@ Product owners are normally more concerned about things you can do with the solu
 
 ### Applicability
 
-Every project should carefully consider the quality related attributes that need to be addressed. That does not necessarily mean that all projects need have the same non-functional requirements. In fact, in some cases, after short but conscious consideration, the decision might be to just ignore non-functional requirements altogether. (In case of a one-off script?)
+Every project should carefully consider the quality related attributes that need to be addressed. That does not necessarily mean that all projects need to have the same non-functional requirements. In fact, in some cases, after short but conscious consideration, the decision might be to just ignore non-functional requirements altogether. (In case of a one-off script?)
 
 ### Application
 
