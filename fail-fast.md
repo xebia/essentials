@@ -34,6 +34,3 @@ All projects. But it extends well beyond the boundaries of projects. It also app
 * Estimate the cost incurred as a consequence of that problem
 * Prioritize work to deal with the risks
 * Make it visible. Having a calendar on the wall that clearly highlights the risks and the moment in time we expected to have dealt with it might help.
-
-### References
-
