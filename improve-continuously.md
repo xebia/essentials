@@ -33,9 +33,9 @@ This one is simple: this is always applicable.
 
 ### Application
 
-In a Scrum process, this is typically what you discuss during the retrospective. You first of discuss the things you considered to go well, but then right after that, you talk about the things that could be improved, and then you see to it that you actually take some steps to improve.
+In a Scrum process, this is typically what you discuss during the retrospective. You first discuss the things you considered to go well, but then right after that, you talk about the things that could be improved, and then you see to it that you actually take some steps to improve.
 
-However, Scrum is not the only context in which this is applicable. It's equally applicable in - say - your developing your coding skills. If you are wondering what on earth you could improve in your coding habits and you haven't read the The Pragmatic Programmer or the The Productive Programmer yet, then I'm pretty sure there a couple of things you can learn.
+However, Scrum is not the only context in which this is applicable. It's equally applicable in - say - developing your coding skills. If you are wondering what on earth you could improve in your coding habits and you haven't read the The Pragmatic Programmer or the The Productive Programmer yet, then I'm pretty sure there a couple of things you can learn.
 
 ### Consequences
 
