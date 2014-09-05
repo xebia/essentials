@@ -37,7 +37,3 @@ Remove unused variables, methods etc., any code commented-out without an accompa
 ### Consequences
 
 The HEAD of your project will reflect the current state of your code, not an arbitrary mix or current code any stuff hanging around because nobody is 100% sure whether it is in use or not.
-
-### Samples
-
-### References
