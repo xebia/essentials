@@ -17,7 +17,7 @@ Write code that humans can easily understand
 
 ---
 
-Also known as
+### Also known as
 
 Beautiful code is simple code that humans can understand easily.
 
@@ -48,8 +48,6 @@ Writing a simple readable code forces you to think straight in terms of overall 
 People will form opinions about you based on the code that they see. If those opinions are constantly negative, you will get less from your career than you hoped. Take care of your career, of your clients, and of your users with every line of code.
 
 The overall speed of the development of the project gradually increases if everyone starts caring about the code.
-
-### Samples
 
 ### References
 
