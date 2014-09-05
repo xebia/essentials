@@ -43,7 +43,3 @@ A shared understanding of the design will help people understand the consequence
 Having design meetings of course is expensive. Having some preparation might help, but pictures drawn during the meeting normally have a longer lasting effect. And you should keep in mind that ideas captured during preparation might turn out to be invalid during the discussion.
 
 The advice is not to have design discussions during the stand-up, but perhaps right after it. Somebody should take the responsibility to make sure the results are captured on the wall.
-
-### References
-
-
