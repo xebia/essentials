@@ -19,8 +19,6 @@ Independent unit tests can be run regardless of ordering and are easy to run in 
 
 ---
 
-Tests should be fast, reliable and independent
-
 ### Also known as
 
 Listen to your tests.
@@ -74,10 +72,6 @@ Start with this when writing your code. Start with a test, TDD style: describe w
 
 You wouldn't believe what proper tests can do to code.
 
-### Samples
-
 ### References
 
 * [TDD Shapes Design](tdd-shapes-design)
-
-
