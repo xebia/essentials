@@ -30,7 +30,3 @@ Question yourself before you leave a context if the methods/functions are not to
 ### Consequences
 
 You should see more consistent method sizes and more readable code after you've applied this as a team for a while.
-
-### Samples
-
-### References
