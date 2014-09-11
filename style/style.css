@@ -115,10 +115,9 @@ div.buynow {
   color: #FFF;
   text-decoration: none;
   display: block;
-  float: right;
+  float: left;
   margin-bottom: 10px;
   margin-top: 10px;
-  margin-left: 10px;
   padding-left: 25px;
   padding-right: 25px;
   padding-top: 10px;
