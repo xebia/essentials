@@ -16,6 +16,10 @@ blockquote {
   border-left: 3px solid #ccc;
 }
 
+h4 {
+  margin-top: 30px;
+}
+
 #main {
    margin-left: auto;
    margin-right: auto;
@@ -117,7 +121,6 @@ div.buynow {
   display: block;
   float: right;
   margin-bottom: 10px;
-  margin-top: 10px;
   margin-left: 10px;
   padding-left: 25px;
   padding-right: 25px;
@@ -125,9 +128,21 @@ div.buynow {
   padding-bottom: 10px;
 }
 
-.appstore-button {
+.appstore-screen-button {
   text-decoration: none;
   float: left;
   padding-right: 25px;
   padding-bottom: 10px;
+}
+
+.appstore-button {
+  text-decoration: none;
+  margin-top: 20px;
+  margin-bottom: 200px;
+  display: block;
+}
+
+.appstore-block {
+  display: block;
+  padding: 30px 30px 30px 30px;
 }
