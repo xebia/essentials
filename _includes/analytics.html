@@ -5,4 +5,14 @@
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
   ga('create', 'UA-45163453-1', 'xebia.com');
   ga('send', 'pageview');
+  function addListener(element, type, callback) {
+    if (element.addEventListener) element.addEventListener(type, callback);
+    else if (element.attachEvent) element.attachEvent('on' + type, callback);
+  }
+  function trackAClick(elementId, type, label) {
+    var elem = document.getElementById(elementId);
+    addListener(elem, 'click', function() {
+      ga('send', 'event', type, 'click', label);
+    });
+  }
 </script>
