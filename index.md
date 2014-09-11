@@ -42,7 +42,6 @@ For those cases when a box of printed Xebia Essentials cards is just too awesome
 <a href="https://itunes.apple.com/nl/app/xebia-essentials/id883300245?l=en&mt=8" class="appstore-button" id="appstore">
   <img src="img/Download_on_the_App_Store_Badge_US-UK_135x40.png" alt="Download Xebia Essentials on the App Store" width="135" height="40"/>
 </a>
-<br clear='left'/>
 <a href="https://play.google.com/store/apps/details?id=com.nilhcem.xebia.essentials" class="appstore-button" id="playstore">
   <img alt="Download Xebia Essentials on Google Play" width="129" height="45"
        src="img/Download_on_the_Play_Store_Badge_US-UK_129x45.png" />
