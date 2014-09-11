@@ -25,10 +25,32 @@ We are not going to explain how you should put this deck to good use. As Einstei
 
 We are convinced, it's many of these ideas that make our people into the craftsmen they are. Take a look at the full list of [cards](/cards/), or browse the [categories](/categories/), and see for yourself.
 
-<a href="http://xebia.com/books/xebia-essentials?utm_source=index&utm_medium=web&utm_campaign=essentials" class="buybutton"><i class="fa fa-shopping-cart"></i> Buy Now</a>
-If you'd like the Xebia Essentials for your team, you can get your own deck of Essentials cards in the Xebia store.
+<br clear='left'/>
 
-<a href="https://itunes.apple.com/nl/app/xebia-essentials/id883300245?l=en&mt=8" class="appstore-button">
-  <image src="img/Download_on_the_App_Store_Badge_US-UK_135x40.png" alt="Download Xebia Essentials on the App Store" width="135" height="40"/>
+### The Xebia Essentials Cards
+
+If you'd like a beautiful box of printed Xebia Essentials cards for your team, you can get your own deck of Essentials cards in the Xebia store.
+
+<a href="http://xebia.com/books/xebia-essentials?utm_source=index&utm_medium=web&utm_campaign=essentials" class="buybutton" id="xebiastore"><i class="fa fa-shopping-cart"></i> Buy Now</a>
+
+<br clear='left'/>
+
+### The Xebia Essentials Apps
+
+For those cases when a box of printed Xebia Essentials cards is just too awesome (or cumbersome), the Xebia Essentials are available as apps for iPhone and Android. Both apps contain the complete deck of cards.
+
+<a href="https://itunes.apple.com/nl/app/xebia-essentials/id883300245?l=en&mt=8" class="appstore-button" id="appstore">
+  <img src="img/Download_on_the_App_Store_Badge_US-UK_135x40.png" alt="Download Xebia Essentials on the App Store" width="135" height="40"/>
 </a>
-The Xebia Essentials iPhone app is now available in the App Store for free.
+<br clear='left'/>
+<a href="https://play.google.com/store/apps/details?id=com.nilhcem.xebia.essentials" class="appstore-button" id="playstore">
+  <img alt="Download Xebia Essentials on Google Play" width="129" height="45"
+       src="img/Download_on_the_Play_Store_Badge_US-UK_129x45.png" />
+</a>
+
+<br clear='left'/>
+<script type="text/javascript">
+trackAClick('xebiastore','button', 'xebia-store');
+trackAClick('appstore',  'button', 'app-store');
+trackAClick('playstore', 'button', 'play-store');
+</script>
