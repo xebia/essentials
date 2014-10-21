@@ -5,7 +5,7 @@ category: realisation
 
 ---
 
-Keep your hands off the machine.
+Keep your hands off the machine
 
 ---
 

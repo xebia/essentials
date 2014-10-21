@@ -5,7 +5,7 @@ category: craftsmanship
 
 ---
 
-Learn a new language every year.
+Learn a new language every year
 
 ---
 
