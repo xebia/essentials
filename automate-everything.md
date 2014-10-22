@@ -5,7 +5,7 @@ category: realisation
 
 ---
 
-Automate the entire release and deployment process.
+Automate the entire release and deployment process
 
 ---
 

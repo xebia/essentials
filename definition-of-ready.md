@@ -5,7 +5,7 @@ category: collaboration
 
 ---
 
-Work on stories when they're ready.
+Work on stories when they're ready
 
 ---
 
