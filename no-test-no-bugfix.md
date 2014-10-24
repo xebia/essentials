@@ -37,6 +37,6 @@ In a large code base of a longer running project a bug was logged on some parsin
 
 ### References
 
-* [On the Effectiveness of Test-first Approach to Programming][oetap] (pdf, 650kB) Hakan Erdogmus, National Research Council Canada.
+* [On the Effectiveness of Test-first Approach to Programming][oetap] Hakan Erdogmus, National Research Council Canada.
 
-[oetap]: nparc.cisti-icist.nrc-cnrc.gc.ca/npsi/ctrl?action=rtdoc&an=5763742&article=0&lang=en
+[oetap]: http://www.researchgate.net/publication/3188484_On_the_effectiveness_of_the_test-first_approach_to_programming
