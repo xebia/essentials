@@ -25,7 +25,7 @@ When performance tuning an application.
 
 ### Application
 
-Before you tune performance, first measure it. Then fix the worst bottleneck and measure again. Measure, then fix one problem, verify that it worked, then repeat. Plan, do, check, adapt. Commonly you will find unexpected results and you are most effective when measuring your progress.
+Before you tune performance, first measure it. Identify the bottleneck, fix that, and measure again. Measure, then fix one problem, verify that it worked, then repeat. Plan, do, check, adapt. Commonly you will find unexpected results and you are most effective when measuring your progress.
 
 ### Consequences
 

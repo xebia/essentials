@@ -33,7 +33,7 @@ Acting this way results in higher code coverage and more sensible test cases. It
 
 ### Samples
 
-In a large code base of a longer running project a bug was logged on some parsing issue. A developer went into the code and changed the parser to deal differently with a certain character. A few weeks later another parsing issue was logged; another developer went in and changed the logic back. Both developers saw from the single example in the issue that their fix would solve the problem for the particular example. Then the first bug was reopened and the first developer got furious. He reverted the change that removed his check and committed. Then a bit later the second bug was reopened. If only they both had created test cases there wouldn't have been a problem at all.
+In a large code base of a longer running project a bug was logged on some parsing issue. A developer went into the code and changed the parser to deal differently with a certain character. A few weeks later another parsing issue was logged; another developer went in and changed the logic back. Both developers saw from the single example in the issue that their fix would solve the problem for the particular example. Then the first bug was reopened and the first developer got furious, reverted the change that removed the check and committed. Then a bit later the second bug was reopened. If only they both had created test cases there wouldn't have been a problem at all.
 
 ### References
 

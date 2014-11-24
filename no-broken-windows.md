@@ -18,8 +18,6 @@ you in the future.
 
 Broken windows theory
 
-Keeping a clean slate
-
 ### Motivation
 
 Broken windows theory is originally a criminology theory that couples the crime rate of a neighborhood to how well maintained and orderly it is. Psychologically we are less inclined to make a mess when everything around us is pristine and orderly

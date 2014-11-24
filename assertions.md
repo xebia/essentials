@@ -16,7 +16,7 @@ Assert against improper behaviour
 
 ### Motivation
 
-Ideally, the compiler would be able to verify all of your assumptions. In reality, they can't. Next question is if you would be able to write tests for all of those situations. After all, that's what you normally do for all circumstances in which the compiler is not helping. In reality, that doesn't work out either. The combinatorial explosion of states your modules might go into is just overwhelming.
+Ideally, the compiler would be able to verify all of your assumptions. In reality, it can't. Next question is if you would be able to write tests for all of those situations. After all, that's what you normally do for all circumstances in which the compiler is not helping. In reality, that doesn't work out either. The combinatorial explosion of states your modules might go into is just overwhelming.
 
 This is where assertions come to the rescue. Assertions allow you to validate pre- and postconditions and can help you to assure your invariants hold. Putting in assertions will make sure your code fails early before causing anymore damage. It also works as a mental flag.
 

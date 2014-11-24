@@ -36,7 +36,7 @@ Note that Code Reviewing and [Pair Programming](pair-programming) are not interc
 
 ### Consequences
 
-Increased shared ownership is attained when reviewing is done by team members. When reviews are done it is important to invest time in dealing with the comments. Otherwise the (sometimes mundane) task of reviewing is not rewarded properly and will feel like a waste of time.
+It's easier to feel shared code ownership when reviewing is done by team members. When reviews are done it is important to invest time in dealing with the findings. Otherwise the (sometimes mundane) task of reviewing is not rewarded properly and will feel like a waste of time.
 
 ### Samples
 

@@ -21,7 +21,7 @@ So craft them carefully:
 
 ### Motivation
 
-You want to be careful crafting your API. If you don't, then you might end up with something that hurt you forever. It's not hard to come up with examples of bad API design. Java's XML processing libraries are notoriously awkward to use. Things that should be simple require tons of boilerplate code.
+You want to be careful crafting your API. If you don't, then you might end up with something that will hurt you forever. It's not hard to come up with examples of bad API design. Java's XML processing libraries are notoriously awkward to use. Things that should be simple require tons of boilerplate code.
 
 Joshua Bloch presented his ideas on API design in a talk named 'How to Design a Good API and Why it Matters' at OOPSLA 2006. It comprises a set of criteria that are fairly easy to remember, as they are all small enough to fit on a bumper sticker:
 

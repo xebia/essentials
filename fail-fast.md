@@ -21,7 +21,7 @@ Projects fail. That itself is not an problem. In many cases, figuring out if an 
 
 The big problem however is that projects fail late in the game. That means piles of money were spent on something that - with a little bit of effort - could have been proven to be a failure early on. And that's just plain wrong. Projects should fail as early as possible, if there is a risk it might fail.
 
-Edsger Dijkstra once said that whenever he had an idea, he first put in a considerable amount of effort to proof it wrong.
+Edsger Dijkstra once said that whenever he had an idea, he first put in a considerable amount of effort to prove it wrong [citation needed].
 
 ### Applicability
 

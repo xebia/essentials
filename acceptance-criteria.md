@@ -22,7 +22,7 @@ Don't start without acceptance criteria.
 
 Make sure everyone has common understanding before building anything.
 Acceptance criteria should be part of your Definition of Ready.
-You're not done when acceptance criteria isn't automated.
+You're not done when acceptance criteria aren't automated.
 
 All software built should be made for a reason. It's valuable to capture that reason. Normal (Word) documents are not enough to work from. They leave room for ambiguity.
 
@@ -33,7 +33,7 @@ It's best to think about acceptance criteria for a feature/story, before the imp
 
 ### Application
 
-When defining your acceptance criteria, think about the "What": What should it do? Not: how should it be done. The How is about implementing the feature. We're searching for What it should do in terms of business functionality.
+When defining your acceptance criteria, think about the “What”: What should it do? Not: how should it be done. The How is about implementing the feature. We're searching for What it should do in terms of business functionality.
 
 
 

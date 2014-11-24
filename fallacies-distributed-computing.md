@@ -38,7 +38,7 @@ More often than not, we at Xebia work on distributed systems. In our industry, i
 6. Transport cost is zero.
 7. The network is homogeneous.
 
-Ignoring these properties will lead to brittle systems. We don't want to create brittle systems; we want to create robust systems. Systems that survive network failure. Systems that do not need he constant presence of a network administrator in order to survive. Systems that are resilient to changes to the network topology.
+Ignoring these properties will lead to brittle systems. We don't want to create brittle systems; we want to create robust systems. Systems that survive network failure. Systems that do not need the constant presence of a network administrator in order to survive. Systems that are resilient to changes to the network topology.
 
 ### Application
 
@@ -50,11 +50,13 @@ In addition to that: Many attempts have been made to hide the complexity of copi
 
 It is one thing to be aware of the consequences of your decisions when designing for a distributed solution. By carefully choosing from your options, you can most definitely increase the resilience of your system against network failures. However, increasing the robustness of your system might also increase the complexity of the programming model.
 
-Jini is an example of a technology that definitely took the 8 fallacies of distributed computing seriously, and I think it's fair to say it was much more resilient to networking issues than Java EE solutions coming about around that same time frame. However, it did put a burden to the developer. You had to write more code in order to be able to deal with whatever could go wrong.
+[Jini][jini] is an example of a technology that definitely took the 8 fallacies of distributed computing seriously, and I think it's fair to say it was much more resilient to networking issues than Java EE solutions coming about around that same time frame. However, it did put a burden to the developer. You had to write more code in order to be able to deal with whatever could go wrong.
 
 Now, question is if your solutions always need to have the same properties as Jini-based solutions, especially if there is a price you will have to pay for it. Probably not. In the end, it's just a balancing act, balancing factors such as the price business is willing to pay for ultimate availability, the characteristics of the data center(s) and the experience of the team you are working with.
 
 ### References
 
 * [Wikipedia](http://en.wikipedia.org/wiki/Fallacies_of_Distributed_Computing)
+
+[jini]: http://en.wikipedia.org/wiki/Jini
 

@@ -21,7 +21,7 @@ Don't Repeat Yourself
 
 ### Motivation
 
-Duplication leads to maintenance hell and logic contradictions, reducing seems a Good Things(tm).
+Duplication leads to maintenance hell and logic contradictions, reducing seems a Good Thing(tm).
 
 ### Applicability
 
