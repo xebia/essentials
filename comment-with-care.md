@@ -48,7 +48,7 @@ The [Wikipedia article on commenting](http://en.wikipedia.org/wiki/Comment_%28co
 
 # Don't repeat the code - clarify its intent.
 
-Code Complete [1][cc] illustrates this with a nice example. Which is more clarifying?
+Code Complete [1] illustrates this with a nice example. Which is more clarifying?
 
     // If account flag is zero
     if (accountFlag == 0) ...
