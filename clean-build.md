@@ -35,4 +35,4 @@ Don't wait for a pile of warnings before you start cleaning up. The moment the w
 
 Warnings from the build are useful. To get the focus on to the warnings, it is essential to get rid of the noise. If the build has little or no noise, it is easy to spot a new warning easily.
 
-It is easier for someone to take over my work, if the build is clean. He doesn't have to scratch his head to figure out if the warning is to be ignored or fixed.
+It is easier for someone to take over my work, if the build is clean. My successor won't have to wonder if any warning is to be ignored or fixed.

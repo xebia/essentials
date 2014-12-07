@@ -28,9 +28,9 @@ Every modern programming language I'm aware of supports source code comments.
 
 ### Application
 
-* In an object-oriented language such as Java 1, it's fair to demand a type-level JavaDoc header that describes the intent and responsibility of the class or interface on every public or protected type.
-* On APIs intended for use by others, every public method should be appropriately documented.
-* Use the standard documentation system for the platform. In Python, that's doc strings. In Java, that's JavaDoc. The standard documentation system is not only familiar to humans, most IDEs and some editors know how to read it too. As obvious as this may seem, I once had the displeasure of using a closed-source API documented using a proprietary HTML layout not in any way resembling standard JavaDoc 2. It was painful.
+* In an object-oriented language such as Java (1), it's fair to demand a type-level JavaDoc header that describes the intent and responsibility of the class or interface on every public or protected type.
+* On APIs intended for use by others, every public method and field should be appropriately documented.
+* Use the standard documentation system for the platform. In Python, that's doc strings. In Java, that's JavaDoc. The standard documentation system is not only familiar to humans, most IDEs and some editors know how to read it too. As obvious as this may seem, I more than once had the displeasure of using a closed-source API documented using a proprietary HTML layout not in any way resembling standard JavaDoc. It was painful.
 
 Guidelines aside, whenever you find yourself wondering: "I wonder whether this'll make sense to me later", you know it's time for a comment. Ensure the comment contains information that cannot be obtained by simply reading the code itself.
 
@@ -72,7 +72,7 @@ Maybe the intent can be clarified just as much without a comment:
 
 An example of this is when I found out that a Java 1.5 ThreadPoolExecutor with a corePoolSize of 0, a maxPoolSize of 50 and an unbounded task queue does not idle at 0 threads and execute at 50, but rather, starts 0 threads and executes nothing at all. When I dug into this, I found out that Java 1.5 has no way to make a ThreadPoolExecutor idle at 0 threads (Java 1.6 does) and that in both versions maxPoolSize is meaningless with an unbounded queue. I put a short note above the variable declaration to benefit any maintenance programmer that needs to adjust the pool sizes.
 
-A special case of this is where source code analysis tools report a false positive. The flagship example of this is the [Debian OpenSSL](http://digitaloffense.net/tools/debian-openssl/) fiasco of a few years back. The random number generator contained what appears to be bad use of uninitialized memory (and was reported as such by code analysis tools), but which was essential to seeding the random number generator. Someone removed the line in a clean-up effort and the result was two years' worth of SSL certificates each of which could be brute-forced in at most 32768 attempts.
+A special case of this is where source code analysis tools report a false positive. A great example of this is the [Debian OpenSSL](http://digitaloffense.net/tools/debian-openssl/) fiasco of a few years back. The random number generator contained what appears to be bad use of uninitialized memory (and was reported as such by code analysis tools), but which was essential to seeding the random number generator. Someone removed the line in a clean-up effort and the result was two years' worth of SSL certificates each of which could be brute-forced in at most 32768 attempts.
 
 # Make every comment count.
 
@@ -102,7 +102,7 @@ Eclipse's default template for the JavaDoc comment on getters and setters is hor
 
 These comments are grammatically ugly. Worse, the comments don't add any value: we know what a getter or setter does and if a method does something else it shouldn't masquerade as a getter or setter in the first place. Don't generate comments using this template, just leave them out.
 
-If your architect/analysis tool/spouse won't let you get away with undocumented getters and setters, at least replace the template by something grammatically correct.
+If your architect/analysis tool/standards body won't let you get away with undocumented getters and setters, at least replace the template by something grammatically correct.
 
 # Good: Unit, bounds, resolution, precision
 
@@ -129,6 +129,5 @@ The xsd:dateTime has a resolution in seconds (optionally milliseconds) and an op
 ### Footnotes
 
 1. Some argue Java isn't an object oriented language. It's close enough for the purposes of this article.
-2. I'm looking at you, TIBCO iProcess Server Objects Java.
 
 

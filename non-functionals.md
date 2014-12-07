@@ -25,7 +25,7 @@ Every project should carefully consider the quality related attributes that need
 
 ### Application
 
-Setting proper objectives for non-functionals is not easy. The problem is: your product owner (ideally the money owner) might have a hard time understanding what these quality attributes are all about. Yet, at the same time, you want to make sure that the product owner backs the plan to address a particular quality requirement, so you do want him to understand what he is essentially asking for.
+Setting proper objectives for non-functionals is not easy. The problem is: your product owner (ideally the money owner) might have a hard time understanding what these quality attributes are all about. Yet, at the same time, you want to make sure that the product owner backs the plan to address a particular quality requirement, so you do want them to understand what they are essentially asking for.
 
 One way to address it is by avoiding scales that are (mostly) well understood by developers, but not by non-IT people. So, you just define your own scales that are meaningful in the minds of the product owners. In some cases, that means defining some higher-order quality requirements, from which you then derive the lower-level quality requirements with related measurable scales that can be translated in actual work to be done.
 

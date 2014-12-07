@@ -26,7 +26,7 @@ Let's be honest. Over engineered solutions are strangely attractive. We develope
 Okay, there might be a few situations when you need some time alone. But, really, in all other cases, pair programming is applicable. That doesn't mean it's easy though. In fact, for most people, it turns out to be quite painful to say goodbye to their time spent in isolation, as evidenced by the type of response you will get when suggesting pair programming to die-hard alone coders:
 
 * I'm faster on my own
-* Can't pair with that guy, he's getting on my nerves
+* Can't pair with that colleague, I get nervous
 * Pair programming is too tiring
 * We've split up the work and we'll get it done faster if we use two keyboards
 * There's too much background noise

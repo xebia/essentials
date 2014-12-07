@@ -21,7 +21,7 @@ Even though we love pair programming, we can't expect anyone to constantly think
 
 ### Applicability
 
-Any work on a problem that is not resulting in production code might be a candidate for some alone time. In particular when you get into a situation as a pair that you're both looking at the other guy for ideas it might be time to split up, scour the internet fret with some ideas and reconvene when you've found some clues. Doing nothing is also a very important part of creative work. Alone time might be needed even if there is no work that deserves being done by someone on their own.
+Any work on a problem that is not resulting in production code might be a candidate for some alone time. In particular when you get into a situation as a pair that you're both looking at the other for ideas it might be time to split up, scour the internet fret with some ideas and reconvene when you've found some clues. Doing nothing is also a very important part of creative work. Alone time might be needed even if there is no work that deserves being done by someone on their own.
 
 ### Application
 
