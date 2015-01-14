@@ -4,7 +4,7 @@ layout: card
 title: Xebia essentials
 category: other
 no-banner: true
-header-image: banner.jpg
+header-image: banner.png
 
 ---
 
