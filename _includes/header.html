@@ -1,6 +1,8 @@
 <div id="top"></div>
 {% if page.header-image %}
 <div id="masthead" style="background-image: url('img/{{ page.header-image }}'); background-size: cover;" />
+  <para style="font-family: 'Open Sans', sans-serif; left: 0; position:absolute; text-align:center; top: 100px; width: 100%"
+  >{{page.title}}</para>
 {% else %}
 <div id="masthead" style="background-color:
 {% for type in site.card_types %}
