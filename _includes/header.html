@@ -1,4 +1,7 @@
 <div id="top"></div>
+{% if page.header-image %}
+<div id="masthead" style="background-image: url('img/{{ page.header-image }}'); background-size: cover;" />
+{% else %}
 <div id="masthead" style="background-color:
 {% for type in site.card_types %}
   {% if type.name == page.category %}
@@ -7,6 +10,7 @@
 {% endfor %}
 " />
   <para>{{page.title}}</para>
+{% endif %}
   <div class="sharing">
     <a target="_blank" rel="nofollow" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A{{site.url}}{{page.url}}"> <i class="fa fa-linkedin"></i></a>
     <a target="_blank" rel="nofollow" href="http://twitter.com/share?text={{page.title}}&amp;url=https%3A{{site.url}}{{page.url}}"><i class="fa fa-twitter"></i></a>
