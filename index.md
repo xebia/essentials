@@ -1,9 +1,10 @@
 ---
 
 layout: card
-title: Xebia essentials
+title: Xebia Essentials
 category: other
 no-banner: true
+header-image: banner.svg
 
 ---
 
