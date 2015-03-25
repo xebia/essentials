@@ -38,7 +38,8 @@ module Jekyll
         url: site.config['url'],
         name: site.config['name'],
         description: site.config['description'],
-        timestamp: Time.now
+        timestamp: Time.now,
+        enableCustomerSupport: true
       }
 
       #f =File.new(File.join(site.config['source'], 'api.json'), 'w+')

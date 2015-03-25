@@ -80,8 +80,10 @@ while the second block can contain a variety of markdown.
 Will generate `api.json` representing all data and metadata, used by the mobile
 applications.
 
-**note**: it is important that this generator runs *after* all others, to
-reflect the final state  of the project
+**note**:
+
+- it is important that this generator runs *after* all others, to reflect the final state  of the project
+- the api.json contains a key ```enableCustomerSupport```, this is the kill switch to disable the customer support feature in the iOS app
 
 ## Deploying to essentials.xebia.com
 
