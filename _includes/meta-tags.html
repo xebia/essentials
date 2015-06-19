@@ -10,7 +10,7 @@
 <link href="/cards" rel="index">
 <meta property="og:url" content="{{site.url}}{{page.url}}">
 <meta property="og:title" content="{{page.title}}">
-<meta property="og:summary" content="{{page.back}}">
+<meta property="og:summary" content="{{page.back | strip_html}}">
 <meta content="{{site.name}}" property="og:site_name">
 <meta content="website" property="og:type">
 <meta content="en_US" property="og:locale">
@@ -18,5 +18,5 @@
 <meta content="{{site.description}}" property="og:config">
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@xebia" />
-<meta name="twitter:description" content="{{page.back}}" />
+<meta name="twitter:description" content="{{page.back | strip_html}}" />
 <meta name="apple-itunes-app" content="app-id=883300245, app-argument=https:{{site.url}}{{page.url}}">
