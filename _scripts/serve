@@ -18,4 +18,4 @@ fi;
 jekyll serve \
   --config "_config.yml,_devConfig.yml" \
   -w \
-  --trace  \
+  --trace $* \

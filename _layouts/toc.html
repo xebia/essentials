@@ -3,7 +3,8 @@ layout: card
 ---
 {{ content }}
 <ul>
-  {% sorted_for page in site.pages sort_by:title case_sensitive:true %}
+  {% assign by_title = site.pages | sort: 'title' %}
+  {% for page in by_title %}
     {% if page.layout == 'card' %}
       {% if page.category != 'other' %}
         <li>
@@ -13,5 +14,5 @@ layout: card
         </li>
       {% endif %}
     {% endif %}
-  {% endsorted_for %}
+  {% endfor %}
 </ul>

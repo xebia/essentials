@@ -39,25 +39,42 @@ the images and text-content of the cards for which the copyright is maintained.
 
 ## Local development
 
+### Running in Docker
+
+You might not want to install a bunch of Ruby directly on your machine. You can throw in these two
+commands before everything else to build the website in isolation:
+
+```
+user@laptop$ docker run --publish 4000:4000 --volume $PWD:/essentials --workdir /essentials -it ruby:latest bash
+root@container$ apt-get update && apt-get install shellcheck
+````
 
 ### Dependencies
 
 Install all dependencies through
 
-  $ bundle install
+```bash
+    bundle install
+```
 
 ### Build & Serve
 
 To locally serve the statically generated site, and automatically rebuild when
 any file is changed, run from the project root directory:
 
-    $ ./_scripts/serve
+```bash
+    $ ./_scripts/serve [--host 0.0.0.0]
+```
+
+If you're running inside docker, include the `--host` directive. Otherwise, omit it.
 
 ### Test
 
 To test simply run. Ensure you've installed [shellcheck](https://github.com/koalaman/shellcheck) through your package manager.
 
+```bash
     $ ./_scripts/test
+```
 
 ### Plugins
 
@@ -92,4 +109,6 @@ Ensure your public key has been added to user `essentials` on
 
 Then simply run:
 
+```bash
     $ ./_scripts/publish
+```

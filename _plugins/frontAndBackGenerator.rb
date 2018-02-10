@@ -9,7 +9,7 @@ module Jekyll
     priority :high
 
     def generate(site)
-      converter = site.getConverterImpl(Jekyll::Converters::Markdown)
+      converter = site.find_converter_instance(Jekyll::Converters::Markdown)
 
       site.pages.each do |page|
         if page.data['layout'] == 'card' then
