@@ -22,4 +22,4 @@ mailto: "essentials@xebia.com"
 markdown: rdiscount
 permalink: pretty
 
-exclude: ['README.md']
+exclude: ['README.md', '*.iml']
