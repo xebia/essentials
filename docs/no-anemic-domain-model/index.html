@@ -3,7 +3,9 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=600">
 <base href="https://xebia.github.io/essentials/" >
-<title>  - Xebia Essentials</title>
+<title> Beware of anemic domain models
+
+ - Xebia Essentials</title>
 <link href="//fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet" type="text/css">
 <link href="style/style.css" type="text/css" rel="stylesheet">
 <style type="text/css"></style>
@@ -11,9 +13,25 @@
 <link href="/index.html" rel="up">
 <link href="/cards" rel="index">
 <meta property="og:url" content="https://xebia.github.io/essentials//no-anemic-domain-model/">
-<meta property="og:title" content="">
-<meta property="og:summary" content="">
-<meta property="og:description" content="">
+<meta property="og:title" content="Beware of anemic domain models
+
+">
+<meta property="og:summary" content="
+Anemic domain models are data structures without any behaviour. They are a sign
+of poor object-oriented modelling.
+
+Domain-Driven Design (Eric Evans) is an alternative that takes better advantage
+of the object-oriented model’s strengths and improves code maintainability.
+
+">
+<meta property="og:description" content="
+Anemic domain models are data structures without any behaviour. They are a sign
+of poor object-oriented modelling.
+
+Domain-Driven Design (Eric Evans) is an alternative that takes better advantage
+of the object-oriented model’s strengths and improves code maintainability.
+
+">
 <meta content="" property="og:site_name">
 <meta content="website" property="og:type">
 <meta content="en_US" property="og:locale">
@@ -24,7 +42,14 @@
 <meta content="The Xebia Essentials is a deck of flash cards about software craftsmanship." property="og:config">
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@xebia" />
-<meta name="twitter:description" content="" />
+<meta name="twitter:description" content="
+Anemic domain models are data structures without any behaviour. They are a sign
+of poor object-oriented modelling.
+
+Domain-Driven Design (Eric Evans) is an alternative that takes better advantage
+of the object-oriented model’s strengths and improves code maintainability.
+
+" />
 <meta name="apple-itunes-app" content="app-id=883300245, app-argument=https:https://xebia.github.io/essentials//no-anemic-domain-model/">
 <link rel="apple-touch-icon" href="touch-icon-iphone.png">
 <link rel="apple-touch-icon" sizes="76x76" href="touch-icon-ipad.png">
@@ -71,30 +96,25 @@
   
 
 " />
-  <para></para>
+  <para>Beware of anemic domain models
+
+</para>
 
   <div class="sharing">
     <a target="_blank" rel="nofollow" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https%3Ahttps://xebia.github.io/essentials//no-anemic-domain-model/"> <i class="fa fa-linkedin"></i></a>
-    <a target="_blank" rel="nofollow" href="http://twitter.com/share?text=&amp;url=https%3Ahttps://xebia.github.io/essentials//no-anemic-domain-model/"><i class="fa fa-twitter"></i></a>
+    <a target="_blank" rel="nofollow" href="http://twitter.com/share?text=Beware of anemic domain models
+
+&amp;url=https%3Ahttps://xebia.github.io/essentials//no-anemic-domain-model/"><i class="fa fa-twitter"></i></a>
     <a target="_blank" rel="nofollow" href="https://plus.google.com/share?url=https%3Ahttps://xebia.github.io/essentials//no-anemic-domain-model/"><i class="fa fa-google-plus-square"></i></a>
-    <a target="_blank" rel="nofollow" href="http://www.facebook.com/sharer.php?t=&amp;u=https%3Ahttps://xebia.github.io/essentials//no-anemic-domain-model/"><i class="fa fa-facebook"></i></a>
+    <a target="_blank" rel="nofollow" href="http://www.facebook.com/sharer.php?t=Beware of anemic domain models
+
+&amp;u=https%3Ahttps://xebia.github.io/essentials//no-anemic-domain-model/"><i class="fa fa-facebook"></i></a>
   </div>
 </div>
 
       <div id="body">
         <div class="wiki-content" id="main-content">
-  <p>Beware of anemic domain models</p>
-
-<hr />
-
-<p>Anemic domain models are data structures without any behaviour. They are a sign
-of poor object-oriented modelling.</p>
-
-<p>Domain-Driven Design (Eric Evans) is an alternative that takes better advantage
-of the object-oriented model’s strengths and improves code maintainability.</p>
-
-<hr />
-
+  
 <p>In <strong>Object Oriented Programming</strong>, an Anemic Domain Model is a program design consisting of data classes without any behaviour and procedural of “service” classes to manipulate them. These systems tend to spawn utility classes full of static methods in an effort to <a href="dry-principle">fight code duplication</a>. As the number of utility functions increases, developers lose track and the utilities themselves start to get duplicated. The result is a system that’s not cohesive and <a href="maximize-cohesion-minimize-coupling">tightly coupled</a>. Overall, the high level design appears to be pretty clear, but the source code design tends to get messy. Most simply put, these systems suffer the extra complexity of using an Object Oriented programming language, without reaping any of the benefits.</p>
 
 <p>It must be noted that “structs and procedures” is itself a perfectly valid software design. It’s just not a very good fit for Object Oriented programming languages.</p>
