@@ -19,7 +19,7 @@ url: "http://essentials.xebia.com"
 img: "//essentials.xebia.com/img"
 mailto: "essentials@xebia.com"
 
-markdown: rdiscount
+# markdown: rdiscount
 permalink: pretty
 
 exclude: ['README.md', '*.iml']
