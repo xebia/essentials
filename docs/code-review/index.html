@@ -1,0 +1,149 @@
+<html prefix="og: http://ogp.me/ns#">
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=600">
+<base href="https://xebia.github.io/essentials/" >
+<title>  - Xebia Essentials</title>
+<link href="//fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet" type="text/css">
+<link href="style/style.css" type="text/css" rel="stylesheet">
+<style type="text/css"></style>
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css">
+<link href="/index.html" rel="up">
+<link href="/cards" rel="index">
+<meta property="og:url" content="https://xebia.github.io/essentials//code-review/">
+<meta property="og:title" content="">
+<meta property="og:summary" content="">
+<meta property="og:description" content="">
+<meta content="" property="og:site_name">
+<meta content="website" property="og:type">
+<meta content="en_US" property="og:locale">
+<meta content="//xebia.github.io/essentials/img/XebiaEssentialsCards.jpg" property="og:image">
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta content="The Xebia Essentials is a deck of flash cards about software craftsmanship." property="og:config">
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@xebia" />
+<meta name="twitter:description" content="" />
+<meta name="apple-itunes-app" content="app-id=883300245, app-argument=https:https://xebia.github.io/essentials//code-review/">
+<link rel="apple-touch-icon" href="touch-icon-iphone.png">
+<link rel="apple-touch-icon" sizes="76x76" href="touch-icon-ipad.png">
+<link rel="apple-touch-icon" sizes="120x120" href="touch-icon-iphone-retina.png">
+<link rel="apple-touch-icon" sizes="152x152" href="touch-icon-ipad-retina.png">
+
+  <script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-45163453-1', 'xebia.com');
+  ga('send', 'pageview');
+  function addListener(element, type, callback) {
+    if (element.addEventListener) element.addEventListener(type, callback);
+    else if (element.attachEvent) element.attachEvent('on' + type, callback);
+  }
+  function trackAClick(elementId, type, label) {
+    var elem = document.getElementById(elementId);
+    addListener(elem, 'click', function() {
+      ga('send', 'event', type, 'click', label);
+    });
+  }
+</script>
+
+</head>
+
+  <body>
+    <div id="main">
+      <div id="top"></div>
+
+<div id="masthead" style="background-color:
+
+  
+
+  
+    #FC7A25
+  
+
+  
+
+  
+
+  
+
+" />
+  <para></para>
+
+  <div class="sharing">
+    <a target="_blank" rel="nofollow" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https%3Ahttps://xebia.github.io/essentials//code-review/"> <i class="fa fa-linkedin"></i></a>
+    <a target="_blank" rel="nofollow" href="http://twitter.com/share?text=&amp;url=https%3Ahttps://xebia.github.io/essentials//code-review/"><i class="fa fa-twitter"></i></a>
+    <a target="_blank" rel="nofollow" href="https://plus.google.com/share?url=https%3Ahttps://xebia.github.io/essentials//code-review/"><i class="fa fa-google-plus-square"></i></a>
+    <a target="_blank" rel="nofollow" href="http://www.facebook.com/sharer.php?t=&amp;u=https%3Ahttps://xebia.github.io/essentials//code-review/"><i class="fa fa-facebook"></i></a>
+  </div>
+</div>
+
+      <div id="body">
+        <div class="wiki-content" id="main-content">
+  <p>Review code</p>
+
+<hr />
+
+<p>The primary goal of code review is to increase its quality. Can be used as an
+additional safety net alongside pair programming.</p>
+
+<p>It is also a good way to share knowledge and pick up some new tricks.</p>
+
+<hr />
+
+<h3 id="motivation">Motivation</h3>
+
+<p>We care about quality. Since everyone makes mistakes we reduce the risk of mistakes escaping to production by reviewing all code. Together with <a href="pair-programming">Pair Programming</a> this practice ensures that always two pairs of eyes have seen all production code.</p>
+
+<h3 id="applicability">Applicability</h3>
+
+<p>Reviewing code is a great way to get an overview of a code base; to learn the style and the domain. It is also a way to view the code from an unusual standpoint and see inconsistencies that would otherwise stay out of focus. The only way to truly know the internal quality of a code base is to read the code. Apply reviews when you’re not sure about the code quality, or when you want to coach a team to better quality code through concrete feedback.</p>
+
+<h3 id="application">Application</h3>
+
+<p>Reviewing can be done in several ways. First there is the old fashioned way: just take a text editor (with highlighting if you can) and read the code file by file. It can be useful to load the code in an IDE, but since you’re not here to check if it will compile this might just as well be an unneeded distraction. While reading the code write down concretely what you would change if you were refactoring. Share this with the developers through a simple text.</p>
+
+<p>Then there is the per commit reviewing style, that allows the reviewer to review changes rather than the end result. This is perfect for quick feedback on developer behaviour, rather than the result of the behaviour. It takes more time and discipline to review all commits.</p>
+
+<p>A great way of code reviewing is by using Pull Requests. Pull requests are a feature of most DVCS hosting tools. If your project is on a distributed version control system (DVCS) like Git or Mercurial, you can use such a system. It’s basically a pending merge from one branch into another, accompanied by a commenting system. The great thing about pull requests is that they’re asynchronous (you don’t have to interrupt a colleague in their work), persistent (the reviewing comments are archived), up-to-date (the scope of the code review automatically updates as further commits are made on the development branch) and public (pull requests are visible to the entire team, anyone can chip in). At GitHub, it’s not uncommon for a pull request to live for months before being merged. There’s a great talk about how they use them: <a href="http://zachholman.com/talk/how-github-uses-github-to-build-github/">How GitHub uses GitHub to build GitHub</a>.</p>
+
+<p>Note that Code Reviewing and <a href="pair-programming">Pair Programming</a> are not interchangeable, because they serve different goals.</p>
+
+<h3 id="consequences">Consequences</h3>
+
+<p>It’s easier to feel shared code ownership when reviewing is done by team members. When reviews are done it is important to invest time in dealing with the findings. Otherwise the (sometimes mundane) task of reviewing is not rewarded properly and will feel like a waste of time.</p>
+
+<h3 id="samples">Samples</h3>
+
+<p>There are tools that help reviewing greatly, such as Crucible (commercial) and of free tools around the git vcs, like Gerrit and the GitHub review system. Especially when reviewing per commit, decent tooling is a must have.</p>
+
+</div>
+
+        
+          <h3>The Xebia Essentials Cards</h3>
+<div>
+  This page is part of the <a rel="collection" href="/index.html">Xebia Essentials</a>, a pack of flash cards about Software Development Done Right. You can get your own deck of Essentials cards in the Xebia store.
+</div>
+<div class="buynow">
+  <a href="http://xebia.com/books/xebia-essentials?utm_source=footer&utm_medium=web&utm_campaign=essentials" class="buybutton"><i class="fa fa-shopping-cart"></i> Buy Now</a></div>
+  <br clear='left'/>
+
+        
+        <div id="footer">
+  If you have any questions, remarks or suggestions, please feel free to send an email to <a href="mailto:essentials@xebia.com">essentials@xebia.com</a>.
+</div>
+
+        <div id="copyright">
+  Copyright © 2011-2020 Xebia
+  <a rel="author" href="http://www.xebia.com" type="text/html">
+    <img alt="Xebia" height="20" width="60" src="//xebia.github.io/essentials/img/logo_xebia-120x40.jpg" align="right">
+  </a>
+</div>
+
+      </div>
+    </div>
+  </body>
+</html>

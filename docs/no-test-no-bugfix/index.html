@@ -1,0 +1,151 @@
+<html prefix="og: http://ogp.me/ns#">
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=600">
+<base href="https://xebia.github.io/essentials/" >
+<title>  - Xebia Essentials</title>
+<link href="//fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet" type="text/css">
+<link href="style/style.css" type="text/css" rel="stylesheet">
+<style type="text/css"></style>
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css">
+<link href="/index.html" rel="up">
+<link href="/cards" rel="index">
+<meta property="og:url" content="https://xebia.github.io/essentials//no-test-no-bugfix/">
+<meta property="og:title" content="">
+<meta property="og:summary" content="">
+<meta property="og:description" content="">
+<meta content="" property="og:site_name">
+<meta content="website" property="og:type">
+<meta content="en_US" property="og:locale">
+<meta content="//xebia.github.io/essentials/img/XebiaEssentialsCards.jpg" property="og:image">
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta content="The Xebia Essentials is a deck of flash cards about software craftsmanship." property="og:config">
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@xebia" />
+<meta name="twitter:description" content="" />
+<meta name="apple-itunes-app" content="app-id=883300245, app-argument=https:https://xebia.github.io/essentials//no-test-no-bugfix/">
+<link rel="apple-touch-icon" href="touch-icon-iphone.png">
+<link rel="apple-touch-icon" sizes="76x76" href="touch-icon-ipad.png">
+<link rel="apple-touch-icon" sizes="120x120" href="touch-icon-iphone-retina.png">
+<link rel="apple-touch-icon" sizes="152x152" href="touch-icon-ipad-retina.png">
+
+  <script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-45163453-1', 'xebia.com');
+  ga('send', 'pageview');
+  function addListener(element, type, callback) {
+    if (element.addEventListener) element.addEventListener(type, callback);
+    else if (element.attachEvent) element.attachEvent('on' + type, callback);
+  }
+  function trackAClick(elementId, type, label) {
+    var elem = document.getElementById(elementId);
+    addListener(elem, 'click', function() {
+      ga('send', 'event', type, 'click', label);
+    });
+  }
+</script>
+
+</head>
+
+  <body>
+    <div id="main">
+      <div id="top"></div>
+
+<div id="masthead" style="background-color:
+
+  
+    #F80068
+  
+
+  
+
+  
+
+  
+
+  
+
+" />
+  <para></para>
+
+  <div class="sharing">
+    <a target="_blank" rel="nofollow" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https%3Ahttps://xebia.github.io/essentials//no-test-no-bugfix/"> <i class="fa fa-linkedin"></i></a>
+    <a target="_blank" rel="nofollow" href="http://twitter.com/share?text=&amp;url=https%3Ahttps://xebia.github.io/essentials//no-test-no-bugfix/"><i class="fa fa-twitter"></i></a>
+    <a target="_blank" rel="nofollow" href="https://plus.google.com/share?url=https%3Ahttps://xebia.github.io/essentials//no-test-no-bugfix/"><i class="fa fa-google-plus-square"></i></a>
+    <a target="_blank" rel="nofollow" href="http://www.facebook.com/sharer.php?t=&amp;u=https%3Ahttps://xebia.github.io/essentials//no-test-no-bugfix/"><i class="fa fa-facebook"></i></a>
+  </div>
+</div>
+
+      <div id="body">
+        <div class="wiki-content" id="main-content">
+  <p>No change without a failing test</p>
+
+<hr />
+
+<ul>
+  <li>Don’t fix a bug before you have a broken test</li>
+  <li>A feature is only considered done once you have tests for it</li>
+  <li>Don’t refactor before you have sufficient test coverage</li>
+</ul>
+
+<hr />
+
+<h3 id="motivation">Motivation</h3>
+
+<p>If it ain’t broke don’t fix it goes the old saying. This is often used to resist changes, but resisting change isn’t all bad. In fact, changes are risky and should only be done if there is sufficient reason. A broken test case is proof of a bug (if the test case makes sense) and demanding reproducible breakage before undertaking a risky change is a good recipe to avoid awkward discussions.</p>
+
+<h3 id="applicability">Applicability</h3>
+
+<p>Before you do anything you should have a reason. Especially in a situation where you will potentially be held accountable for your actions having a good reason for them is essential. Proving that something is broken before you fiddle with it is mandatory, in code this means changing or creating a test first and only then changing the code. There is still some discussion on the effectiveness of test driven development. Measurements are not entirely conclusive, suggesting that there are situations where test driven development is not applicable. We suggest to at least ensure there is an objective way to verify the results of the change (keeping some leeway in the method).</p>
+
+<h3 id="application">Application</h3>
+
+<p>Whenever we attempt a change, we first figure out if we can prove that we’ve succeeded when we are done with our change. Once we have a method to prove if our change was successful we carry on. In the process we strive to leave an automated solution to make sure our change is never broken unintentionally. This is often but not always done through a unit test.</p>
+
+<h3 id="consequences">Consequences</h3>
+
+<p>Acting this way results in higher code coverage and more sensible test cases. It may sometimes require extra effort to get started with a change.</p>
+
+<h3 id="samples">Samples</h3>
+
+<p>In a large code base of a longer running project a bug was logged on some parsing issue. A developer went into the code and changed the parser to deal differently with a certain character. A few weeks later another parsing issue was logged; another developer went in and changed the logic back. Both developers saw from the single example in the issue that their fix would solve the problem for the particular example. Then the first bug was reopened and the first developer got furious, reverted the change that removed the check and committed. Then a bit later the second bug was reopened. If only they both had created test cases there wouldn’t have been a problem at all.</p>
+
+<h3 id="references">References</h3>
+
+<ul>
+  <li><a href="http://www.researchgate.net/publication/3188484_On_the_effectiveness_of_the_test-first_approach_to_programming">On the Effectiveness of Test-first Approach to Programming</a> Hakan Erdogmus, National Research Council Canada.</li>
+</ul>
+
+
+</div>
+
+        
+          <h3>The Xebia Essentials Cards</h3>
+<div>
+  This page is part of the <a rel="collection" href="/index.html">Xebia Essentials</a>, a pack of flash cards about Software Development Done Right. You can get your own deck of Essentials cards in the Xebia store.
+</div>
+<div class="buynow">
+  <a href="http://xebia.com/books/xebia-essentials?utm_source=footer&utm_medium=web&utm_campaign=essentials" class="buybutton"><i class="fa fa-shopping-cart"></i> Buy Now</a></div>
+  <br clear='left'/>
+
+        
+        <div id="footer">
+  If you have any questions, remarks or suggestions, please feel free to send an email to <a href="mailto:essentials@xebia.com">essentials@xebia.com</a>.
+</div>
+
+        <div id="copyright">
+  Copyright © 2011-2020 Xebia
+  <a rel="author" href="http://www.xebia.com" type="text/html">
+    <img alt="Xebia" height="20" width="60" src="//xebia.github.io/essentials/img/logo_xebia-120x40.jpg" align="right">
+  </a>
+</div>
+
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,155 @@
+<html prefix="og: http://ogp.me/ns#">
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=600">
+<base href="https://xebia.github.io/essentials/" >
+<title>  - Xebia Essentials</title>
+<link href="//fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet" type="text/css">
+<link href="style/style.css" type="text/css" rel="stylesheet">
+<style type="text/css"></style>
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css">
+<link href="/index.html" rel="up">
+<link href="/cards" rel="index">
+<meta property="og:url" content="https://xebia.github.io/essentials//shared-design-understanding/">
+<meta property="og:title" content="">
+<meta property="og:summary" content="">
+<meta property="og:description" content="">
+<meta content="" property="og:site_name">
+<meta content="website" property="og:type">
+<meta content="en_US" property="og:locale">
+<meta content="//xebia.github.io/essentials/img/XebiaEssentialsCards.jpg" property="og:image">
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta content="The Xebia Essentials is a deck of flash cards about software craftsmanship." property="og:config">
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@xebia" />
+<meta name="twitter:description" content="" />
+<meta name="apple-itunes-app" content="app-id=883300245, app-argument=https:https://xebia.github.io/essentials//shared-design-understanding/">
+<link rel="apple-touch-icon" href="touch-icon-iphone.png">
+<link rel="apple-touch-icon" sizes="76x76" href="touch-icon-ipad.png">
+<link rel="apple-touch-icon" sizes="120x120" href="touch-icon-iphone-retina.png">
+<link rel="apple-touch-icon" sizes="152x152" href="touch-icon-ipad-retina.png">
+
+  <script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-45163453-1', 'xebia.com');
+  ga('send', 'pageview');
+  function addListener(element, type, callback) {
+    if (element.addEventListener) element.addEventListener(type, callback);
+    else if (element.attachEvent) element.attachEvent('on' + type, callback);
+  }
+  function trackAClick(elementId, type, label) {
+    var elem = document.getElementById(elementId);
+    addListener(elem, 'click', function() {
+      ga('send', 'event', type, 'click', label);
+    });
+  }
+</script>
+
+</head>
+
+  <body>
+    <div id="main">
+      <div id="top"></div>
+
+<div id="masthead" style="background-color:
+
+  
+
+  
+
+  
+    #107FD5
+  
+
+  
+
+  
+
+" />
+  <para></para>
+
+  <div class="sharing">
+    <a target="_blank" rel="nofollow" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https%3Ahttps://xebia.github.io/essentials//shared-design-understanding/"> <i class="fa fa-linkedin"></i></a>
+    <a target="_blank" rel="nofollow" href="http://twitter.com/share?text=&amp;url=https%3Ahttps://xebia.github.io/essentials//shared-design-understanding/"><i class="fa fa-twitter"></i></a>
+    <a target="_blank" rel="nofollow" href="https://plus.google.com/share?url=https%3Ahttps://xebia.github.io/essentials//shared-design-understanding/"><i class="fa fa-google-plus-square"></i></a>
+    <a target="_blank" rel="nofollow" href="http://www.facebook.com/sharer.php?t=&amp;u=https%3Ahttps://xebia.github.io/essentials//shared-design-understanding/"><i class="fa fa-facebook"></i></a>
+  </div>
+</div>
+
+      <div id="body">
+        <div class="wiki-content" id="main-content">
+  <p>Share the design</p>
+
+<hr />
+
+<p>Everyone in the team should be aware of the core design ideas that have given
+shape and structure to the software so far, and understand the underlying
+intent.</p>
+
+<hr />
+
+<h3 id="motivation">Motivation</h3>
+
+<p>Having no shared understanding of what you are jointly aiming for is a recipe for disaster:</p>
+
+<ul>
+  <li>Conceptual integrity will be broken.</li>
+  <li>The discussion will slide to your code base.</li>
+  <li>Which will eventually turn your code base into a battle ground.</li>
+  <li>It’s not uncommon people will undo the changes of others, thinking it is not the right way - mind you, without a joined agreement on what constitutes ‘the right way’.</li>
+</ul>
+
+<h3 id="applicability">Applicability</h3>
+
+<p>It applies on all levels of the IT organization, but most certainly to development teams.</p>
+
+<h3 id="application">Application</h3>
+
+<p>There are a couple of things you can do to increase a shared understanding of the design objectives.</p>
+
+<ul>
+  <li>Pair programming helps: even though it synchronizes between two people only, if you switch pairs frequently, and if you prevent your team members from getting too attached to a particular area of the code base, you will eventually get a shared design understanding.</li>
+  <li>Joint design discussion: as soon as you notice blank stares when discussing a particular area of the code base, you should step up and demand allocating some time to discuss that part of the codebase.</li>
+  <li>Plaster the walls: any material coming out of the design discussions should be on the wall. And it should be updated if it no longer reflects the current understanding.</li>
+</ul>
+
+<h3 id="consequences">Consequences</h3>
+
+<p>A shared understanding of the design will help people understand the consequences of their actions. Not having a shared understanding of the design will quickly cause people to claim a certain portion of the code base they understand, which eventually will result in a fragmented code base without any conceptual integrity at all.</p>
+
+<p>Having design meetings of course is expensive. Having some preparation might help, but pictures drawn during the meeting normally have a longer lasting effect. And you should keep in mind that ideas captured during preparation might turn out to be invalid during the discussion.</p>
+
+<p>The advice is not to have design discussions during the stand-up, but perhaps right after it. Somebody should take the responsibility to make sure the results are captured on the wall.</p>
+
+</div>
+
+        
+          <h3>The Xebia Essentials Cards</h3>
+<div>
+  This page is part of the <a rel="collection" href="/index.html">Xebia Essentials</a>, a pack of flash cards about Software Development Done Right. You can get your own deck of Essentials cards in the Xebia store.
+</div>
+<div class="buynow">
+  <a href="http://xebia.com/books/xebia-essentials?utm_source=footer&utm_medium=web&utm_campaign=essentials" class="buybutton"><i class="fa fa-shopping-cart"></i> Buy Now</a></div>
+  <br clear='left'/>
+
+        
+        <div id="footer">
+  If you have any questions, remarks or suggestions, please feel free to send an email to <a href="mailto:essentials@xebia.com">essentials@xebia.com</a>.
+</div>
+
+        <div id="copyright">
+  Copyright © 2011-2020 Xebia
+  <a rel="author" href="http://www.xebia.com" type="text/html">
+    <img alt="Xebia" height="20" width="60" src="//xebia.github.io/essentials/img/logo_xebia-120x40.jpg" align="right">
+  </a>
+</div>
+
+      </div>
+    </div>
+  </body>
+</html>

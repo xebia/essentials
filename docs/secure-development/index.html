@@ -1,0 +1,137 @@
+<html prefix="og: http://ogp.me/ns#">
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=600">
+<base href="https://xebia.github.io/essentials/" >
+<title>  - Xebia Essentials</title>
+<link href="//fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet" type="text/css">
+<link href="style/style.css" type="text/css" rel="stylesheet">
+<style type="text/css"></style>
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css">
+<link href="/index.html" rel="up">
+<link href="/cards" rel="index">
+<meta property="og:url" content="https://xebia.github.io/essentials//secure-development/">
+<meta property="og:title" content="">
+<meta property="og:summary" content="">
+<meta property="og:description" content="">
+<meta content="" property="og:site_name">
+<meta content="website" property="og:type">
+<meta content="en_US" property="og:locale">
+<meta content="//xebia.github.io/essentials/img/XebiaEssentialsCards.jpg" property="og:image">
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta content="The Xebia Essentials is a deck of flash cards about software craftsmanship." property="og:config">
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@xebia" />
+<meta name="twitter:description" content="" />
+<meta name="apple-itunes-app" content="app-id=883300245, app-argument=https:https://xebia.github.io/essentials//secure-development/">
+<link rel="apple-touch-icon" href="touch-icon-iphone.png">
+<link rel="apple-touch-icon" sizes="76x76" href="touch-icon-ipad.png">
+<link rel="apple-touch-icon" sizes="120x120" href="touch-icon-iphone-retina.png">
+<link rel="apple-touch-icon" sizes="152x152" href="touch-icon-ipad-retina.png">
+
+  <script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-45163453-1', 'xebia.com');
+  ga('send', 'pageview');
+  function addListener(element, type, callback) {
+    if (element.addEventListener) element.addEventListener(type, callback);
+    else if (element.attachEvent) element.attachEvent('on' + type, callback);
+  }
+  function trackAClick(elementId, type, label) {
+    var elem = document.getElementById(elementId);
+    addListener(elem, 'click', function() {
+      ga('send', 'event', type, 'click', label);
+    });
+  }
+</script>
+
+</head>
+
+  <body>
+    <div id="main">
+      <div id="top"></div>
+
+<div id="masthead" style="background-color:
+
+  
+
+  
+
+  
+    #107FD5
+  
+
+  
+
+  
+
+" />
+  <para></para>
+
+  <div class="sharing">
+    <a target="_blank" rel="nofollow" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https%3Ahttps://xebia.github.io/essentials//secure-development/"> <i class="fa fa-linkedin"></i></a>
+    <a target="_blank" rel="nofollow" href="http://twitter.com/share?text=&amp;url=https%3Ahttps://xebia.github.io/essentials//secure-development/"><i class="fa fa-twitter"></i></a>
+    <a target="_blank" rel="nofollow" href="https://plus.google.com/share?url=https%3Ahttps://xebia.github.io/essentials//secure-development/"><i class="fa fa-google-plus-square"></i></a>
+    <a target="_blank" rel="nofollow" href="http://www.facebook.com/sharer.php?t=&amp;u=https%3Ahttps://xebia.github.io/essentials//secure-development/"><i class="fa fa-facebook"></i></a>
+  </div>
+</div>
+
+      <div id="body">
+        <div class="wiki-content" id="main-content">
+  <p>Develop for security</p>
+
+<hr />
+
+<p>You can’t successfully add security to an existing insecure system. Consider
+security requirements during all steps of your development process.</p>
+
+<hr />
+
+<h3 id="motivation">Motivation</h3>
+
+<p>The internet hasn’t been the safe, naive place it once was for a couple of decades now. Any connected system runs the risk of being targeted for a variety of kinds of attack, or used as an intermediary to attack some other target.</p>
+
+<h3 id="applicability">Applicability</h3>
+
+<p>Security is often an implied requirement; few words are spent on the topic, but customers expect their systems to be built secure. Practical security is a trade-off: it’s not feasible to be 100% secure. Different systems emphasize different aspects of security and attract different kinds of attackers. Therefore, what’s adequate for one system is overkill (or completely missing the point) for another.</p>
+
+<h3 id="application">Application</h3>
+
+<p>Security is not something that can be bolted on after release, nor is it something that only concerns development. Securing a system starts during its initial, broad-strokes design and lasts all the way through its maintenance phase until the system is decommissioned. Identify which security properties are important, both to yourself (e.g. availability) and to your users (e.g. protection from identity theft). Embed these in your <a href="acceptance-criteria">Acceptance Criteria</a>. Identify which legal or industry standards apply. Employ secure coding practices. Identify abuse cases and test against them. Think about security aspects while <a href="code-review">reviewing code</a>. Consider incident response. Be aware that it’s a perfectly valid decision to accept certain risks, just do so knowingly.</p>
+
+<h3 id="references">References</h3>
+
+<p>There is an enormous amount of literature, tools and online documentation on this subject. The <a href="https://www.owasp.org/index.php/Main_Page">OWASP project</a> has extensive, free resources and is a good place to start looking. The <a href="http://www.microsoft.com/security/sdl/default.aspx">Security Development Lifecycle</a> is a system that Microsoft adopted in the mid-2000’s to address these concerns at every stage.</p>
+
+</div>
+
+        
+          <h3>The Xebia Essentials Cards</h3>
+<div>
+  This page is part of the <a rel="collection" href="/index.html">Xebia Essentials</a>, a pack of flash cards about Software Development Done Right. You can get your own deck of Essentials cards in the Xebia store.
+</div>
+<div class="buynow">
+  <a href="http://xebia.com/books/xebia-essentials?utm_source=footer&utm_medium=web&utm_campaign=essentials" class="buybutton"><i class="fa fa-shopping-cart"></i> Buy Now</a></div>
+  <br clear='left'/>
+
+        
+        <div id="footer">
+  If you have any questions, remarks or suggestions, please feel free to send an email to <a href="mailto:essentials@xebia.com">essentials@xebia.com</a>.
+</div>
+
+        <div id="copyright">
+  Copyright © 2011-2020 Xebia
+  <a rel="author" href="http://www.xebia.com" type="text/html">
+    <img alt="Xebia" height="20" width="60" src="//xebia.github.io/essentials/img/logo_xebia-120x40.jpg" align="right">
+  </a>
+</div>
+
+      </div>
+    </div>
+  </body>
+</html>

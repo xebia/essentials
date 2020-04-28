@@ -1,0 +1,214 @@
+<html prefix="og: http://ogp.me/ns#">
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=600">
+<base href="https://xebia.github.io/essentials/" >
+<title>  - Xebia Essentials</title>
+<link href="//fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet" type="text/css">
+<link href="style/style.css" type="text/css" rel="stylesheet">
+<style type="text/css"></style>
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css">
+<link href="/index.html" rel="up">
+<link href="/cards" rel="index">
+<meta property="og:url" content="https://xebia.github.io/essentials//apis-are-forever/">
+<meta property="og:title" content="">
+<meta property="og:summary" content="">
+<meta property="og:description" content="">
+<meta content="" property="og:site_name">
+<meta content="website" property="og:type">
+<meta content="en_US" property="og:locale">
+<meta content="//xebia.github.io/essentials/img/XebiaEssentialsCards.jpg" property="og:image">
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta content="The Xebia Essentials is a deck of flash cards about software craftsmanship." property="og:config">
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@xebia" />
+<meta name="twitter:description" content="" />
+<meta name="apple-itunes-app" content="app-id=883300245, app-argument=https:https://xebia.github.io/essentials//apis-are-forever/">
+<link rel="apple-touch-icon" href="touch-icon-iphone.png">
+<link rel="apple-touch-icon" sizes="76x76" href="touch-icon-ipad.png">
+<link rel="apple-touch-icon" sizes="120x120" href="touch-icon-iphone-retina.png">
+<link rel="apple-touch-icon" sizes="152x152" href="touch-icon-ipad-retina.png">
+
+  <script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-45163453-1', 'xebia.com');
+  ga('send', 'pageview');
+  function addListener(element, type, callback) {
+    if (element.addEventListener) element.addEventListener(type, callback);
+    else if (element.attachEvent) element.attachEvent('on' + type, callback);
+  }
+  function trackAClick(elementId, type, label) {
+    var elem = document.getElementById(elementId);
+    addListener(elem, 'click', function() {
+      ga('send', 'event', type, 'click', label);
+    });
+  }
+</script>
+
+</head>
+
+  <body>
+    <div id="main">
+      <div id="top"></div>
+
+<div id="masthead" style="background-color:
+
+  
+
+  
+
+  
+    #107FD5
+  
+
+  
+
+  
+
+" />
+  <para></para>
+
+  <div class="sharing">
+    <a target="_blank" rel="nofollow" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https%3Ahttps://xebia.github.io/essentials//apis-are-forever/"> <i class="fa fa-linkedin"></i></a>
+    <a target="_blank" rel="nofollow" href="http://twitter.com/share?text=&amp;url=https%3Ahttps://xebia.github.io/essentials//apis-are-forever/"><i class="fa fa-twitter"></i></a>
+    <a target="_blank" rel="nofollow" href="https://plus.google.com/share?url=https%3Ahttps://xebia.github.io/essentials//apis-are-forever/"><i class="fa fa-google-plus-square"></i></a>
+    <a target="_blank" rel="nofollow" href="http://www.facebook.com/sharer.php?t=&amp;u=https%3Ahttps://xebia.github.io/essentials//apis-are-forever/"><i class="fa fa-facebook"></i></a>
+  </div>
+</div>
+
+      <div id="body">
+        <div class="wiki-content" id="main-content">
+  <p>APIs, like diamonds, are forever</p>
+
+<hr />
+
+<p>So craft them carefully:</p>
+
+<blockquote>
+  <ul>
+    <li>APIs should be self-documenting</li>
+    <li>Obey the principle of least astonishment</li>
+    <li>Use consistent parameter ordering across methods</li>
+    <li>APIs should be easy to use, and hard to misuse</li>
+  </ul>
+  <div class="attribution">Joshua Bloch</div>
+</blockquote>
+
+<hr />
+
+<h3 id="motivation">Motivation</h3>
+
+<p>You want to be careful crafting your API. If you don’t, then you might end up with something that will hurt you forever. It’s not hard to come up with examples of bad API design. Java’s XML processing libraries are notoriously awkward to use. Things that should be simple require tons of boilerplate code.</p>
+
+<p>Joshua Bloch presented his ideas on API design in a talk named ‘How to Design a Good API and Why it Matters’ at OOPSLA 2006. It comprises a set of criteria that are fairly easy to remember, as they are all small enough to fit on a bumper sticker:</p>
+
+<ul>
+  <li>All programmers are API designers</li>
+  <li>APIs can be among your greatest assets or liabilities</li>
+  <li>Public APIs, like diamonds, are forever</li>
+  <li>APIs should be easy to use and hard to misuse</li>
+  <li>APIs should be self-documenting</li>
+  <li>When designing an API, first gather requirements - with a healthy degree of skepticism</li>
+  <li>Structure requirements as use-cases</li>
+  <li>Early drafts of APIs should be short</li>
+  <li>Code the use-cases against your API before you implement it</li>
+  <li>Maintain the code for use-cases as the API evolves</li>
+  <li>Example code should be exemplary</li>
+  <li>You can’t please everyone so aim to displease everyone equally</li>
+  <li>Expect API-design mistakes due to failures of your imagination</li>
+  <li>API design is not a solitary activity</li>
+  <li>Avoid fixed limits on input sizes</li>
+  <li>Names matter</li>
+  <li>If it’s hard to find good names, go back to the drawing board</li>
+  <li>When in doubt leave it out</li>
+  <li>Keep APIs free of implementation details</li>
+  <li>Minimize mutability</li>
+  <li>Documentation matters</li>
+  <li>Consider the performance of consequences of an API design decisions, but don’t warp an API to achieve performance gains</li>
+  <li>When in Rome, do as the Romans do</li>
+  <li>Minimize accessibility</li>
+  <li>Subclass only if you can say with a straight face that every instance of the subclass is an instance of the superclass</li>
+  <li>Design and document for inheritance or else prohibit it</li>
+  <li>Don’t make the client do anything the library could do</li>
+  <li>Obey the principle of the last astonishment</li>
+  <li>Fail fast</li>
+  <li>Provide programmatic access to all data available in string form</li>
+  <li>Overload with care</li>
+  <li>Use the right data type for the job</li>
+  <li>Use consistent parameter ordering across methods</li>
+  <li>Avoid long parameter names</li>
+  <li>Avoid return values that demand exceptional processing</li>
+  <li>Throw exceptions only to indicate exceptional conditions</li>
+  <li>Throw unchecked exceptions unless clients can realistically recover from the failure</li>
+  <li>API design is an art, not a science</li>
+</ul>
+
+<h3 id="applicability">Applicability</h3>
+
+<p>Always.</p>
+
+<h3 id="application">Application</h3>
+
+<ul>
+  <li>Use it while designing the API</li>
+  <li>Use it while coding</li>
+  <li>Use it while reviewing code</li>
+  <li>Use it while pair programming</li>
+</ul>
+
+<p>It might be good idea to read the list before you go off to design something significant, or always have a printed version of the list close to where you are.</p>
+
+<h3 id="consequences">Consequences</h3>
+
+<p>The only negative consequence I can imagine related to trying to follow the guidelines given by Josh are - perhaps - analysis paralysis. Pair programming will prevent that. In fact, just by pair programming and have your buddy remind you of API design bumper stickers, you might have all the benefits without the chance of analysis paralysis.</p>
+
+<p>Now, some people might argue that following these standards doesn’t address a particular business value for the customer, but then I disagree. It is your responsibility as a programmer to create good code. Don’t be tempted to create something messy just because you are in a hurry. Chances are that - if you work like that - it will bite back and result in major head aches when you need to overhaul your code later on.</p>
+
+<p>In order to avoid any discussions on taking the time to work according the guidelines given above, consider making it part of your definition of done, and make sure everybody agrees on that.</p>
+
+<h3 id="samples">Samples</h3>
+
+<p>Less than great API design samples, often serving in examples in Joshua Bloch’s talk: JAXP</p>
+
+<h3 id="references">References</h3>
+
+<ul>
+  <li><a href="http://www.infoq.com/articles/API-Design-Joshua-Bloch">InfoQ Article</a></li>
+  <li><a href="http://www.infoq.com/presentations/effective-api-design">Video recorded at JavaPolis</a></li>
+  <li><a href="code-review">code-review</a></li>
+  <li><a href="comment-with-care">comment-with-care</a></li>
+</ul>
+
+
+</div>
+
+        
+          <h3>The Xebia Essentials Cards</h3>
+<div>
+  This page is part of the <a rel="collection" href="/index.html">Xebia Essentials</a>, a pack of flash cards about Software Development Done Right. You can get your own deck of Essentials cards in the Xebia store.
+</div>
+<div class="buynow">
+  <a href="http://xebia.com/books/xebia-essentials?utm_source=footer&utm_medium=web&utm_campaign=essentials" class="buybutton"><i class="fa fa-shopping-cart"></i> Buy Now</a></div>
+  <br clear='left'/>
+
+        
+        <div id="footer">
+  If you have any questions, remarks or suggestions, please feel free to send an email to <a href="mailto:essentials@xebia.com">essentials@xebia.com</a>.
+</div>
+
+        <div id="copyright">
+  Copyright © 2011-2020 Xebia
+  <a rel="author" href="http://www.xebia.com" type="text/html">
+    <img alt="Xebia" height="20" width="60" src="//xebia.github.io/essentials/img/logo_xebia-120x40.jpg" align="right">
+  </a>
+</div>
+
+      </div>
+    </div>
+  </body>
+</html>

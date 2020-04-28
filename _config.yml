@@ -1,6 +1,7 @@
-name: "Xebia Essentials"
+title: "Xebia Essentials"
 description: "The Xebia Essentials is a deck of flash cards about software craftsmanship."
 
+destination: docs
 category_title_prefix: ""
 
 card_types:
@@ -19,7 +20,6 @@ url: "https://xebia.github.io/essentials/"
 img: "//xebia.github.io/essentials/img"
 mailto: "essentials@xebia.com"
 
-# markdown: rdiscount
 permalink: pretty
 
 exclude: ['README.md', '*.iml']
