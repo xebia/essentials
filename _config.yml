@@ -15,8 +15,8 @@ card_types:
   - name: other
     colour: "#4C2F5C"
 
-url: "http://essentials.xebia.com"
-img: "//essentials.xebia.com/img"
+url: "https://xebia.github.io/essentials/"
+img: "//xebia.github.io/essentials/img"
 mailto: "essentials@xebia.com"
 
 # markdown: rdiscount

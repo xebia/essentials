@@ -1,5 +1,5 @@
 ---
-
+title: Alone time
 layout: card
 category: collaboration
 
