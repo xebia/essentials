@@ -24,7 +24,7 @@ In many cases it involves ideas, or the expression of those ideas, for which we 
 
 We are not going to explain how you should put this deck to good use. As Einstein said, “imagination is more important than knowledge”, and thus we encourage you to rely on your imagination. At the very least, these cards are a promise for a conversation. And these conversations are a breeding ground for new ideas.
 
-We are convinced, it's many of these ideas that make our people into the craftsmen they are. Take a look at the full list of [cards](/cards/), or browse the [categories](/categories/), and see for yourself.
+We are convinced, it's many of these ideas that make our people into the craftsmen they are. Take a look at the full list of [cards]({{site.url}}/cards/), or browse the [categories]({{site.url}}/categories/), and see for yourself.
 
 <br clear='left'/>
 
