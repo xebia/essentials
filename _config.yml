@@ -16,8 +16,8 @@ card_types:
   - name: other
     colour: "#4C2F5C"
 
-url: "https://xebia.github.io/essentials/"
-img: "//xebia.github.io/essentials/img"
+url: "https://essentials.xebia.com/"
+img: "//essentials.xebia.com/img"
 mailto: "essentials@xebia.com"
 
 permalink: pretty
