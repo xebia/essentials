@@ -1,17 +1,33 @@
 <template>
-  <div class="layout">
-    <header class="header">
-      <strong>
-        <g-link to="/">{{ $static.metadata.siteName }}</g-link>
-      </strong>
-      <nav class="nav">
-        <g-link class="nav__link" to="/">Home</g-link>
-        <g-link class="nav__link" to="/about/">About</g-link>
-      </nav>
+  <div class="layout container">
+    <header>
+      <div class="title">Xebia Essentials</div>
+      <div class="grid grid-cols-4">
+        <div class="bg-red h-3" />
+        <div class="bg-orange h-3" />
+        <div class="bg-blue h-3" />
+        <div class="bg-green h-3" />
+      </div>
     </header>
-    <slot/>
+    <slot />
+    <footer class="text-gray mt-4 flex justify-between">
+      <span>&copy; Copyright 2011-{{ new Date().getFullYear() }} Xebia</span>
+      <a rel="author" href="https://www.xebia.com"><img class="h-6" :src="logo"/></a>
+    </footer>
   </div>
 </template>
+
+<script>
+import logo from '@/assets/images/logo.jpg';
+
+export default {
+  data() {
+    return {
+      logo,
+    };
+  },
+};
+</script>
 
 <static-query>
 query {
@@ -21,30 +37,14 @@ query {
 }
 </static-query>
 
-<style>
+<style lang="postcss">
 body {
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  margin:0;
-  padding:0;
-  line-height: 1.5;
+  background: #827d78;
 }
-
 .layout {
-  max-width: 760px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  @apply bg-white p-4;
 }
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-  height: 80px;
-}
-
-.nav__link {
-  margin-left: 20px;
+.title {
+  @apply h-64 bg-purple text-white text-5xl font-bold flex justify-center items-center;
 }
 </style>

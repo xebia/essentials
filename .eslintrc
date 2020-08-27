@@ -1,0 +1,14 @@
+{
+  "extends": ["plugin:prettier/recommended", "eslint:recommended", "plugin:vue/recommended", "@vue/prettier"],
+  "plugins": ["gridsome"],
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    // "gridsome/format-query-block": "error", Does not work
+    "gridsome/require-g-image-src": "error",
+    "gridsome/require-g-link-to": "error",
+    "vue/no-v-html": "off"
+  }
+}
