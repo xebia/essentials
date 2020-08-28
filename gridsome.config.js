@@ -48,4 +48,7 @@ module.exports = {
       },
     },
   ],
+  templates: {
+    Category: [{ path: '/categories/:id' }],
+  },
 };

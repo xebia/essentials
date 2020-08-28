@@ -10,7 +10,7 @@
       </div>
     </header>
     <header v-else class="p-8" :class="categoryClass">
-      <h1 class="title">{{ $page.card.title || $page.card.excerpt }}</h1>
+      <h1 class="title">{{ $page.card.excerpt }}</h1>
     </header>
     <article class="prose p-6" v-html="$page.card.content" />
     <banner v-if="!$page.card.no_banner" />
