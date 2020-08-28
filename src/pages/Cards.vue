@@ -1,5 +1,8 @@
 <template>
   <CardLayout>
+    <template #crumbpath>
+      <Crumbpath :items="[{ label: 'Home', to: '/' }, { label: 'Table of Contents' }]" />
+    </template>
     <Header title="Table of Contents" color="indigo" />
     <div class="prose p-6">
       <p>This is an alphabetical index of the cards in the Xebia Essentials deck.</p>
@@ -13,6 +16,7 @@
 </template>
 
 <script>
+import Crumbpath from '@/components/Crumbpath';
 import Header from '@/layouts/Header';
 
 export default {
@@ -36,6 +40,7 @@ export default {
     };
   },
   components: {
+    Crumbpath,
     Header,
   },
   computed: {

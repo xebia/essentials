@@ -1,5 +1,8 @@
 <template>
   <CardLayout>
+    <template #crumbpath>
+      <Crumbpath :items="[{ label: 'Home', to: '/' }, { label: title }]" />
+    </template>
     <Header :title="title" color="indigo" />
     <div class="prose p-6">
       <ul>
@@ -12,6 +15,7 @@
 </template>
 
 <script>
+import Crumbpath from '@/components/Crumbpath';
 import Header from '@/layouts/Header';
 
 export default {
@@ -35,7 +39,7 @@ export default {
       ],
     };
   },
-  components: { Header },
+  components: { Crumbpath, Header },
   computed: {
     title() {
       return this.$page.category.title.charAt(0).toUpperCase() + this.$page.category.title.slice(1);

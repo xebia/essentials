@@ -29,7 +29,7 @@ module.exports = {
           fontSize: '14px',
         },
         body: {
-          background: '#827d78',
+          background: '#eae0d6',
         },
       });
     }),

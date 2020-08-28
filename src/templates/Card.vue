@@ -1,5 +1,8 @@
 <template>
   <CardLayout :show-banner="!$page.card.no_banner">
+    <template #crumbpath>
+      <Crumbpath v-if="!$page.card.header_image" :items="[{ label: 'Home', to: '/' }, ...crumbs]" />
+    </template>
     <Header v-if="$page.card.header_image" :title="$page.card.title" color="purple" centered>
       <div class="grid grid-cols-4">
         <div class="bg-red h-3" />
@@ -15,6 +18,7 @@
 </template>
 
 <script>
+import Crumbpath from '@/components/Crumbpath';
 import Header from '@/layouts/Header';
 
 export default {
@@ -44,12 +48,10 @@ export default {
     };
   },
   components: {
+    Crumbpath,
     Header,
   },
   computed: {
-    categories() {
-      return this.$page.allCategory.edges.map(e => e.node);
-    },
     color() {
       return (
         {
@@ -60,6 +62,11 @@ export default {
           other: 'indigo',
         }[this.$page.card.category.title] || 'indigo'
       );
+    },
+    crumbs() {
+      const { title, path } = this.$page.card.category;
+      const label = title.charAt(0).toUpperCase() + title.slice(1);
+      return [{ label, to: path }, { label: this.$page.card.excerpt }];
     },
   },
 };
@@ -75,6 +82,7 @@ query Card ($path: String!) {
    path
    category {
      title
+     path
    }
    title
    content
