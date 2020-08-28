@@ -15,8 +15,24 @@
 import Header from '@/layouts/Header';
 
 export default {
-  metaInfo: {
-    title: 'Categories',
+  metaInfo() {
+    return {
+      title: 'Categories',
+      meta: [
+        {
+          property: 'og:url',
+          content: this.$page.metadata.siteUrl + '/categories/',
+        },
+        {
+          property: 'og:title',
+          content: 'Categories',
+        },
+        {
+          property: 'og:summary',
+          content: 'List of all card categories',
+        },
+      ],
+    };
   },
   components: {
     Header,
@@ -31,6 +47,9 @@ export default {
 
 <page-query>
 query {
+  metadata {
+    siteUrl
+  }
   allCategory(sortBy: "title", order: ASC) {
     edges {
       node {

@@ -22,6 +22,25 @@ export default {
   metaInfo() {
     return {
       title: this.$page.card.excerpt,
+      meta: [
+        {
+          property: 'og:url',
+          content: this.$page.metadata.siteUrl + this.$page.card.path,
+        },
+        {
+          property: 'og:title',
+          content: this.$page.card.header_image ? this.$page.card.title : this.$page.card.excerpt,
+        },
+        // Unable to extract summary from MD with current setup
+        // {
+        //   property: 'og:summary',
+        //   content: this.$page.card.summary,
+        // },
+        // {
+        //   property: 'og:description',
+        //   content: this.$page.card.summary,
+        // },
+      ],
     };
   },
   components: {
@@ -48,8 +67,12 @@ export default {
 
 <page-query>
 query Card ($path: String!) {
+  metadata {
+    siteUrl
+  }
   card: card (path: $path) {
    id
+   path
    category {
      title
    }

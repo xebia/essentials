@@ -1,6 +1,6 @@
 <template>
   <CardLayout>
-    <Header :title="$page.category.title" color="indigo" />
+    <Header :title="title" color="indigo" />
     <div class="prose p-6">
       <ul>
         <li v-for="card in cards" :key="card.id">
@@ -16,8 +16,30 @@ import Header from '@/layouts/Header';
 
 export default {
   name: 'Category',
+  metaInfo() {
+    return {
+      title: this.title,
+      meta: [
+        {
+          property: 'og:url',
+          content: this.$page.metadata.siteUrl + this.$page.category.path,
+        },
+        {
+          property: 'og:title',
+          content: this.$page.category.title,
+        },
+        {
+          property: 'og:summary',
+          content: `List of all cards in category ${this.$page.category.title}`,
+        },
+      ],
+    };
+  },
   components: { Header },
   computed: {
+    title() {
+      return this.$page.category.title.charAt(0).toUpperCase() + this.$page.category.title.slice(1);
+    },
     cards() {
       return this.$page.category.belongsTo.edges
         .map(e => e.node)
@@ -29,8 +51,12 @@ export default {
 
 <page-query>
 query($id: ID!) {
+  metadata {
+    siteUrl
+  }
   category(id: $id) {
     title
+    path
     belongsTo {
       edges {
         node {

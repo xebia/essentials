@@ -16,8 +16,24 @@
 import Header from '@/layouts/Header';
 
 export default {
-  metaInfo: {
-    title: 'Table of Contents',
+  metaInfo() {
+    return {
+      title: 'Table of Contents',
+      meta: [
+        {
+          property: 'og:url',
+          content: this.$page.metadata.siteUrl + '/cards/',
+        },
+        {
+          property: 'og:title',
+          content: 'Table of Contents',
+        },
+        {
+          property: 'og:summary',
+          content: 'List of all cards',
+        },
+      ],
+    };
   },
   components: {
     Header,
@@ -34,6 +50,9 @@ export default {
 
 <page-query>
 query {
+  metadata {
+    siteUrl
+  }
   allCard(sortBy: "excerpt", order: ASC) {
     edges {
       node {

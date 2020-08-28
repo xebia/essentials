@@ -16,14 +16,6 @@ export default {
 };
 </script>
 
-<static-query>
-query {
-  metadata {
-    siteName
-  }
-}
-</static-query>
-
 <style lang="postcss" scoped>
 .layout {
   @apply bg-white p-4 my-4;

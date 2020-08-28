@@ -6,6 +6,8 @@
 
 module.exports = {
   siteName: 'Xebia Essentials',
+  siteDescription: 'The Xebia Essentials is a deck of flash cards about software craftsmanship.',
+  siteUrl: 'https://essentials.xebia.com',
   icon: {
     favicon: './src/touch-icon.png',
     touchicon: './src/touch-icon.png',
@@ -41,6 +43,7 @@ module.exports = {
               // Strip out the middle blocks, because they are for physical cards (back and front)
               const [content, ...meta] = file.content.split('---\n').reverse();
               file.excerpt = meta[meta.length - 1];
+              file.summary = meta.length > 1 ? meta[meta.length - 2] : ''; // It looks like this is not working
               file.content = content;
             },
           },
