@@ -1,28 +1,25 @@
 <template>
   <CardLayout>
-    <header class="p-8 bg-indigo">
-      <h1 class="title">Categories</h1>
-    </header>
+    <Header title="Categories" color="indigo" />
     <div class="prose p-6">
       <ul>
-        <li v-for="category in categories" :key="category">
+        <li v-for="category in categories" :key="category.title">
           <g-link :to="category.path">{{ category.title }}</g-link>
         </li>
       </ul>
     </div>
-    <banner />
   </CardLayout>
 </template>
 
 <script>
-import Banner from '@/layouts/Banner';
+import Header from '@/layouts/Header';
 
 export default {
   metaInfo: {
     title: 'Categories',
   },
   components: {
-    Banner,
+    Header,
   },
   computed: {
     categories() {

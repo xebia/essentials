@@ -1,8 +1,6 @@
 <template>
   <CardLayout>
-    <header class="p-8 bg-indigo">
-      <h1 class="title">Table of Contents</h1>
-    </header>
+    <Header title="Table of Contents" color="indigo" />
     <div class="prose p-6">
       <p>This is an alphabetical index of the cards in the Xebia Essentials deck.</p>
       <ul>
@@ -11,19 +9,18 @@
         </li>
       </ul>
     </div>
-    <banner />
   </CardLayout>
 </template>
 
 <script>
-import Banner from '@/layouts/Banner';
+import Header from '@/layouts/Header';
 
 export default {
   metaInfo: {
     title: 'Table of Contents',
   },
   components: {
-    Banner,
+    Header,
   },
   computed: {
     cards() {

@@ -1,8 +1,6 @@
 <template>
   <CardLayout>
-    <header class="p-8 bg-indigo">
-      <h1 class="title">{{ $page.category.title }}</h1>
-    </header>
+    <Header :title="$page.category.title" color="indigo" />
     <div class="prose p-6">
       <ul>
         <li v-for="card in cards" :key="card.id">
@@ -10,16 +8,15 @@
         </li>
       </ul>
     </div>
-    <banner />
   </CardLayout>
 </template>
 
 <script>
-import Banner from '@/layouts/Banner';
+import Header from '@/layouts/Header';
 
 export default {
   name: 'Category',
-  components: { Banner },
+  components: { Header },
   computed: {
     cards() {
       return this.$page.category.belongsTo.edges
@@ -49,9 +46,3 @@ query($id: ID!) {
   }
 }
 </page-query>
-
-<style lang="postcss" scoped>
-.title {
-  @apply h-64 text-white text-5xl font-bold;
-}
-</style>
