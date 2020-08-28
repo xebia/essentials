@@ -34,7 +34,7 @@ export default {
   name: 'Card',
   metaInfo() {
     return {
-      title: this.$page.card.excerpt,
+      title: this.$page.card.header_image ? this.$page.card.title : this.$page.card.excerpt,
       meta: [
         {
           property: 'og:url',
