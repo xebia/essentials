@@ -23,7 +23,7 @@ export default {
   },
   computed: {
     categories() {
-      return this.$page.allCategory.edges.map(e => e.node);
+      return this.$page.allCategory.edges.filter(e => 'other' !== e.node.title).map(e => e.node);
     },
   },
 };
