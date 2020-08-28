@@ -1,10 +1,10 @@
 <template>
-  <div>
+  <header>
     <div :class="['bg-' + color, centered ? 'centered' : '']" class="p-8 h-64">
       <h1>{{ title }}</h1>
     </div>
     <slot />
-  </div>
+  </header>
 </template>
 
 <script>

@@ -28,4 +28,4 @@ We are convinced, it's many of these ideas that make our people into the craftsm
 
 If you'd like a beautiful box of printed Xebia Essentials cards for your team, you can get your own deck of Essentials cards in the Xebia store (sold out).
 
-<a href="http://xebia.com/books/xebia-essentials?utm_source=footer&amp;utm_medium=web&amp;utm_campaign=essentials" class="buy-now">Buy Now</a>
+<a href="http://xebia.com/books/xebia-essentials?utm_source=footer&amp;utm_medium=web&amp;utm_campaign=essentials" class="button">Buy Now</a>

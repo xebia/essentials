@@ -37,11 +37,16 @@ module.exports = {
       addComponents({
         // Can not easily style stuff from Markdown files from within )scoped) Vue file, so we do it globally
         // Override prose style
-        '.buy-now': {
+        '.button': {
           background: theme('colors.yellow'),
+          display: 'inline-block',
           color: `${theme('colors.white')} !important`,
           padding: `${theme('spacing.2')} ${theme('spacing.3')}`,
-          'text-decoration': 'none !important',
+          textDecoration: 'none !important',
+        },
+        '.button.small': {
+          padding: `${theme('spacing.1')} ${theme('spacing.2')}`,
+          fontSize: theme('fontSize.sm'),
         },
       });
     }),

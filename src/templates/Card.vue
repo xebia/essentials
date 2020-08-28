@@ -1,17 +1,26 @@
 <template>
   <CardLayout :show-banner="!$page.card.no_banner">
-    <template #crumbpath>
-      <Crumbpath v-if="!$page.card.header_image" :items="[{ label: 'Home', to: '/' }, ...crumbs]" />
+    <div v-if="$page.card.header_image">
+      <Header :title="$page.card.title" color="purple" centered>
+        <div class="grid grid-cols-4">
+          <div class="bg-red h-3" />
+          <div class="bg-orange h-3" />
+          <div class="bg-blue h-3" />
+          <div class="bg-green h-3" />
+        </div>
+      </Header>
+      <p class="my-4">
+        <g-link class="button small mr-2" to="/cards">Card index</g-link>
+        <g-link class="button small" to="/categories">Categories</g-link>
+      </p>
+    </div>
+    <div v-else>
+      <Header :title="$page.card.excerpt" :color="color" />
+    </div>
+
+    <template v-if="!$page.card.header_image" #crumbpath>
+      <Crumbpath :items="[{ label: 'Home', to: '/' }, ...crumbs]" />
     </template>
-    <Header v-if="$page.card.header_image" :title="$page.card.title" color="purple" centered>
-      <div class="grid grid-cols-4">
-        <div class="bg-red h-3" />
-        <div class="bg-orange h-3" />
-        <div class="bg-blue h-3" />
-        <div class="bg-green h-3" />
-      </div>
-    </Header>
-    <Header v-else :title="$page.card.excerpt" :color="color" />
 
     <article class="prose p-6" v-html="$page.card.content" />
   </CardLayout>

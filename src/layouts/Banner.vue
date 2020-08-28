@@ -7,7 +7,7 @@
     </p>
     <a
       href="http://xebia.com/books/xebia-essentials?utm_source=footer&amp;utm_medium=web&amp;utm_campaign=essentials"
-      class="buy-now"
+      class="button"
     >
       Buy Now
     </a>
