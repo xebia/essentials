@@ -50,6 +50,12 @@ module.exports = {
         },
       },
     },
+    {
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: 'UA-45163453-1',
+      },
+    },
   ],
   templates: {
     Category: [{ path: '/categories/:id' }],
