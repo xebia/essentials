@@ -36,6 +36,10 @@ export default {
           property: 'og:summary',
           content: `List of all cards in category ${this.$page.category.title}`,
         },
+        {
+          property: 'og:image',
+          content: `${this.$page.metadata.siteUrl}/images/XebiaEssentialsCards.jpg`,
+        },
       ],
     };
   },
