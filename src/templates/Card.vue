@@ -32,13 +32,15 @@ export default {
   },
   computed: {
     categoryClass() {
-      return {
-        realisation: 'bg-blue',
-        craftsmanship: 'bg-red',
-        testing: 'bg-green',
-        collaboration: 'bg-orange',
-        other: 'bg-indigo',
-      }[this.$page.card.category.title];
+      return (
+        {
+          realisation: 'bg-blue',
+          craftsmanship: 'bg-red',
+          testing: 'bg-green',
+          collaboration: 'bg-orange',
+          other: 'bg-indigo',
+        }[this.$page.card.category.title] || 'bg-indigo'
+      );
     },
   },
 };
