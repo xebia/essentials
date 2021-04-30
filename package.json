@@ -7,20 +7,22 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "@gridsome/plugin-google-analytics": "0.1.1",
-    "@tailwindcss/typography": "0.2.0",
-    "gridsome": "0.7.20",
-    "tailwindcss": "1.7.5"
+    "@gridsome/plugin-google-analytics": "0.1.2",
+    "@tailwindcss/typography": "0.4.0",
+    "gridsome": "0.7.23"
   },
   "devDependencies": {
     "@gridsome/cli": "0.3.4",
     "@gridsome/source-filesystem": "0.6.2",
-    "@gridsome/transformer-remark": "0.6.2",
-    "eslint": "7.7.0",
-    "eslint-config-prettier": "6.11.0",
-    "eslint-plugin-gridsome": "1.5.0",
-    "eslint-plugin-prettier": "3.1.4",
-    "eslint-plugin-vue": "6.2.2",
-    "gridsome-plugin-tailwindcss": "3.0.1"
+    "@gridsome/transformer-remark": "0.6.4",
+    "autoprefixer": "9.8.6",
+    "eslint": "7.25.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-gridsome": "1.6.2",
+    "eslint-plugin-prettier": "3.4.0",
+    "eslint-plugin-vue": "7.9.0",
+    "gridsome-plugin-tailwindcss": "4.1.1",
+    "postcss": "7.0.35",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@2.1.2"
   }
 }
