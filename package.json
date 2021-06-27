@@ -8,21 +8,22 @@
   },
   "dependencies": {
     "@gridsome/plugin-google-analytics": "0.1.2",
-    "@tailwindcss/typography": "0.4.0",
+    "@tailwindcss/typography": "0.4.1",
     "gridsome": "0.7.23"
   },
   "devDependencies": {
     "@gridsome/cli": "0.3.4",
     "@gridsome/source-filesystem": "0.6.2",
     "@gridsome/transformer-remark": "0.6.4",
+    "@tailwindcss/postcss7-compat": "npm:@tailwindcss/postcss7-compat@2.2.4",
     "autoprefixer": "9.8.6",
-    "eslint": "7.25.0",
+    "eslint": "7.29.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-gridsome": "1.6.2",
     "eslint-plugin-prettier": "3.4.0",
-    "eslint-plugin-vue": "7.9.0",
+    "eslint-plugin-vue": "7.12.1",
     "gridsome-plugin-tailwindcss": "4.1.1",
     "postcss": "7.0.36",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat@2.1.2"
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@2.2.4"
   }
 }
