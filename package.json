@@ -23,6 +23,7 @@
     "eslint-plugin-prettier": "3.4.0",
     "eslint-plugin-vue": "7.12.1",
     "gridsome-plugin-tailwindcss": "4.1.1",
+    "netlify-plugin-csp-headers": "0.0.1-alpha.8",
     "postcss": "7.0.36",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@2.2.4"
   }

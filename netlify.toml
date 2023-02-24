@@ -1,0 +1,5 @@
+[build]
+  publish = "dist"
+  command = "gridsome build"
+[[plugins]]
+  package = "netlify-plugin-csp-headers"
