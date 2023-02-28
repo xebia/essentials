@@ -40,7 +40,7 @@ the images and text-content of the cards for which the copyright is maintained.
 
 ### Dependencies
 
-The project expects you to have NodeJS installed.
+The project expects you to have NodeJS (12) and NPM 6 (lockfile v1) installed.
 
 Install all dependencies through
 
