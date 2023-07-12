@@ -1,6 +1,6 @@
 <template>
   <div class="container layout">
-    <div class="my-4" style="min-height: 1.5rem"><slot name="crumbpath" /></div>
+    <div class="my-4 min-h[1.5rem]"><slot name="crumbpath" /></div>
     <div class="page">
       <slot />
       <Banner v-if="showBanner" />
