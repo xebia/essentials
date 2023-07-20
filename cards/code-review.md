@@ -1,8 +1,6 @@
 ---
-
 layout: card
 category: collaboration
-
 ---
 
 Review code
@@ -30,7 +28,7 @@ Reviewing can be done in several ways. First there is the old fashioned way: jus
 
 Then there is the per commit reviewing style, that allows the reviewer to review changes rather than the end result. This is perfect for quick feedback on developer behaviour, rather than the result of the behaviour. It takes more time and discipline to review all commits.
 
-A great way of code reviewing is by using Pull Requests. Pull requests are a feature of most DVCS hosting tools. If your project is on a distributed version control system (DVCS) like Git or Mercurial, you can use such a system. It's basically a pending merge from one branch into another, accompanied by a commenting system. The great thing about pull requests is that they're asynchronous (you don't have to interrupt a colleague in their work), persistent (the reviewing comments are archived), up-to-date (the scope of the code review automatically updates as further commits are made on the development branch) and public (pull requests are visible to the entire team, anyone can chip in). At GitHub, it's not uncommon for a pull request to live for months before being merged. There's a great talk about how they use them: [How GitHub uses GitHub to build GitHub](http://zachholman.com/talk/how-github-uses-github-to-build-github/).
+A great way of code reviewing is by using Pull Requests. Pull requests are a feature of most DVCS hosting tools. If your project is on a distributed version control system (DVCS) like Git or Mercurial, you can use such a system. It's basically a pending merge from one branch into another, accompanied by a commenting system. The great thing about pull requests is that they're asynchronous (you don't have to interrupt a colleague in their work), persistent (the reviewing comments are archived), up-to-date (the scope of the code review automatically updates as further commits are made on the development branch) and public (pull requests are visible to the entire team, anyone can chip in). At GitHub, it's not uncommon for a pull request to live for months before being merged. There's a great talk about how they use them: [How GitHub uses GitHub to build GitHub](https://zachholman.com/talk/how-github-uses-github-to-build-github/).
 
 Note that Code Reviewing and [Pair Programming](pair-programming) are not interchangeable, because they serve different goals.
 

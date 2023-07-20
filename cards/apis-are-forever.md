@@ -1,8 +1,6 @@
 ---
-
 layout: card
 category: realisation
-
 ---
 
 APIs, like diamonds, are forever
@@ -11,11 +9,11 @@ APIs, like diamonds, are forever
 
 So craft them carefully:
 
-> * APIs should be self-documenting
-> * Obey the principle of least astonishment
-> * Use consistent parameter ordering across methods
-> * APIs should be easy to use, and hard to misuse
-> <div class="attribution">Joshua Bloch</div>
+> - APIs should be self-documenting
+> - Obey the principle of least astonishment
+> - Use consistent parameter ordering across methods
+> - APIs should be easy to use, and hard to misuse
+>   <div class="attribution">Joshua Bloch</div>
 
 ---
 
@@ -25,44 +23,44 @@ You want to be careful crafting your API. If you don't, then you might end up wi
 
 Joshua Bloch presented his ideas on API design in a talk named 'How to Design a Good API and Why it Matters' at OOPSLA 2006. It comprises a set of criteria that are fairly easy to remember, as they are all small enough to fit on a bumper sticker:
 
-* All programmers are API designers
-* APIs can be among your greatest assets or liabilities
-* Public APIs, like diamonds, are forever
-* APIs should be easy to use and hard to misuse
-* APIs should be self-documenting
-* When designing an API, first gather requirements - with a healthy degree of skepticism
-* Structure requirements as use-cases
-* Early drafts of APIs should be short
-* Code the use-cases against your API before you implement it
-* Maintain the code for use-cases as the API evolves
-* Example code should be exemplary
-* You can't please everyone so aim to displease everyone equally
-* Expect API-design mistakes due to failures of your imagination
-* API design is not a solitary activity
-* Avoid fixed limits on input sizes
-* Names matter
-* If it's hard to find good names, go back to the drawing board
-* When in doubt leave it out
-* Keep APIs free of implementation details
-* Minimize mutability
-* Documentation matters
-* Consider the performance of consequences of an API design decisions, but don't warp an API to achieve performance gains
-* When in Rome, do as the Romans do
-* Minimize accessibility
-* Subclass only if you can say with a straight face that every instance of the subclass is an instance of the superclass
-* Design and document for inheritance or else prohibit it
-* Don't make the client do anything the library could do
-* Obey the principle of the last astonishment
-* Fail fast
-* Provide programmatic access to all data available in string form
-* Overload with care
-* Use the right data type for the job
-* Use consistent parameter ordering across methods
-* Avoid long parameter names
-* Avoid return values that demand exceptional processing
-* Throw exceptions only to indicate exceptional conditions
-* Throw unchecked exceptions unless clients can realistically recover from the failure
-* API design is an art, not a science
+- All programmers are API designers
+- APIs can be among your greatest assets or liabilities
+- Public APIs, like diamonds, are forever
+- APIs should be easy to use and hard to misuse
+- APIs should be self-documenting
+- When designing an API, first gather requirements - with a healthy degree of skepticism
+- Structure requirements as use-cases
+- Early drafts of APIs should be short
+- Code the use-cases against your API before you implement it
+- Maintain the code for use-cases as the API evolves
+- Example code should be exemplary
+- You can't please everyone so aim to displease everyone equally
+- Expect API-design mistakes due to failures of your imagination
+- API design is not a solitary activity
+- Avoid fixed limits on input sizes
+- Names matter
+- If it's hard to find good names, go back to the drawing board
+- When in doubt leave it out
+- Keep APIs free of implementation details
+- Minimize mutability
+- Documentation matters
+- Consider the performance of consequences of an API design decisions, but don't warp an API to achieve performance gains
+- When in Rome, do as the Romans do
+- Minimize accessibility
+- Subclass only if you can say with a straight face that every instance of the subclass is an instance of the superclass
+- Design and document for inheritance or else prohibit it
+- Don't make the client do anything the library could do
+- Obey the principle of the last astonishment
+- Fail fast
+- Provide programmatic access to all data available in string form
+- Overload with care
+- Use the right data type for the job
+- Use consistent parameter ordering across methods
+- Avoid long parameter names
+- Avoid return values that demand exceptional processing
+- Throw exceptions only to indicate exceptional conditions
+- Throw unchecked exceptions unless clients can realistically recover from the failure
+- API design is an art, not a science
 
 ### Applicability
 
@@ -70,10 +68,10 @@ Always.
 
 ### Application
 
-* Use it while designing the API
-* Use it while coding
-* Use it while reviewing code
-* Use it while pair programming
+- Use it while designing the API
+- Use it while coding
+- Use it while reviewing code
+- Use it while pair programming
 
 It might be good idea to read the list before you go off to design something significant, or always have a printed version of the list close to where you are.
 
@@ -91,9 +89,7 @@ Less than great API design samples, often serving in examples in Joshua Bloch's 
 
 ### References
 
-* [InfoQ Article](http://www.infoq.com/articles/API-Design-Joshua-Bloch)
-* [Video recorded at JavaPolis](http://www.infoq.com/presentations/effective-api-design)
-* [code-review](code-review)
-* [comment-with-care](comment-with-care)
-
-
+- [InfoQ Article](https://www.infoq.com/articles/API-Design-Joshua-Bloch)
+- [Video recorded at JavaPolis](https://www.infoq.com/presentations/effective-api-design)
+- [code-review](code-review)
+- [comment-with-care](comment-with-care)

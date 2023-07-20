@@ -1,8 +1,6 @@
 ---
-
 layout: card
 category: testing
-
 ---
 
 Tests are Specifications
@@ -38,6 +36,4 @@ Your process probably no longer has separate 'waterfall' phases for specificatio
 
 ### References
 
-http://www.specificationbyexample.com
-
-
+https://www.specificationbyexample.com

@@ -1,8 +1,6 @@
 ---
-
 layout: card
 category: craftsmanship
-
 ---
 
 Improve practices, don't just follow the recipe
@@ -21,5 +19,4 @@ The appropriate solution may of course be a common Best Practice. They're called
 
 ### References
 
-* [There is no such thing as best practices](http://blogs.tedneward.com/2005/08/26/There+Is+No+Such+Thing+As+Best+Practices+Context+Matters.aspx), Ted Neward's blog.
-
+- [There is no such thing as best practices](https://blogs.tedneward.com/2005/08/26/There+Is+No+Such+Thing+As+Best+Practices+Context+Matters.aspx), Ted Neward's blog.

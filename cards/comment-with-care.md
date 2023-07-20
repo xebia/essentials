@@ -1,18 +1,16 @@
 ---
-
 layout: card
 category: craftsmanship
-
 ---
 
 Comment with care
 
 ---
 
-* Don't document bad code &ndash; rewrite it
-* Don't repeat the code &ndash; clarify its intent
-* Document surprises and workarounds
-* Make every comment count
+- Don't document bad code &ndash; rewrite it
+- Don't repeat the code &ndash; clarify its intent
+- Document surprises and workarounds
+- Make every comment count
 
 ---
 
@@ -28,9 +26,9 @@ Every modern programming language I'm aware of supports source code comments.
 
 ### Application
 
-* In an object-oriented language such as Java (1), it's fair to demand a type-level JavaDoc header that describes the intent and responsibility of the class or interface on every public or protected type.
-* On APIs intended for use by others, every public method and field should be appropriately documented.
-* Use the standard documentation system for the platform. In Python, that's doc strings. In Java, that's JavaDoc. The standard documentation system is not only familiar to humans, most IDEs and some editors know how to read it too. As obvious as this may seem, I more than once had the displeasure of using a closed-source API documented using a proprietary HTML layout not in any way resembling standard JavaDoc. It was painful.
+- In an object-oriented language such as Java (1), it's fair to demand a type-level JavaDoc header that describes the intent and responsibility of the class or interface on every public or protected type.
+- On APIs intended for use by others, every public method and field should be appropriately documented.
+- Use the standard documentation system for the platform. In Python, that's doc strings. In Java, that's JavaDoc. The standard documentation system is not only familiar to humans, most IDEs and some editors know how to read it too. As obvious as this may seem, I more than once had the displeasure of using a closed-source API documented using a proprietary HTML layout not in any way resembling standard JavaDoc. It was painful.
 
 Guidelines aside, whenever you find yourself wondering: "I wonder whether this'll make sense to me later", you know it's time for a comment. Ensure the comment contains information that cannot be obtained by simply reading the code itself.
 
@@ -44,7 +42,7 @@ Effective use of source code comments improves the maintainability of program co
 
 # Don't document bad code - rewrite it.
 
-The [Wikipedia article on commenting](http://en.wikipedia.org/wiki/Comment_%28computer_programming%29) ascribes this aphorism to The Elements of Programming Style [3]. It's a good general guideline, but it may not always be feasible, especially in maintenance projects.
+The [Wikipedia article on commenting](https://en.wikipedia.org/wiki/Comment_%28computer_programming%29) ascribes this aphorism to The Elements of Programming Style [3]. It's a good general guideline, but it may not always be feasible, especially in maintenance projects.
 
 # Don't repeat the code - clarify its intent.
 
@@ -72,7 +70,7 @@ Maybe the intent can be clarified just as much without a comment:
 
 An example of this is when I found out that a Java 1.5 ThreadPoolExecutor with a corePoolSize of 0, a maxPoolSize of 50 and an unbounded task queue does not idle at 0 threads and execute at 50, but rather, starts 0 threads and executes nothing at all. When I dug into this, I found out that Java 1.5 has no way to make a ThreadPoolExecutor idle at 0 threads (Java 1.6 does) and that in both versions maxPoolSize is meaningless with an unbounded queue. I put a short note above the variable declaration to benefit any maintenance programmer that needs to adjust the pool sizes.
 
-A special case of this is where source code analysis tools report a false positive. A great example of this is the [Debian OpenSSL](http://digitaloffense.net/tools/debian-openssl/) fiasco of a few years back. The random number generator contained what appears to be bad use of uninitialized memory (and was reported as such by code analysis tools), but which was essential to seeding the random number generator. Someone removed the line in a clean-up effort and the result was two years' worth of SSL certificates each of which could be brute-forced in at most 32768 attempts.
+A special case of this is where source code analysis tools report a false positive. A great example of this is the [Debian OpenSSL](https://digitaloffense.net/tools/debian-openssl/) fiasco of a few years back. The random number generator contained what appears to be bad use of uninitialized memory (and was reported as such by code analysis tools), but which was essential to seeding the random number generator. Someone removed the line in a clean-up effort and the result was two years' worth of SSL certificates each of which could be brute-forced in at most 32768 attempts.
 
 # Make every comment count.
 
@@ -129,5 +127,3 @@ The xsd:dateTime has a resolution in seconds (optionally milliseconds) and an op
 ### Footnotes
 
 1. Some argue Java isn't an object oriented language. It's close enough for the purposes of this article.
-
-

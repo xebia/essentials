@@ -1,8 +1,6 @@
 ---
-
 layout: card
 category: craftsmanship
-
 ---
 
 No multitasking
@@ -36,9 +34,6 @@ By focusing your attention on a single task at a time, you'll get more work done
 
 ### References
 
-* [The Multitasking Myth (CodingHorror.com)](http://www.codinghorror.com/blog/2006/09/the-multi-tasking-myth.html)
-* [Multitasking is impossible (TheTruthYouAlwaysKnew.com)](http://thetruthyoualwaysknew.com/2013/04/21/multitasking-is-impossible-focus-deeply-on-the-task-at-hand/)
-* [Why multitasking doesn't work (Forbes.com)](http://www.forbes.com/sites/douglasmerrill/2012/08/17/why-multitasking-doesnt-work/)
-
-
-
+- [The Multitasking Myth (CodingHorror.com)](https://www.codinghorror.com/blog/2006/09/the-multi-tasking-myth.html)
+- [Multitasking is impossible (TheTruthYouAlwaysKnew.com)](https://thetruthyoualwaysknew.com/2013/04/21/multitasking-is-impossible-focus-deeply-on-the-task-at-hand/)
+- [Why multitasking doesn't work (Forbes.com)](https://www.forbes.com/sites/douglasmerrill/2012/08/17/why-multitasking-doesnt-work/)

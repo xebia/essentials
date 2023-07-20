@@ -1,8 +1,6 @@
 ---
-
 layout: card
 category: craftsmanship
-
 ---
 
 Favor continuous improvement over delayed perfection
@@ -15,6 +13,7 @@ If you don't get better, you get worse.
 > Continuous improvement is about removing the things that get in the way of your
 > work. The headaches, the things that slow you down, that&rsquo;s what
 > continuous improvement is all about.
+>
 > <div class="attribution">Bruce Hamilton</div>
 
 ---
@@ -43,8 +42,7 @@ Continuous improvement requires dedication, and dedication required dedicated ti
 
 ### References
 
-1. The Programmer's Bill of Rights, Jeff Atwood, [http://www.codinghorror.com/blog/2006/08/the-programmers-bill-of-rights.html](http://www.codinghorror.com/blog/2006/08/the-programmers-bill-of-rights.html)
+1. The Programmer's Bill of Rights, Jeff Atwood, [https://www.codinghorror.com/blog/2006/08/the-programmers-bill-of-rights.html](https://www.codinghorror.com/blog/2006/08/the-programmers-bill-of-rights.html)
 2. The Productive Programmer, Neal Ford
 3. The Pragmatic Programmer; from Journeyman to Master, Andrew Hunt and David Thomas
-4. Kaizen, [http://en.wikipedia.org/wiki/Kaizen](http://en.wikipedia.org/wiki/Kaizen)
-
+4. Kaizen, [https://en.wikipedia.org/wiki/Kaizen](https://en.wikipedia.org/wiki/Kaizen)

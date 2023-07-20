@@ -14,9 +14,9 @@ Good software does not come about just like that; by mere coincidence. Inside a 
 
 Inside our organization, many of these patterns were applied either consciously or subconsciously. We felt the need to bring these patterns forward from under lock and key into the clear light of day for everyone's awareness.
 
-After months of gathering, slicing, dicing and eventual distilling, we arrived at what we consider to be the 'Essentials', distributed as a pack of flash cards, found in the <a target="_blank" href="http://xebia.com/books/xebia-essentials">Xebia Bookstore</a> (sold out).
+After months of gathering, slicing, dicing and eventual distilling, we arrived at what we consider to be the 'Essentials', distributed as a pack of flash cards, found in the <a target="_blank" href="https://xebia.com/books/xebia-essentials">Xebia Bookstore</a> (sold out).
 
-[![Photo of a deck of Xebia Essentials cards.](/images/XebiaEssentialsDeck-2nd-ed.jpg)](http://xebia.com/books/xebia-essentials)
+[![Photo of a deck of Xebia Essentials cards.](/images/XebiaEssentialsDeck-2nd-ed.jpg)](https://xebia.com/books/xebia-essentials)
 
 In many cases it involves ideas, or the expression of those ideas, for which we cannot take credit ourselves. In those cases, we have strived to grant credit to the originators, being fully aware that greatness can only be achieved by standing on the shoulders of giants.
 
@@ -28,4 +28,4 @@ We are convinced, it's many of these ideas that make our people into the craftsm
 
 If you'd like a beautiful box of printed Xebia Essentials cards for your team, you can get your own deck of Essentials cards in the Xebia store (sold out).
 
-<a href="http://xebia.com/books/xebia-essentials?utm_source=footer&amp;utm_medium=web&amp;utm_campaign=essentials" class="button">Buy Now</a>
+<a href="https://xebia.com/books/xebia-essentials?utm_source=footer&amp;utm_medium=web&amp;utm_campaign=essentials" class="button">Buy Now</a>

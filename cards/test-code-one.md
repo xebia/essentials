@@ -1,8 +1,6 @@
 ---
-
 layout: card
 category: testing
-
 ---
 
 Think of code and test as one
@@ -12,6 +10,7 @@ Think of code and test as one
 > When writing the code, think of the test.
 > When writing the test, think of the code.
 > When you think of code and test as one, testing is easy and code is beautiful.
+>
 > <div class="attribution">Testivus</div>
 
 ---
@@ -38,4 +37,4 @@ Circling around between test and code might make it harder to define a stop crit
 
 ### References
 
-The Way of Testivus - Unit Testing Wisdom From An Ancient Software Start-up, Albert Savoia, [http://www.agitar.com/downloads/TheWayOfTestivus.pdf](http://www.agitar.com/downloads/TheWayOfTestivus.pdf), 2007
+The Way of Testivus - Unit Testing Wisdom From An Ancient Software Start-up, Albert Savoia, [https://www.agitar.com/downloads/TheWayOfTestivus.pdf](https://www.agitar.com/downloads/TheWayOfTestivus.pdf), 2007

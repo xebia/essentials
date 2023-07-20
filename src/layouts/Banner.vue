@@ -6,7 +6,7 @@
       Software Development Done Right. You can get your own deck of Essentials cards in the Xebia store (sold out).
     </p>
     <a
-      href="http://xebia.com/books/xebia-essentials?utm_source=footer&amp;utm_medium=web&amp;utm_campaign=essentials"
+      href="https://xebia.com/books/xebia-essentials?utm_source=footer&amp;utm_medium=web&amp;utm_campaign=essentials"
       class="button"
     >
       Buy Now

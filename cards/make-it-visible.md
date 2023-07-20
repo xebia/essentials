@@ -1,8 +1,6 @@
 ---
-
 layout: card
 category: collaboration
-
 ---
 
 Make it visible
@@ -30,10 +28,10 @@ A burndown chart is the perfect example of a visualization that allows you to un
 
 Visualization is a tool that comes in handy in all sorts of circumstances. Dan Roam cuts the problem solving process into four phases, and suggests visualization techniques to help you through each of these phases:
 
-* Looking = Collecting and screening
-* Seeing = Selecting and clumping
-* Imagining = Seeing what isn't there
-* Showing = Making it all clear
+- Looking = Collecting and screening
+- Seeing = Selecting and clumping
+- Imagining = Seeing what isn't there
+- Showing = Making it all clear
 
 ### Application
 
@@ -61,18 +59,18 @@ And last but not least, collective design efforts result in hand-drawn, informal
 
 Here are some of the tools we use:
 
-* Omnigraffle: informal but pretty.
-* Graphviz: not that pretty, but extremely convenient in taking care of the heavy-lifting.
-* Google Visualization API: pretty decent, again very convenient for preventing you from having to manually draw the same diagram over and over again.
-* Protovis: if you are into automating things, then Protovis draws awesome pictures, but it might be a little harder to use than - say - Google visualizations.
-* Raphael: if neither Google nor Protovis support the kind of diagrams you want to generate, Raphael is your next best option.
+- Omnigraffle: informal but pretty.
+- Graphviz: not that pretty, but extremely convenient in taking care of the heavy-lifting.
+- Google Visualization API: pretty decent, again very convenient for preventing you from having to manually draw the same diagram over and over again.
+- Protovis: if you are into automating things, then Protovis draws awesome pictures, but it might be a little harder to use than - say - Google visualizations.
+- Raphael: if neither Google nor Protovis support the kind of diagrams you want to generate, Raphael is your next best option.
 
 ### References
 
 1. The Back of a Napkin, Dan Roam
-2. Gapminder, [http://www.gapminder.org/](http://www.gapminder.org/)
+2. Gapminder, [https://www.gapminder.org/](https://www.gapminder.org/)
 3. Notation and Representation in Collaborative Object-Oriented Design, Uri Dekel and Herbsleb
-4. Protovis, [http://vis.stanford.edu/protovis/](http://vis.stanford.edu/protovis/)
-5. Google Visualization API, [http://code.google.com/apis/charttools/index.html](http://code.google.com/apis/charttools/index.html)
-6. Raphaël, [http://raphaeljs.com/](http://raphaeljs.com/)
-7. The Visual Thinking Codex_, Dan Roam, [http://www.thebackofthenapkin.com/pdf/TBOTN_codex.pdf](http://www.thebackofthenapkin.com/pdf/TBOTN_codex.pdf)
+4. Protovis, [https://vis.stanford.edu/protovis/](https://vis.stanford.edu/protovis/)
+5. Google Visualization API, [https://code.google.com/apis/charttools/index.html](https://code.google.com/apis/charttools/index.html)
+6. Raphaël, [https://raphaeljs.com/](https://raphaeljs.com/)
+7. The Visual Thinking Codex\_, Dan Roam, [https://www.thebackofthenapkin.com/pdf/TBOTN_codex.pdf](https://www.thebackofthenapkin.com/pdf/TBOTN_codex.pdf)

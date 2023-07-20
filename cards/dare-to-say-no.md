@@ -1,8 +1,6 @@
 ---
-
 layout: card
 category: craftsmanship
-
 ---
 
 Dare to say no
@@ -37,6 +35,5 @@ Software engineers pride themselves on solving problems and "doing the impossibl
 
 ###References
 
-* [Manifesto for Software Craftsmanship](http://manifesto.softwarecraftsmanship.org/)
-* [Craftsmanship and Ethics, Robert C. Martin](http://www.infoq.com/presentations/craftsmanship-ethics)
-
+- [Manifesto for Software Craftsmanship](https://manifesto.softwarecraftsmanship.org/)
+- [Craftsmanship and Ethics, Robert C. Martin](https://www.infoq.com/presentations/craftsmanship-ethics)

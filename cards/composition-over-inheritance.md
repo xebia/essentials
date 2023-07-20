@@ -1,8 +1,6 @@
 ---
-
 layout: card
 category: realisation
-
 ---
 
 Favor composition over inheritance
@@ -86,6 +84,4 @@ If you have different devices that use the same software and only differ in the 
 
 ### References
 
-[Composite Reuse Principle](http://www.cs.sjsu.edu/~pearce/cs251b/principles/crp.htm)
-
-
+[Composite Reuse Principle](https://www.cs.sjsu.edu/~pearce/cs251b/principles/crp.htm)

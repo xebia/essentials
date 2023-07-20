@@ -1,8 +1,6 @@
 ---
-
 layout: card
 category: realisation
-
 ---
 
 Assert against improper behaviour
@@ -10,6 +8,7 @@ Assert against improper behaviour
 ---
 
 > If it can't happen, use assertions to assure it won't.
+>
 > <div class="attribution">Andrew Hunt, David Thomas</div>
 
 ---
@@ -20,11 +19,11 @@ Ideally, the compiler would be able to verify all of your assumptions. In realit
 
 This is where assertions come to the rescue. Assertions allow you to validate pre- and postconditions and can help you to assure your invariants hold. Putting in assertions will make sure your code fails early before causing anymore damage. It also works as a mental flag.
 
-* You think you're sure something will never happen =&gt;
-* The rule tells you to put an assertion in =&gt;
-* You start to consider if your assumption actually holds in all circumstances =&gt;
-* You might alter your code based on the conclusion =&gt;
-* You put in an assertion
+- You think you're sure something will never happen =&gt;
+- The rule tells you to put an assertion in =&gt;
+- You start to consider if your assumption actually holds in all circumstances =&gt;
+- You might alter your code based on the conclusion =&gt;
+- You put in an assertion
 
 ### Applicability
 
@@ -46,7 +45,7 @@ Spring Assert class:
 
 Disadvantage: no isolated jar; you pull in a significant number of classes.
 
-Guava [Preconditions](http://docs.guava-libraries.googlecode.com/git-history/release/javadoc/com/google/common/base/Preconditions.html) class:
+Guava [Preconditions](https://docs.guava-libraries.googlecode.com/git-history/release/javadoc/com/google/common/base/Preconditions.html) class:
 
     Preconditions.checkArgument(x > 3)
 
@@ -56,4 +55,4 @@ If you put in assertions, then your code will fail if the assertions are violate
 
 ### References
 
-1. *Programming Defensively* Interview with Andy Hunt and Dave Thomas, <a href="http://www.artima.com/intv/defense.html">http://www.artima.com/intv/defense.html</a>
+1. _Programming Defensively_ Interview with Andy Hunt and Dave Thomas, <a href="https://www.artima.com/intv/defense.html">https://www.artima.com/intv/defense.html</a>

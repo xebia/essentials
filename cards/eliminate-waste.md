@@ -1,8 +1,6 @@
 ---
-
 layout: card
 category: collaboration
-
 ---
 
 Eliminate waste
@@ -11,13 +9,13 @@ Eliminate waste
 
 Sources of waste in software development include:
 
-* Partially done work
-* Extra features
-* Relearning
-* Task switching
-* Hand-offs
-* Delays
-* Defects
+- Partially done work
+- Extra features
+- Relearning
+- Task switching
+- Hand-offs
+- Delays
+- Defects
 
 ---
 
@@ -45,13 +43,13 @@ Value stream mapping is one particular tool that can be used by a team or organi
 
 There is a lot of value in reducing waste:
 
-* Frustration ↘
-* Productivity ↗
-* Creativity ↗
-* Speed ↗
-* Delivery of value ↗
-* Reduce defects ↗
+- Frustration ↘
+- Productivity ↗
+- Creativity ↗
+- Speed ↗
+- Delivery of value ↗
+- Reduce defects ↗
 
 ### References
 
-1. [Eliminate Waste](http://www.agileadvice.com/archives/2005/04/eliminate_waste.html)
+1. [Eliminate Waste](https://www.agileadvice.com/archives/2005/04/eliminate_waste.html)

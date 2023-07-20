@@ -1,8 +1,6 @@
 ---
-
 layout: card
 category: craftsmanship
-
 ---
 
 Write code that humans can easily understand
@@ -10,9 +8,10 @@ Write code that humans can easily understand
 ---
 
 > Any fool can write code that a computer can understand. Good programmers write
-> code that humans can understand.  A simple, readable implementation is head and
-> shoulders above a clever-but-confusing, look-at-me implementation.  Things to
+> code that humans can understand. A simple, readable implementation is head and
+> shoulders above a clever-but-confusing, look-at-me implementation. Things to
 > keep in mind are readability, maintainability and speed of development.
+>
 > <div class="attribution">Martin Fowler</div>
 
 ---
@@ -52,10 +51,9 @@ The overall speed of the development of the project gradually increases if every
 ### References
 
 Any fool can write code that a computer can understand. Good programmers write code that humans can understand.
-- [Martin Fowler](http://www.softwarequotes.com/showquotes.aspx?id=573&name=Fowler,Martin), Refactoring: Improving the Design of Existing Code by Martin Fowler, Kent Beck (Contributor), John Brant (Contributor), William Opdyke, don Roberts, ISBN: 0201485672
+
+- [Martin Fowler](https://www.softwarequotes.com/showquotes.aspx?id=573&name=Fowler,Martin), Refactoring: Improving the Design of Existing Code by Martin Fowler, Kent Beck (Contributor), John Brant (Contributor), William Opdyke, don Roberts, ISBN: 0201485672
 
 Beauty of style and harmony and grace and good rhythm depends on simplicity. — Plato
 
-[Implementation Patterns](http://www.informit.com/title/0321413091) by Kent Beck
-
-
+[Implementation Patterns](https://www.informit.com/title/0321413091) by Kent Beck

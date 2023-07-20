@@ -1,8 +1,6 @@
 ---
-
 layout: card
 category: realisation
-
 ---
 
 Develop for security
@@ -28,4 +26,4 @@ Security is not something that can be bolted on after release, nor is it somethi
 
 ### References
 
-There is an enormous amount of literature, tools and online documentation on this subject. The [OWASP project](https://www.owasp.org/index.php/Main_Page) has extensive, free resources and is a good place to start looking. The [Security Development Lifecycle](http://www.microsoft.com/security/sdl/default.aspx) is a system that Microsoft adopted in the mid-2000's to address these concerns at every stage.
+There is an enormous amount of literature, tools and online documentation on this subject. The [OWASP project](https://www.owasp.org/index.php/Main_Page) has extensive, free resources and is a good place to start looking. The [Security Development Lifecycle](https://www.microsoft.com/security/sdl/default.aspx) is a system that Microsoft adopted in the mid-2000's to address these concerns at every stage.

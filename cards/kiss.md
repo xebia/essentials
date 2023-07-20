@@ -1,8 +1,6 @@
 ---
-
 layout: card
 category: realisation
-
 ---
 
 Your solution should not be more complicated than the problem
@@ -11,19 +9,19 @@ Your solution should not be more complicated than the problem
 
 Also known as:
 
-* The simplest thing that could possibly work
-* Keep It Simple, Stupid (KISS)
-* Less is more
-* You Ain't Gonna Need It (YAGNI)
+- The simplest thing that could possibly work
+- Keep It Simple, Stupid (KISS)
+- Less is more
+- You Ain't Gonna Need It (YAGNI)
 
 ---
 
 ### Also known as
 
-* The simplest thing that could possibly work
-* Keep It Simple, Stupid (KISS)
-* Less is more
-* You Ain't Gonna Need It (YAGNI)
+- The simplest thing that could possibly work
+- Keep It Simple, Stupid (KISS)
+- Less is more
+- You Ain't Gonna Need It (YAGNI)
 
 ### Motivation
 
@@ -51,7 +49,5 @@ Every project has examples of overcomplicating matters. It often starts with the
 
 ### References
 
-* [http://en.wikipedia.org/wiki/KISS_principle](http://en.wikipedia.org/wiki/KISS_principle)
-* [http://people.apache.org/~fhanik/kiss.html](http://people.apache.org/~fhanik/kiss.html)
-
-
+- [https://en.wikipedia.org/wiki/KISS_principle](https://en.wikipedia.org/wiki/KISS_principle)
+- [https://people.apache.org/~fhanik/kiss.html](https://people.apache.org/~fhanik/kiss.html)

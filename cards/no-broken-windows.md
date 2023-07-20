@@ -1,8 +1,6 @@
 ---
-
 layout: card
 category: collaboration
-
 ---
 
 No broken windows
@@ -46,4 +44,4 @@ Everyone has worked on projects in the past where the technical standard was not
 
 ### References
 
-[http://en.wikipedia.org/wiki/Broken_window_theory](http://en.wikipedia.org/wiki/Broken_window_theory)
+[https://en.wikipedia.org/wiki/Broken_window_theory](https://en.wikipedia.org/wiki/Broken_window_theory)

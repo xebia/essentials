@@ -1,15 +1,13 @@
 ---
-
 layout: card
 category: testing
-
 ---
 
 Make room for exploratory testing
 
 ---
 
-Following a test script means you're consistent, but predictable.  Exploratory
+Following a test script means you're consistent, but predictable. Exploratory
 testing reveals the things you hadn't thought to script. Be curious, go outside
 the beaten path.
 
@@ -48,6 +46,4 @@ Information: What kind of information are you hoping to find? e.g. Can an user a
 
 ### References
 
-[http://pragprog.com/book/ehxta/explore-it](http://pragprog.com/book/ehxta/explore-it)
-
-
+[https://pragprog.com/book/ehxta/explore-it](https://pragprog.com/book/ehxta/explore-it)

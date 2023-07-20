@@ -1,17 +1,15 @@
 ---
-
 layout: card
 category: craftsmanship
-
 ---
 
 No change without a failing test
 
 ---
 
-* Don't fix a bug before you have a broken test
-* A feature is only considered done once you have tests for it
-* Don't refactor before you have sufficient test coverage
+- Don't fix a bug before you have a broken test
+- A feature is only considered done once you have tests for it
+- Don't refactor before you have sufficient test coverage
 
 ---
 
@@ -37,6 +35,6 @@ In a large code base of a longer running project a bug was logged on some parsin
 
 ### References
 
-* [On the Effectiveness of Test-first Approach to Programming][oetap] Hakan Erdogmus, National Research Council Canada.
+- [On the Effectiveness of Test-first Approach to Programming][oetap] Hakan Erdogmus, National Research Council Canada.
 
-[oetap]: http://www.researchgate.net/publication/3188484_On_the_effectiveness_of_the_test-first_approach_to_programming
+[oetap]: https://www.researchgate.net/publication/3188484_On_the_effectiveness_of_the_test-first_approach_to_programming
