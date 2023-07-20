@@ -1,8 +1,6 @@
 ---
-
 layout: card
 category: testing
-
 ---
 
 Test Driven Development shapes design
@@ -34,7 +32,6 @@ This is extremely useful when it comes to writing applications. By performing th
 2. Implement the actual (production) code. Only to the extend that the test passes. While writing code you might come up more cases to test. Write those down (e.g. on a piece of paper), we're focused on making the test at hand pass.
 3. Tidy up. Make sure your code is ready for the next cycle. Is the code self-descriptive?
 
-
 ### Application
 
 Whenever you're writing an application this approach is applicable.
@@ -47,4 +44,4 @@ You'll find out that you have to write less tests and code in general. Since all
 
 ### References
 
-[Freeman, Price: Growing Object-Oriented Software, Guided by Tests](http://www.amazon.com/Growing-Object-Oriented-Software-Guided-Tests/dp/0321503627/)
+[Freeman, Price: Growing Object-Oriented Software, Guided by Tests](https://www.amazon.com/Growing-Object-Oriented-Software-Guided-Tests/dp/0321503627/)

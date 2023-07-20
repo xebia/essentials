@@ -1,8 +1,6 @@
 ---
-
 layout: card
 category: collaboration
-
 ---
 
 Respect the zone
@@ -39,14 +37,12 @@ The most important thing is to let developers be in a bubble that is not often p
 Team moral will go up when an atmosphere is created where zoning in is allowed and encouraged. Productivity will go up. When team zoning happens problems are much less often discarded as unsolvable.
 Symptoms that can be seen on the outside are:
 
-* constant soft chatter between developers
-* people moving around from desk to desk
-* more joking and laughter
-* increased use of non digital tooling (whiteboards, paper, gesturing, role play)
+- constant soft chatter between developers
+- people moving around from desk to desk
+- more joking and laughter
+- increased use of non digital tooling (whiteboards, paper, gesturing, role play)
 
 ### References
 
-* [Pair Programming](pair-programming)
-* [Google Scholar: Csíkszentmihályi flow](http://scholar.google.com/scholar?hl=en&q=Cs%C3%ADkszentmih%C3%A1lyi+flow&btnG=Search&as_sdt=2000&as_ylo=&as_vis=0)
-
-
+- [Pair Programming](pair-programming)
+- [Google Scholar: Csíkszentmihályi flow](https://scholar.google.com/scholar?hl=en&q=Cs%C3%ADkszentmih%C3%A1lyi+flow&btnG=Search&as_sdt=2000&as_ylo=&as_vis=0)

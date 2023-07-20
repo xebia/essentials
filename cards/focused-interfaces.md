@@ -1,8 +1,6 @@
 ---
-
 layout: card
 category: realisation
-
 ---
 
 Write small and focused interfaces
@@ -36,8 +34,8 @@ Like every principle, Interface Segregation Principle requires additional time a
 
 This principle is important because it encourages two very important ingredients of a good software design:
 
-* High cohesion - Keep all related methods together
-* Low coupling - Keep dependence of one another to the bare minimum
+- High cohesion - Keep all related methods together
+- Low coupling - Keep dependence of one another to the bare minimum
 
 Changes to fat interfaces tend to cause a ripple affect to classes who shouldn't have been affected in the first place.
 
@@ -47,6 +45,5 @@ Java Collection API is a good example on interface segregation. Classes can depe
 
 ### References
 
-* [http://www.objectmentor.com/resources/articles/isp.pdf](http://www.objectmentor.com/resources/articles/isp.pdf)
-* The [LCOM4 metric in Sonar](http://www.sonarsource.org/clean-up-design-at-class-level-with-sonar/) can help reveal violations of this principle in an existing code base.
-
+- [https://www.objectmentor.com/resources/articles/isp.pdf](https://www.objectmentor.com/resources/articles/isp.pdf)
+- The [LCOM4 metric in Sonar](https://www.sonarsource.org/clean-up-design-at-class-level-with-sonar/) can help reveal violations of this principle in an existing code base.

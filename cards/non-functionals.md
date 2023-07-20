@@ -1,8 +1,6 @@
 ---
-
 layout: card
 category: realisation
-
 ---
 
 Deal with non-functionals
@@ -39,5 +37,4 @@ Spending time on working out the quality requirements with your product owner is
 
 ### References
 
-* [Competitive Engineering](http://books.google.nl/books?id=ejxQF60xVV0C&dq=competitive+engineering&printsec=frontcover&source=bn&hl=nl&ei=UMSATPmeF4L_Ocq-rNIJ&sa=X&oi=book_result&ct=result&resnum=4&ved=0CDAQ6AEwAw#v=onepage&q&f=false), Tom Gilb, 2005
-
+- [Competitive Engineering](https://books.google.nl/books?id=ejxQF60xVV0C&dq=competitive+engineering&printsec=frontcover&source=bn&hl=nl&ei=UMSATPmeF4L_Ocq-rNIJ&sa=X&oi=book_result&ct=result&resnum=4&ved=0CDAQ6AEwAw#v=onepage&q&f=false), Tom Gilb, 2005

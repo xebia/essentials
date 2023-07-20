@@ -1,8 +1,6 @@
 ---
-
 layout: card
 category: collaboration
-
 ---
 
 One feature at a time
@@ -41,5 +39,5 @@ Instead of having teams that focus on particular architectural layers and tiers,
 
 #### References
 
-1. Software by Numbers, Mark Denne and Jane Cleland-Huang, [http://www.softwarebynumbers.org/](http://www.softwarebynumbers.org/)
-2. Service Integration at the Presentation Layer, Wilfred Springer, [http://blog.xebia.com/2010/07/21/service-integration-at-the-presentation-layer/](http://blog.xebia.com/2010/07/21/service-integration-at-the-presentation-layer/)
+1. Software by Numbers, Mark Denne and Jane Cleland-Huang, [https://www.softwarebynumbers.org/](https://www.softwarebynumbers.org/)
+2. Service Integration at the Presentation Layer, Wilfred Springer, [https://blog.xebia.com/2010/07/21/service-integration-at-the-presentation-layer/](https://blog.xebia.com/2010/07/21/service-integration-at-the-presentation-layer/)

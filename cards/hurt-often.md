@@ -1,8 +1,6 @@
 ---
-
 layout: card
 category: collaboration
-
 ---
 
 If it hurts, do it more often
@@ -32,6 +30,6 @@ Shortening your time to production increases your ability to respond to change a
 
 ### References
 
-* Related Cards: [Three Strikes and you Automate](three-strikes), [Integrate Early](integrate-early), [Run Tests Automatically](run-tests-automatically)
-* [Deploying at GitHub](https://github.com/blog/1241-deploying-at-github)
-* [Continuous Delivery](http://martinfowler.com/books/continuousDelivery.html)
+- Related Cards: [Three Strikes and you Automate](three-strikes), [Integrate Early](integrate-early), [Run Tests Automatically](run-tests-automatically)
+- [Deploying at GitHub](https://github.com/blog/1241-deploying-at-github)
+- [Continuous Delivery](https://martinfowler.com/books/continuousDelivery.html)

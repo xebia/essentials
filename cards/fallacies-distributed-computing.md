@@ -1,23 +1,21 @@
 ---
-
 layout: card
 category: realisation
-
 ---
 
 Remember the fallacies of distributed computing
 
 ---
 
-> * The network is reliable
-> * Latency is zero
-> * Bandwidth is infinite
-> * The network is secure
-> * Topology doesn't change
-> * There is one administrator
-> * Transport cost is zero
-> * The network is homogeneous
-> <div class="attribution">Peter Deutsch</div>
+> - The network is reliable
+> - Latency is zero
+> - Bandwidth is infinite
+> - The network is secure
+> - Topology doesn't change
+> - There is one administrator
+> - Transport cost is zero
+> - The network is homogeneous
+>   <div class="attribution">Peter Deutsch</div>
 
 ---
 
@@ -32,11 +30,11 @@ More often than not, we at Xebia work on distributed systems. In our industry, i
 1. The network is reliable.
 2. Latency is zero.
 3. Bandwidth is infinite.
-3. The network is secure.
-4. Topology doesn't change.
-5. There is one administrator.
-6. Transport cost is zero.
-7. The network is homogeneous.
+4. The network is secure.
+5. Topology doesn't change.
+6. There is one administrator.
+7. Transport cost is zero.
+8. The network is homogeneous.
 
 Ignoring these properties will lead to brittle systems. We don't want to create brittle systems; we want to create robust systems. Systems that survive network failure. Systems that do not need the constant presence of a network administrator in order to survive. Systems that are resilient to changes to the network topology.
 
@@ -56,7 +54,6 @@ Now, question is if your solutions always need to have the same properties as Ji
 
 ### References
 
-* [Wikipedia](http://en.wikipedia.org/wiki/Fallacies_of_Distributed_Computing)
+- [Wikipedia](https://en.wikipedia.org/wiki/Fallacies_of_Distributed_Computing)
 
-[jini]: http://en.wikipedia.org/wiki/Jini
-
+[jini]: https://en.wikipedia.org/wiki/Jini

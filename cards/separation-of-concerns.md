@@ -1,8 +1,6 @@
 ---
-
 layout: card
 category: realisation
-
 ---
 
 Separation of concerns
@@ -10,6 +8,7 @@ Separation of concerns
 ---
 
 > Separate a program into non-overlapping concerns.
+>
 > <div class="attribution">Edsger W. Dijkstra</div>
 
 ---
@@ -26,7 +25,6 @@ Secondly, when concerns are cleanly separated it's easier to reason about the ap
 
 # See also
 
-* [TDD Shapes Design](tdd-shapes-design)
-* [Maximize Cohesion, Minimize Coupling](maximize-cohesion-minimize-coupling)
-* A [List of Pioneers in Computer Science](http://en.wikipedia.org/wiki/List_of_pioneers_in_computer_science) on Wikipedia.
-
+- [TDD Shapes Design](tdd-shapes-design)
+- [Maximize Cohesion, Minimize Coupling](maximize-cohesion-minimize-coupling)
+- A [List of Pioneers in Computer Science](https://en.wikipedia.org/wiki/List_of_pioneers_in_computer_science) on Wikipedia.

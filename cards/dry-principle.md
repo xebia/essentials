@@ -1,8 +1,6 @@
 ---
-
 layout: card
 category: craftsmanship
-
 ---
 
 Don't Repeat Yourself
@@ -10,14 +8,15 @@ Don't Repeat Yourself
 ---
 
 > Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.
+>
 > <div class="attribution">Andy Hunt and Dave Thomas</div>
 
 ---
 
 ### Also known as
 
-* The DIE Principle: Duplication Is Evil
-* SPOT: Single Point Of Truth
+- The DIE Principle: Duplication Is Evil
+- SPOT: Single Point Of Truth
 
 ### Motivation
 
@@ -44,5 +43,5 @@ Stories from the trenches? Horror stories? Source code? Customer references? Sam
 
 ### References
 
-* [Orthogonality and the DRY principle](http://www.artima.com/intv/dryP.html)
-* [DRY Principle not applied to Unit Test](http://codebetter.com/blogs/karlseguin/archive/2009/09/12/unit-testing-do-repeat-yourself.aspx)
+- [Orthogonality and the DRY principle](https://www.artima.com/intv/dryP.html)
+- [DRY Principle not applied to Unit Test](https://codebetter.com/blogs/karlseguin/archive/2009/09/12/unit-testing-do-repeat-yourself.aspx)
